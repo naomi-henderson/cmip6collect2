@@ -5,5 +5,5 @@ __pycache__
 MigrateCodes.ipynb
 csv/exceptions.csv
 csv/*test*
-txt/*test*
+logs/*test*
 *~
