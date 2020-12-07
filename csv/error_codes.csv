@@ -948,3 +948,5 @@ CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/CFmon/clisccp/gn,local,NetCDF: Access f
 CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Amon/rlutcs/gn,local,I/O failure
 CMIP/IPSL/IPSL-CM6A-LR/historical/r1i1p1f1/Oyr/all/gn,local,NetCDF: Access failure
 CMIP/NCC/NorCPM1/historical/all/Amon/all/gn,override,latitudes do not match
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/prc/gr,noUse,error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r13i1p1f1/Amon/evspsbl/gr,noUse,trouble with time grid
