@@ -1,2 +1,5 @@
 20201207-1515: CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/prc/gr with error 1: error in open_mfdataset
 20201207-1518: CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/prc/gr with error 1: error in open_mfdataset
+20201207-1519: CMIP/EC-Earth-Consortium/EC-Earth3/historical/r13i1p1f1/Amon/evspsbl/gr with error 4: trouble with time grid
+20201207-1522: CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/evspsbl/gr with error 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/evspsbl/gr/v20200403/evspsbl_Amon_EC-Earth3_historical_r24i1p1f1_gr_198101-198112.nc
+20201207-1523: CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/evspsbl/gr with error 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/evspsbl/gr/v20200730/evspsbl_Amon_EC-Earth3_historical_r3i1p1f1_gr_193201-193212.nc
