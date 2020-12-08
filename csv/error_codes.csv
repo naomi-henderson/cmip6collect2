@@ -950,3 +950,7 @@ CMIP/IPSL/IPSL-CM6A-LR/historical/r1i1p1f1/Oyr/all/gn,local,NetCDF: Access failu
 CMIP/NCC/NorCPM1/historical/all/Amon/all/gn,override,latitudes do not match
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/prc/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r13i1p1f1/Amon/evspsbl/gr,noUse,trouble with time grid
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r20i1p1f1/day/pr/gr,noUse,to_zarr failure
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r20i1p1f1/day/tas/gr,noUse,to_zarr failure
+CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/tas/gr,noUse,error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/pr/gr,noUse,error in open_mfdataset

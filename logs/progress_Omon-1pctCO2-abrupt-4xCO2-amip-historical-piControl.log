@@ -1,4 +1,65 @@
-20201207-1548: CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/tos/gn with error 1: noUse in codes
-20201207-1548: CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/sos/gn with error 1: noUse in codes
-20201207-1551: CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/tos/gn with error 1: noUse in codes
-20201207-1552: CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/zos/gn with error 1: noUse in codes
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/tos/gn 1: noUse in codes
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/sos/gn 1: noUse in codes
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/tos/gn 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/tos/gn 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/sos/gn 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/sos/gn 3: store already in cloud
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gr 3: store already in cloud
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/tos/gr 3: store already in cloud
+CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/tos/gn 1: noUse in codes
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/zos/gr 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/zos/gn 1: noUse in codes
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/zos/gn 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/zos/gn 3: store already in cloud
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r16i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r14i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r11i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r13i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r12i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r15i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r19i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r20i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r17i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r18i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r20i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r19i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r18i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r17i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r16i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r15i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r14i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r13i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r12i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r11i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r20i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r13i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r14i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r12i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r17i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r18i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r16i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r11i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r19i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CSIRO/ACCESS-ESM1-5/historical/r15i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CAS/FGOALS-g3/1pctCO2/r2i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/1pctCO2/r1i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/abrupt-4xCO2/r1i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r14i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r12i1p1f1/Omon/sos/gr 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/abrupt-4xCO2/r1i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/1pctCO2/r1i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CAS/FGOALS-g3/1pctCO2/r3i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/CAS/FGOALS-g3/1pctCO2/r3i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/CAS/FGOALS-g3/1pctCO2/r3i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/1pctCO2/r1i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/historical/r1i1p1f1/Omon/sos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r14i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r14i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r12i1p1f1/Omon/zos/gr 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/historical/r1i1p1f1/Omon/tos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/historical/r1i1p1f1/Omon/zos/gn 3: store already in cloud
+CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/piControl/r1i1p1f1/Omon/sos/gn 3: store already in cloud

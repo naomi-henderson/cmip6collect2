@@ -1,4 +1,8 @@
-20201207-1551: CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Omon/zos/gr with error 3: netcdf download not complete for: https://esgdata.gfdl.noaa.gov/thredds/fileServer/gfdl_dataroot4/CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Omon/zos/gr/v20180701/zos_Omon_GFDL-ESM4_1pctCO2_r1i1p1f1_gr_000101-002012.nc expected/actual size: 34321101.0/1078
-20201207-1551: CMIP/NOAA-GFDL/GFDL-ESM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr with error 3: netcdf download not complete for: https://esgdata.gfdl.noaa.gov/thredds/fileServer/gfdl_dataroot4/CMIP/NOAA-GFDL/GFDL-ESM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr/v20180701/zos_Omon_GFDL-ESM4_abrupt-4xCO2_r1i1p1f1_gr_000101-002012.nc expected/actual size: 34487707.0/1078
-20201207-1551: CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Omon/zos/gr with error 3: netcdf download not complete for: https://esgdata.gfdl.noaa.gov/thredds/fileServer/gfdl_dataroot4/CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Omon/zos/gr/v20180701/zos_Omon_GFDL-CM4_1pctCO2_r1i1p1f1_gr_000101-002012.nc expected/actual size: 35014966.0/1078
-20201207-1551: CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr with error 3: netcdf download not complete for: https://esgdata.gfdl.noaa.gov/thredds/fileServer/gfdl_dataroot4/CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr/v20180701/zos_Omon_GFDL-CM4_abrupt-4xCO2_r1i1p1f1_gr_000101-002012.nc expected/actual size: 35195648.0/1078
+CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Omon/zos/gr,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-ESM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Omon/zos/gr,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gr,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-ESM4/1pctCO2/r1i1p1f1/Omon/zos/gn,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-ESM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-CM4/1pctCO2/r1i1p1f1/Omon/zos/gn,noUse, 3: netcdf download not complete
+CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Omon/zos/gn,noUse, 3: netcdf download not complete

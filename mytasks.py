@@ -143,7 +143,7 @@ def Download(ds_dir):
             actual_size = os.path.getsize(save_file)
             if actual_size != expected_size:
                 if abs(actual_size - expected_size) > 200:
-                    trouble = 'netcdf download not complete for: ' + url + ' expected/actual size: ' + str(expected_size) + '/' + str(actual_size)
+                    trouble = 'netcdf download not complete'
                     return [],3,trouble
 
         gfiles += [save_file]

@@ -1,19 +1,5 @@
-20201207-1549: 2/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/tos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/tos/gn
-20201207-1549: 3/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/tos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/tos/gn
-20201207-1549: 4/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/sos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/sos/gn
-20201207-1549: 5/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/sos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/sos/gn
-20201207-1550: 6/77: CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gr saved to gs://cmip6/CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gr
-20201207-1551: 7/77: CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/tos/gr saved to gs://cmip6/CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/tos/gr
-20201207-1552: 13/77: CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/zos/gr saved to gs://cmip6/CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/zos/gr
-20201207-1552: 15/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/zos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r10i1p5f1/Omon/zos/gn
-20201207-1553: 16/77: CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/zos/gn saved to gs://cmip6/CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/Omon/zos/gn
-20201207-1554: 17/77: CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/MRI/MRI-ESM2-0/historical/r1i1000p1f1/Omon/sos/gn
-20201207-1556: 18/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r16i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r16i1p1f1/Omon/sos/gn
-20201207-1557: 19/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r14i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r14i1p1f1/Omon/sos/gn
-20201207-1559: 20/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r11i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r11i1p1f1/Omon/sos/gn
-20201207-1600: 21/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r13i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r13i1p1f1/Omon/sos/gn
-20201207-1601: 22/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r12i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r12i1p1f1/Omon/sos/gn
-20201207-1603: 23/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r15i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r15i1p1f1/Omon/sos/gn
-20201207-1604: 24/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r19i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r19i1p1f1/Omon/sos/gn
-20201207-1606: 25/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r20i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r20i1p1f1/Omon/sos/gn
-20201207-1607: 26/77: CMIP/CSIRO/ACCESS-ESM1-5/historical/r17i1p1f1/Omon/sos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r17i1p1f1/Omon/sos/gn
+63/77: CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r12i1p1f1/Omon/tos/gr saved to gs://cmip6/CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r12i1p1f1/Omon/tos/gr
+70/77: CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/piControl/r1i1p1f1/Omon/tos/gn saved to gs://cmip6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/piControl/r1i1p1f1/Omon/tos/gn
+71/77: CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/piControl/r1i1p1f1/Omon/zos/gn saved to gs://cmip6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/piControl/r1i1p1f1/Omon/zos/gn
+74/77: CMIP/CSIRO/ACCESS-ESM1-5/abrupt-4xCO2/r2i1p1f1/Omon/zos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/abrupt-4xCO2/r2i1p1f1/Omon/zos/gn
+75/77: CMIP/CSIRO/ACCESS-ESM1-5/abrupt-4xCO2/r2i1p1f1/Omon/tos/gn saved to gs://cmip6/CMIP/CSIRO/ACCESS-ESM1-5/abrupt-4xCO2/r2i1p1f1/Omon/tos/gn
