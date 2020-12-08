@@ -36,7 +36,7 @@ def getFolderSize(p):
 
 def exception_handler(func):   
     def inner_function(*args, **kwargs):
-        print(f'call {func.__name__}:')
+        #print(f'call {func.__name__}:')
         try:
             result = func(*args, **kwargs) 
         except:
@@ -286,8 +286,7 @@ def SaveAsZarr(ds_dir, ds):
     try:
         ds.to_zarr(zbdir, consolidated=True, mode='w')
     except:
-        print(zbdir)
-        return 2,'to_zarr failure'
+        return 2,f'{zbdir:} to_zarr failure'
 
     if not os.path.isfile(zbdir+'/.zmetadata'):
         return 3,'to_zarr failure'
