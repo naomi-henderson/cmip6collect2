@@ -8,7 +8,7 @@ The notebook
 [GetSpecified.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetSpecified.ipynb) is now what I use day-to-day to update our GC collection.
 
 The notebook
-[Requests.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetSpecified.ipynb) is now what I use day-to-day to handle data requests (will be phased out)
+[Requests.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/Requests.ipynb) is now what I use day-to-day to handle data requests (will be phased out)
 
 The only steps not here are the updating of the GC catalog - which is done only one or two times per day, via
 a separate request and the updating of the ES-DOC errata list.
