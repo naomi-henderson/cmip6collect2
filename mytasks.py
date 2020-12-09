@@ -129,12 +129,12 @@ def Download(ds_dir):
                 gfiles += [save_file]
                 continue
         try:
-            r = requests.get(url, timeout=3.1, stream=True)
+            #r = requests.get(url, timeout=3.1, stream=True)
+            r = requests.get(url, timeout=6.1, stream=True)
             #print(r.headers['content-type'])
             with open(save_file, 'wb') as f:
                 shutil.copyfileobj(r.raw, f)  
             doit(f'touch {save_file}')
-            #time.sleep( 1 )  # does not help
         except:
             trouble = 'Server not responding for: ' + url 
             return [],2,trouble
