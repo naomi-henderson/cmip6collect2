@@ -49,8 +49,11 @@ def esgf_search(search, server="https://esgf-node.llnl.gov/esg-search/search",
             dataset_size = d["size"]
             for f in d["url"]:
                 sp = f.split("|")
-                if sp[-1] == 'HTTPServer':
-                    dataset_url = sp[0]
+                if sp[-1] == files_type:
+                    url = sp[0]
+                    if sp[-1] == 'OPENDAP':
+                        url = url.replace('.html', '')
+                    dataset_url = url
             all_frames += [[dataset_id,dataset_url,dataset_size]]
         
     ddict = {}
