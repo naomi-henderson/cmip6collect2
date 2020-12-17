@@ -8,17 +8,29 @@ import numpy as np
 import os
 
 def getsheet(): 
-    KEY = '1SGTSK_h4xWX3gdgpeWeCpL_vhzf6tnGPmxetO1gOlQc'
-    SHEET_ID = '1506911698'
-    url = f'https://docs.google.com/spreadsheets/d/{KEY}/export?format=csv&id={KEY}&gid={SHEET_ID}'
+    json_keyfile = '/home/naomi/cmip6-zarr/json/Pangeo Hackathon-e48a41b13c91.json'
+    scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(json_keyfile, scope)
+    gc = gspread.authorize(credentials)
 
-    temp_file_name = 'csv/test_csv.csv'
-    download = req.get(url)
+    sheet_name = "CMIP6 GCS Data Request (Responses)"
+    sh = gc.open(sheet_name)
+    wks = sh.worksheet("Form Responses 1")
 
-    with open(temp_file_name, 'w', newline='\n') as temp_file:
-        temp_file.writelines(download.text.replace('\r\n','\n'))
+    data = wks.get_all_values()
+    headers = data.pop(0)
 
-    df = pd.read_csv(temp_file_name, dtype='unicode',keep_default_na=False)
+    df = pd.DataFrame(data, columns=headers)
+
+    # For the 'good old days' when I could let everyone view the sheet
+    #KEY = '1SGTSK_h4xWX3gdgpeWeCpL_vhzf6tnGPmxetO1gOlQc'
+    #SHEET_ID = '1506911698'
+    #url = f'https://docs.google.com/spreadsheets/d/{KEY}/export?format=csv&id={KEY}&gid={SHEET_ID}'
+    #temp_file_name = 'csv/test_csv.csv'
+    #download = req.get(url)
+    #with open(temp_file_name, 'w', newline='\n') as temp_file:
+    #    temp_file.writelines(download.text.replace('\r\n','\n'))
+    #df = pd.read_csv(temp_file_name, dtype='unicode',keep_default_na=False)
     
     df['members'] = [s.replace(' ','').split(',') for s in df.member_ids.values]
     df['experiments'] = [s.replace('*','').replace(' ','').split(',') for s in df.experiment_ids.values]

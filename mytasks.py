@@ -130,7 +130,7 @@ def Download(ds_dir):
                 continue
         try:
             #r = requests.get(url, timeout=3.1, stream=True)
-            r = requests.get(url, timeout=6.1, stream=True)
+            r = requests.get(url, timeout=(5, 14), stream=True)
             #print(r.headers['content-type'])
             with open(save_file, 'wb') as f:
                 shutil.copyfileobj(r.raw, f)  

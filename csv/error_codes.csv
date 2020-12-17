@@ -6,11 +6,11 @@ CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Oyr/all/gn,local,Access failure
 CMIP/AWI/AWI-CM-1-1-MR/abrupt-4xCO2/r1i1p1f1/Amon/rsutcs/gn,local,I/O failure
 CMIP/AWI/AWI-CM-1-1-MR/1pctCO2/r1i1p1f1/Amon/rlutcs/gn,local,I/O failure
 CMIP/AWI/AWI-ESM-1-1-LR/historical/r1i1p1f1/Amon/hus/gn,noUse,many missing dates
-CMIP/BCC/BCC-CSM2-MR/esm-hist/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
+#CMIP/BCC/BCC-CSM2-MR/esm-hist/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/6hrLev/hus/gn,noUse,all data after 2012 has zeros in the dimensions
-CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
+#CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/BCC/BCC-CSM2-MR/piControl/r1i1p1f1/Amon/o3/gn,noUse,change Amon to Aclim
-CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
+#CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/CCCma/CanESM5/esm-hist/r6i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
 CMIP/CCCma/CanESM5/esm-hist/r7i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
 CMIP/CCCma/CanESM5/esm-hist/r8i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
@@ -145,12 +145,12 @@ ScenarioMIP/CNRM-CERFACS/CNRM-ESM2-1/ssp126/r4i1p1f2/Amon/rsut/gr,remove_files2,
 ScenarioMIP/CNRM-CERFACS/CNRM-ESM2-1/ssp126/r4i1p1f2/Amon/rsdt/gr,remove_files2,old file is causing trouble
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Amon/all/gr,local,
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Omon/wmo/gn,noUse,missing times
-CMIP/E3SM-Project/E3SM-1-0/historical/r2i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
-CMIP/E3SM-Project/E3SM-1-0/historical/r3i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
+#CMIP/E3SM-Project/E3SM-1-0/historical/r2i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
+#CMIP/E3SM-Project/E3SM-1-0/historical/r3i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
 CMIP/E3SM-Project/E3SM-1-0/historical/r4i1p1f1/Omon/masscello/gr,noUse,Codec does not support buffers of > 2147483647 bytes
 CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Omon/fgco2/gn,noUse,extra file must be deleted: fgco2_Omon_CanESM5_piControl_r1i1p1f1_gn_591001-591012
 CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Omon/wfo/gr,noUse,unknown
-CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/SImon/siconc/gr,noUse,extra file Resulting object does not have monotonic global indexes along dimension time
+#CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/SImon/siconc/gr,noUse,extra file Resulting object does not have monotonic global indexes along dimension time
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrso/gr,noUse,missing decade 2000-2009
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrsos/gr,noUse,missing decade 2000-2009
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/all/Emon/orog/gr,noUse,??
@@ -776,7 +776,7 @@ CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/intpbp/gr,noUse,MergeError: conf
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/intpbpe/gr,noUse,MergeError: conflicting values for variable 'geolon' on objects to be combined
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/spco2/gr,noUse,MergeError: conflicting values for variable 'geolon' on objects to be combined
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/day/mrro/gr2,noUse,no dataset_id - has been withdrawn?
-ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse,incorrectly concatenated - no 2097-2098 for instance
+#ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse,incorrectly concatenated - no 2097-2098 for instance
 FAFMIP/NOAA-GFDL/GFDL-ESM2M/faf-heat-NA50pct/r1i1p1f1/Omon/hfcorr/gn,noUse,first netcdf file missing year 103
 FAFMIP/NOAA-GFDL/GFDL-ESM2M/faf-heat-NA50pct/r1i1p1f1/Omon/mfo/gn,noUse,first netcdf file missing year 103
 FAFMIP/NOAA-GFDL/GFDL-ESM2M/faf-heat-NA50pct/r1i1p1f1/Omon/tos/gn,noUse,first netcdf file missing year 103
@@ -846,7 +846,7 @@ CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/va/gr1,noUse,missing random
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/zg/gr1,noUse,missing random years
 CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Oyr/parag/gr,local,NetCDF: Access failure
 CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Oyr/nh4/gr,local,NetCDF: Access failure
-CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
+#CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
 all/NASA-GISS/GISS-E2-1-G/hist-nat/r4i1p1f1/Amon/hus/gn,noUse,crazy time: ValueError: invalid second provided in cftime.DatetimeNoLeap
 DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r1i1p1f2/Amon/prc/gn,noUse,unknown
 DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r2i1p1f2/Amon/prc/gn,noUse,unknown
@@ -866,7 +866,7 @@ CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrro/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrso/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrsos/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/all/gn,noUse,missing data
-CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/all/gn,noUse,missing data
+#CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/1pctCO2/r1i1p5f1/Omon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
 CMIP/NASA-GISS/GISS-E2-2-G/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
@@ -912,13 +912,13 @@ CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/pr/gn,noUse,missing 2 files
 CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/rlus/gn,noUse,missing 070001-079912
 HighResMIP/MIROC/NICAM16-9S/highresSST-present/r1i1p1f1/3hr/all/gr,noUse,no time
 CMIP/NCC/NorESM2-LM/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,there are 3 damaged files in the middle - from 01231020 - 01501019
-CMIP/NCC/NorESM2-LM/historical/r3i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sithick/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sivol/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnthick/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-LM/historical/r3i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sithick/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sivol/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnthick/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
+#CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
@@ -929,15 +929,15 @@ CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Lmon/mrros/gn,try-again,they skip year 0
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Lmon/mrso/gn,try-again,NO REPLACEMENT AVAILABLE - tried 9Feb2020 they skip year 0290 in the middle of the run!
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Lmon/mrsos/gn,try-again,they skip year 0290 in the middle of the run!
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Omon/all/gn,noleap,time grid of first file must be fixed: thetaoga_Omon_SAM0-UNICON_piControl_r1i1p1f1_gn_000101-001012.nc
-CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/siconca/gn,try-again,use only v20190910 version of the files
-CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/siconc/gn,try-again,they skip year 0290 in the middle of the run!
-CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sisnconc/gn,try-again,they skip year 0290 in the middle of the run!
-CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sithick/gn,try-again,use only v20190910 version of the files
-CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sivol/gn,try-again,very strange file needs to be deleted: only use nctemp/sivol_SImon_SAM0-UNICON_piControl_r1i1p1f1_gn_0??1*
-CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
-CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
-CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
-CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
+#CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/siconca/gn,try-again,use only v20190910 version of the files
+#CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/siconc/gn,try-again,they skip year 0290 in the middle of the run!
+#CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sisnconc/gn,try-again,they skip year 0290 in the middle of the run!
+#CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sithick/gn,try-again,use only v20190910 version of the files
+#CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/SImon/sivol/gn,try-again,very strange file needs to be deleted: only use nctemp/sivol_SImon_SAM0-UNICON_piControl_r1i1p1f1_gn_0??1*
+#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
+#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
+#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
+#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
 CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/6hrLev/all/gn,noUse,ALL ZEROS - will not concatenate in time
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/agessc/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/uo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
@@ -955,4 +955,21 @@ CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/tas/gr,noUse,error in
 CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/pr/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/evspsbl/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/prc/gr,noUse,error in open_mfdataset
-1: error in open_mfdataset
+ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/sithick/gn,noUse, 4: trouble with time grid
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/SImon/sithick/gn,noUse, 3: netcdf download not complete
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp370/r9i1p1f1/SImon/siconc/gn,noUse, 4: trouble with time grid
+CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sithick/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-LM/historical/r3i1p1f1/SImon/siconc/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/siconc/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnthick/gn,noUse, 1: error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/clt/gr,noUse, 1: error in open_mfdataset
+CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tas/gn,noUse, 4: trouble with time grid
+ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmin/gn,noUse, 4: trouble with time grid
+CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tasmax/gn,noUse, 4: trouble with time grid
+CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tasmin/gn,noUse, 4: trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
+~ 
