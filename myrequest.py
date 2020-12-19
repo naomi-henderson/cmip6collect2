@@ -6,6 +6,8 @@ import os
 import xarray as xr
 import numpy as np
 import os
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 def getsheet(): 
     json_keyfile = '/home/naomi/cmip6-zarr/json/Pangeo Hackathon-e48a41b13c91.json'
@@ -78,7 +80,7 @@ def requests(df_prior,rows=[],emails=[],tables=[]):
     
     # save and read back in order to look like df_prior
     df_all.to_csv('csv/request_new.csv',index=False, encoding='latin1')
-    df_all = pd.read_csv('csv/request_new.csv')
+    df_all = pd.read_csv('csv/request_new.csv',encoding='latin1')
       
     df_new = df_all.merge(df_prior, how='left', indicator=True)
     df_new = df_new[df_new['_merge']=='left_only'].drop('_merge',1)

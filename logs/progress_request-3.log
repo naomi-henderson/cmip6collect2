@@ -74,3 +74,5 @@ CMIP/NCAR/CESM2-WACCM-FV2/historical/r2i1p1f1/Amon/ua/gn 3: store already in clo
 CMIP/NCAR/CESM2-FV2/historical/r2i1p1f1/Amon/ta/gn 3: store already in cloud
 CMIP/NCAR/CESM2-FV2/historical/r3i1p1f1/Amon/ta/gn 3: store already in cloud
 CMIP/NCAR/CESM2-WACCM-FV2/historical/r3i1p1f1/Amon/ta/gn 3: store already in cloud
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/ps/gn 1: noUse in codes
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/ps/gr 1: noUse in codes

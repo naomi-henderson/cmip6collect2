@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import os
-from mydataset import dir2local
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
@@ -18,7 +17,7 @@ def get_size(start_path = '.'):
     return total_size
 
 #def get_details(ds,zbdir,zarr):
-def get_details(ds_dir,ds):
+def get_details(ds_dir,ds,dir2local):
     # get size, start, stop, length, chunk
     start = 'NA'; stop = 'NA'; nt = 'NA'
     if 'time' in ds.coords:
