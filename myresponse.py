@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import os
-from mydataset import dir2url, dir2local
+from mydataset import dir2local
 
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)

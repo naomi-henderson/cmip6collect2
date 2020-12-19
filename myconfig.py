@@ -6,7 +6,7 @@ df_GCS = pd.DataFrame()
 fs = gcsfs.GCSFileSystem(token='anon',access='read_only',cache_timeout=-1)
 
 #local_target_prefix = 'zarrs/'
-local_target_prefix = '/h111/naomi/zarr-minimal/'
+local_target_prefix = '/h112/naomi/zarr-minimal/'
 local_source_prefix = 'netcdfs/'
 
 source_keys = ['activity_id','institution_id','source_id','experiment_id','member_id','table_id','variable_id','grid_label','version','ncfile']

@@ -1,5 +1,5 @@
 import myconfig
-from mydataset import dir2url, dir2local, dir2dict
+from mydataset import id2dict, dir2url
 from glob import glob
 import os
 from subprocess import Popen, PIPE
@@ -63,7 +63,7 @@ def read_codes(ds_dir):
     return codes
 
 @exception_handler
-def Check(ds_dir):
+def Check(ds_dir,dir2local):
     gsurl = dir2url(ds_dir)+'/'
     local = dir2local(ds_dir)
     exception = ''
@@ -155,8 +155,9 @@ import datetime
 import numpy as np
 import xarray as xr
 @exception_handler
-def ReadFiles(ds_dir, gfiles):
+def ReadFiles(ds_dir, gfiles, dir2dict):
     table_id = dir2dict(ds_dir)['table_id']
+
     dstr = ''
     # guess chunk size by looking a first file: (not always a good choice - e.g. cfc11)
     nc_size = os.path.getsize(gfiles[0])
@@ -275,10 +276,11 @@ def ReadFiles(ds_dir, gfiles):
     return df7, 0, ''
 
 @exception_handler
-def SaveAsZarr(ds_dir, ds):
+def SaveAsZarr(ds_dir, ds, dir2local):
     zbdir = dir2local(ds_dir)
     gsurl = dir2url(ds_dir)
     variable_id = ds.variable_id
+
     if os.path.isfile(zbdir+'/.zmetadata'):
         print('zarr already exists')
         return 0,''
@@ -286,40 +288,39 @@ def SaveAsZarr(ds_dir, ds):
     try:
         ds.to_zarr(zbdir, consolidated=True, mode='w')
     except:
-        return 2,f'{zbdir:} to_zarr failure'
+        return 2,f'{zbdir}: to_zarr failure'
 
     if not os.path.isfile(zbdir+'/.zmetadata'):
-        return 3,'to_zarr failure'
+        return 3,f'{zbdir}: to_zarr failure'
     
     return 0, ''
 
 @exception_handler
-def Upload(ds_dir):   
+def Upload(ds_dir, dir2local):   
     zbdir = dir2local(ds_dir)
     gsurl = dir2url(ds_dir)
-
     fs = myconfig.fs
 
     # upload to cloud
     if doit(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}'):
         print(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}')
-        return gsurl, 1, 'not uploaded correctly'
+        return 1, 'not uploaded correctly'
         
     size_remote = fs.du(gsurl)
     size_local = getFolderSize(zbdir)
     if abs(size_remote - size_local) > 100: 
-        return gsurl, 2,'zarr not completely uploaded'
+        return 2,f'{zbdir}/{gsurl} zarr not completely uploaded'
 
     try:
         ds = xr.open_zarr(fs.get_mapper(gsurl), consolidated=True)
-        print(f'successfully uploaded as {gsurl}')
+        print(f'successfully uploaded to {gsurl}')
     except:
-        return gsurl, 3,'store did not get saved to GCS properly'
+        return 3,'store did not get saved to GCS properly'
 
-    return gsurl, 0, ''
+    return 0, ''
 
 @exception_handler
-def Cleanup(ds_dir, gfiles):   
+def Cleanup(ds_dir, gfiles, dir2local):   
     zbdir = dir2local(ds_dir)
     
     #if doit(f'/bin/rm -rf {zbdir}'):
