@@ -254,3 +254,16 @@ CMIP/INM/INM-CM5-0/historical/r2i1p1f1/Amon/ta/gr1,noUse, 2: Server not respondi
 CMIP/CCCR-IITM/IITM-ESM/historical/r1i1p1f1/Amon/ua/gn,noUse, 3: netcdf download not complete
 CMIP/INM/INM-CM5-0/historical/r1i1p1f1/Amon/va/gr1,noUse, 3: netcdf download not complete
 CMIP/INM/INM-CM5-0/historical/r2i1p1f1/Amon/va/gr1,noUse, 3: netcdf download not complete
+CMIP/MIROC/MIROC6/historical/r35i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r35i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r35i1p1f1_gn_193001-193912.nc
+CMIP/INM/INM-CM5-0/historical/r1i1p1f1/Amon/ta/gr1,noUse, 2: Server not responding for: http://esgf-data3.diasjp.net/thredds/fileServer/esg_dataroot/CMIP6/CMIP/INM/INM-CM5-0/historical/r1i1p1f1/Amon/ta/gr1/v20190610/ta_Amon_INM-CM5-0_historical_r1i1p1f1_gr1_185001-185912.nc
+CMIP/CCCR-IITM/IITM-ESM/historical/r1i1p1f1/Amon/ta/gn,noUse, 3: netcdf download not complete
+CMIP/INM/INM-CM5-0/historical/r1i1p1f1/Amon/ua/gr1,noUse, 3: netcdf download not complete
+CMIP/INM/INM-CM5-0/historical/r2i1p1f1/Amon/ta/gr1,noUse, 3: netcdf download not complete
+CMIP/CCCR-IITM/IITM-ESM/historical/r1i1p1f1/Amon/ua/gn,noUse, 3: netcdf download not complete
+CMIP/INM/INM-CM5-0/historical/r1i1p1f1/Amon/va/gr1,noUse, 3: netcdf download not complete
+CMIP/INM/INM-CM5-0/historical/r2i1p1f1/Amon/va/gr1,noUse, 3: netcdf download not complete
+CMIP/MIROC/MIROC6/historical/r20i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r20i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r20i1p1f1_gn_200001-200912.nc
+CMIP/MIROC/MIROC6/historical/r46i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r46i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r46i1p1f1_gn_185001-185912.nc
+CMIP/MIROC/MIROC6/historical/r24i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r24i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r24i1p1f1_gn_185001-185912.nc
+CMIP/MIROC/MIROC6/historical/r47i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r47i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r47i1p1f1_gn_185001-185912.nc
+CMIP/MIROC/MIROC6/historical/r32i1p1f1/Amon/ua/gn,noUse, 2: Server not responding for: https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/CMIP/MIROC/MIROC6/historical/r32i1p1f1/Amon/ua/gn/v20200519/ua_Amon_MIROC6_historical_r32i1p1f1_gn_185001-185912.nc
