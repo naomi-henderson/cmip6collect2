@@ -119,10 +119,10 @@ def Download(ds_dir):
 
     for file in files:
         save_file = tmp + file
-        print(save_file)
         df_file = df[df.ncfile == file]
         expected_size = df_file.file_size.values[0]
         url = df_file.url.values[0]
+        print(url)
 
         if os.path.isfile(save_file):
             if abs(os.path.getsize(save_file) - expected_size) <= 1000 :
