@@ -943,6 +943,8 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r3i1p1f1/day/tas/gr,noUse,l
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp585/r1i1p1f1/day/vas/gr1,noUse, 4: trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sisnthick/gr1, noUse, trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sithick/gr1, noUse, trouble with time grid
 ScenarioMIP/MRI/MRI-ESM2-0/ssp119/r1i1p1f1/Amon/ua/gn,noUse,unknown HDF error?
 ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/albisccp/gn,noUse,big gap in time grid
 ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/cllcalipso/gn,noUse,big gap in time grid
@@ -973,3 +975,4 @@ ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files ma
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid
+

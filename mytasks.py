@@ -79,7 +79,7 @@ def Check(ds_dir,dir2local):
     cstore = df_GCS[df_GCS.zstore == gsurl]
     if len(cstore) > 0:
         exception = 'store already in cloud catalog'
-        return 2, exception 
+        return 1, exception 
 
     # is zarr already in cloud?  Unreliable
     try:
@@ -89,13 +89,13 @@ def Check(ds_dir,dir2local):
 
     if any("zmetadata" in s for s in contents):
         exception = 'store already in cloud'
-        return 3, exception 
+        return 1, exception 
     
     # does zarr exist on active drive?  
     contents = glob(f'{local}/*')
     if any("zmetadata" in s for s in contents):
         exception = 'store already exists locally, but not in cloud'
-        return 4, exception 
+        return 2, exception 
     
     return 0, exception
 
@@ -111,8 +111,8 @@ def Download(ds_dir):
     df = df_needed[df_needed.ds_dir == ds_dir]
 
     if len(df) != df.start.nunique():
-       trouble = "netcdf files overlapping in time?"
-       return [],1,trouble
+       trouble = "noUse, netcdf files overlapping in time?"
+       return [],2,trouble
     
     files = sorted(df.ncfile.unique())
     tmp = myconfig.local_source_prefix
@@ -137,14 +137,14 @@ def Download(ds_dir):
             doit(f'touch {save_file}')
         except:
             trouble = 'Server not responding for: ' + url 
-            return [],2,trouble
+            return [],1,trouble
 
         if check_size:
             actual_size = os.path.getsize(save_file)
             if actual_size != expected_size:
                 if abs(actual_size - expected_size) > 200:
                     trouble = 'netcdf download not complete'
-                    return [],3,trouble
+                    return [],1,trouble
 
         gfiles += [save_file]
                            
@@ -212,8 +212,8 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
                                         join=join,
                                         data_vars='minimal')
         except:
-            dstr = 'error in open_mfdataset'
-            return df7,1,dstr
+            dstr = 'noUse, error in open_mfdataset'
+            return df7,2,dstr
                 
     if 1==1:
         for code in codes:
@@ -245,16 +245,16 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
         print(np.diff(year).sum(), len(year))
         if '3hr' in table_id:
             if not (np.diff(year).sum() == len(year)-1) | (np.diff(year).sum() == len(year)-2):
-                dstr = 'trouble with 3hr time grid'
+                dstr = 'noUse, trouble with 3hr time grid'
                 return df7,2,dstr
         elif 'dec' in table_id:
             if not (np.diff(year).sum()/10 == len(year)) | (np.diff(year).sum()/10 == len(year)-1):
-                dstr = 'trouble with dec time grid'
-                return df7,3,dstr
+                dstr = 'noUse, trouble with dec time grid'
+                return df7,2,dstr
         else:
             if not np.diff(year).sum() == len(year)-1:
-                dstr = 'trouble with time grid'
-                return df7,4,dstr
+                dstr = 'noUse, trouble with time grid'
+                return df7,2,dstr
 
     dsl = xr.open_dataset(gfiles[0])
     tracking_id = dsl.tracking_id
@@ -282,16 +282,16 @@ def SaveAsZarr(ds_dir, ds, dir2local):
     variable_id = ds.variable_id
 
     if os.path.isfile(zbdir+'/.zmetadata'):
-        print('zarr already exists')
+        print('zarr already exists locally')
         return 0,''
 
     try:
         ds.to_zarr(zbdir, consolidated=True, mode='w')
     except:
-        return 2,f'{zbdir}: to_zarr failure'
+        return 2,f'noUse, to_zarr failure'
 
     if not os.path.isfile(zbdir+'/.zmetadata'):
-        return 3,f'{zbdir}: to_zarr failure'
+        return 3,f'{zbdir}: to_zarr not complete'
     
     return 0, ''
 
@@ -303,31 +303,32 @@ def Upload(ds_dir, dir2local):
 
     # upload to cloud
     if doit(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}'):
-        print(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}')
-        return 1, 'not uploaded correctly'
+        assert False, f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl} FAILED'
         
     size_remote = fs.du(gsurl)
     size_local = getFolderSize(zbdir)
     if abs(size_remote - size_local) > 100: 
-        return 2,f'{zbdir}/{gsurl} zarr not completely uploaded'
+        assert False, f'{zbdir}/{gsurl} zarr not completely uploaded'
 
     try:
         ds = xr.open_zarr(fs.get_mapper(gsurl), consolidated=True)
-        print(f'successfully uploaded to {gsurl}')
+        exception = f'successfully uploaded to {gsurl}'
     except:
-        return 3,'store did not get saved to GCS properly'
+        assert False, f'{gsurl} does not load properly'
 
-    return 0, ''
+    return 0, exception
 
 @exception_handler
-def Cleanup(ds_dir, gfiles, dir2local):   
+def Cleanup(ds_dir, gfiles, dir2local, nc_remove = True, zarr_remove = False):   
     zbdir = dir2local(ds_dir)
     
-    #if doit(f'/bin/rm -rf {zbdir}'):
-    #    print(f'{zbdir} not removed')
+    if zarr_remove:
+        if doit(f'/bin/rm -rf {zbdir}'):
+            print(f'{zbdir} not removed')
 
-    for gfile in gfiles:
-        if doit('/bin/rm -f '+ gfile):
-              print(f'{gfile} not removed')
+    if nc_remove:
+        for gfile in gfiles:
+             if doit('/bin/rm -f '+ gfile):
+                  print(f'{gfile} not removed')
 
     return 0, ''

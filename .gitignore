@@ -6,8 +6,12 @@ MigrateCodes.ipynb
 csv/exceptions.csv
 csv/*test*
 logs/*test*
+logs/progress*
 *~
 upload
 download
 .ipynb_checkpoints
 new
+csv/ESGF*
+csv/needed*
+*.lock
