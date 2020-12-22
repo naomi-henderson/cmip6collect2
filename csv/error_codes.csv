@@ -49,7 +49,6 @@ all/NCAR/CESM2/ssp370/r2i1p1f1/day/tasmax/gn,noUse,multiple time gaps
 all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/hfls/gn,noUse,trouble with grid
 all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/pr/gn,noUse,missing time periods (20450101-20541231)
 all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/tas/gn,noUse,missing time periods (20450101-20541231)
-all/NIMS-KMA/KACE-1-0-G/amip/r1i1p1f1/Amon/rsut/gr,local,no opendap urls
 all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cl/gr2,drop_bnds,last nc file does not have bnds defined as the others
 all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cli/gr2,drop_bnds,last nc file does not have bnds defined as the others
 all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/hur/gr2,drop_bnds,last nc file does not have bnds defined as the others
@@ -68,27 +67,14 @@ C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/va/gr1,noUse,8 missing years
 C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/wa/gr1,noUse,8 missing years
 C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/zg/gr1,noUse,8 missing years
 CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/6hrLev/all/gn,noUse,ALL ZEROS - will not concatenate in time
-#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
-#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
-#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
-#CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/SImon/sisnthick/gn,local,NetCDF: Access failure
-CMIP/AWI/AWI-CM-1-1-MR/1pctCO2/r1i1p1f1/Amon/rlutcs/gn,local,I/O failure
-CMIP/AWI/AWI-CM-1-1-MR/abrupt-4xCO2/r1i1p1f1/Amon/rsutcs/gn,local,I/O failure
 CMIP/AWI/AWI-ESM-1-1-LR/historical/r1i1p1f1/Amon/hus/gn,noUse,many missing dates
-#CMIP/BCC/BCC-CSM2-MR/esm-hist/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/6hrLev/hus/gn,noUse,all data after 2012 has zeros in the dimensions
-#CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/BCC/BCC-CSM2-MR/piControl/r1i1p1f1/Amon/o3/gn,noUse,change Amon to Aclim
-#CMIP/BCC/BCC-ESM1/historical/r1i1p1f1/SImon/siconc/gn,local,NetCDF: Access failure
 CMIP/CAS/FGOALS-f3-L/historical/r3i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 CMIP/CAS/FGOALS-f3-L/piControl/r1i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 CMIP/CAS/FGOALS-f3-L/piControl/r1i1p1f1/Omon/thetao/gn,noUse,missing time chunks
 CMIP/CAS/FGOALS-g3/piControl/r1i1p1f1/Amon/cli/gn,360_day,dates from Feb 321 to Dec 329 are bad
 CMIP/CCCma/CanESM5-CanOE/piControl/r1i1p2f1/Omon/vmo/gn,noUse,KeyError: 'missing_value': OverflowError: Python int too large to convert to C
-CMIP/CCCma/CanESM5/esm-hist/r6i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
-CMIP/CCCma/CanESM5/esm-hist/r7i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
-CMIP/CCCma/CanESM5/esm-hist/r8i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
-CMIP/CCCma/CanESM5/esm-hist/r9i1p1f1/Omon/fgco2/gn,local,NetCDF: Access failure
 CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/sos/gn,noUse,missing 1890-1899
 CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/tos/gn,noUse,missing 1890-1899
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r16i1p1f2/day/va/gr,noUse,open_mfdataset works - to_zarr doesn't
@@ -96,8 +82,6 @@ CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r21i1p1f2/Omon/obvfsq/gn,noUse,2 files m
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r22i1p1f2/Omon/wo/gn,noUse,missing files
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r23i1p1f2/Omon/so/gn,noUse,missing 195001-197412
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r23i1p1f2/Omon/thetao/gn,noUse,missing 195001-197412
-CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Amon/all/gr,local,
-CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Amon/rsut/gr,local,
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Omon/bigthetao/gn,noUse,missing 1870-1875
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Omon/wmo/gn,noUse,missing times
 CMIP/CNRM-CERFACS/CNRM-CM6-1/piControl/r1i1p1f2/Amon/all/all,360_day,trying again
@@ -128,10 +112,6 @@ CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/wa/gr,noUse,cannot to_z
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/zg/gr,noUse,cannot to_zarr: HDF error? - even ncview cannot handle
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/Amon/all/all,360_day,trying again
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/Amon/all/all,drop_tb,trying again
-CMIP/CSIRO/ACCESS-ESM1-5/esm-hist/r1i1p1f1/Omon/all/gn,local,NetCDF: Access failure
-CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Oyr/all/gn,local,Access failure
-CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1/Oyr/detoc/gn,local,NetCDF: Access failure
-CMIP/CSIRO/ACCESS-ESM1-5/piControl/r1i1p1f1/Omon/all/gn,local,HDF error
 #CMIP/E3SM-Project/E3SM-1-0/historical/r2i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
 #CMIP/E3SM-Project/E3SM-1-0/historical/r3i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
 CMIP/E3SM-Project/E3SM-1-0/historical/r4i1p1f1/Omon/masscello/gr,noUse,Codec does not support buffers of > 2147483647 bytes
@@ -207,7 +187,6 @@ CMIP/EC-Earth-Consortium/EC-Earth3/historical/r7i1p1f1/Oday/tos/gr,noUse,same Ke
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/bigthetao/gn,noUse,conflicting values for variable 'vertices_longitude' 
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/umo/gn,noUse,conflicting values for variable 'vertices_longitude' 
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/vmo/gn,noUse,conflicting values for variable 'vertices_longitude' 
-CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r1i1p1f1/Amon/rsutcs/gr,local,NetCDF: I/O failure
 CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r1i1p1f1/Omon/bigthetao/gn,noUse,conflicting values for variable 'vertices_longitude'
 CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r2i1p1f1/Amon/all/gr,fix_time,to fix mixed cftime types
 CMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/historical/r1i1p1f1/Omon/all/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -217,7 +196,6 @@ CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Pyth
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/historical/r12i1p1f1/3hr/uas/gr,noUse,unknown HDF error for open_dataset and ncview
-CMIP/IPSL/IPSL-CM6A-LR/historical/r1i1p1f1/Oyr/all/gn,local,NetCDF: Access failure
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/AERmon/zg/gr,noUse,ValueError: julian day must be a positive integer error when using use_cftime=True
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Amon/o3/gr,noUse,process by hand and change Amon to Aclim
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/nh4/gn,noUse,Memory Error - Unable to allocate array with shape
@@ -229,17 +207,14 @@ CMIP/MIROC/MIROC6/historical/r10i1p1f1/day/hur/gn,noUse,most of files must come 
 CMIP/MIROC/MIROC6/historical/r2i1p1f1/day/ua/gn,noUse,many missing time chunk
 CMIP/MIROC/MIROC6/historical/r2i1p1f1/day/wap/gn,noUse,most data missing
 CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Omon/zooc/gn,noUse,missing chunks
-CMIP/MOHC/HadGEM3-GC31-LL/abrupt-4xCO2/r1i1p1f3/CFmon/clisccp/gn,local,NetCDF: Access failure
 CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/CFday/clisccp/gn,noUse,saving zarr kills process
 CMIP/MOHC/HadGEM3-GC31-LL/piControl/r1i1p1f1/Omon/thetaoga/gm,noUse,only contains 3 of 5 files
 CMIP/MOHC/HadGEM3-GC31-MM/historical/r1i1p1f3/Omon/vmo/gn,noUse,coordinate trouble?
 CMIP/MOHC/HadGEM3-GC31-MM/piControl/r1i1p1f1/Amon/rsdt/gn,noUse,to_zarr ValueError: Codec does not support buffers of > 2147483647 bytesn
 CMIP/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Omon/prra/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
-CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/CFmon/clisccp/gn,local,NetCDF: Access failure
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/agessc/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/uo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/vo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
-CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Amon/rlutcs/gn,local,I/O failure
 CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 CMIP/MPI-M/MPI-ESM1-2-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,360_day,trying again
@@ -371,7 +346,6 @@ CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpbp/gr,noUse,geolon trouble 
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpcalcite/gr,noUse,geolon trouble - try again with new compat='override'
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpp/gr,noUse,geolon trouble - try again with new compat='override'
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/spco2/gr,noUse,geolon trouble - try again with new compat='override'
-CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Oyr/all/gr,local,Netcdf4 trouble
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/day/mrro/gr2,noUse,no dataset_id - has been withdrawn?
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/dpco2/gr,noUse,MergeError: conflicting values for variable 'geolon' 
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/dpo2/gr,noUse,conflicting values of geolat
@@ -400,9 +374,6 @@ CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/tasmin/gr1,noUse,missing ra
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/ua/gr1,noUse,missing random years
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/va/gr1,noUse,missing random years
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/zg/gr1,noUse,missing random years
-CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Oyr/nh4/gr,local,NetCDF: Access failure
-CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Oyr/parag/gr,local,NetCDF: Access failure
-#CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/SImon/sisnconc/gn,local,NetCDF: Access failure
 CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/pr/gn,noUse,missing 2 files
 CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/rlus/gn,noUse,missing 070001-079912
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/day/all/gn,try-again,they skip year 0290 in the middle of the run!
@@ -975,4 +946,4 @@ ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files ma
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid
-
+CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Odec/thkcello/gn, noUse, kills kernel when making the zarr store

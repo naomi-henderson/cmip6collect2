@@ -4,6 +4,7 @@ from glob import glob
 import os
 from subprocess import Popen, PIPE
 import pandas as pd
+import time
 
 def doit(command,verbose=False): 
     cmd = command.split(' ')
@@ -147,6 +148,7 @@ def Download(ds_dir):
                     return [],1,trouble
 
         gfiles += [save_file]
+        time.sleep(2)
                            
     return sorted(gfiles),0,''
 
@@ -250,6 +252,12 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
         elif 'dec' in table_id:
             if not (np.diff(year).sum()/10 == len(year)) | (np.diff(year).sum()/10 == len(year)-1):
                 dstr = 'noUse, trouble with dec time grid'
+                return df7,2,dstr
+        elif 'clim' in table_id:
+            # IPSL seems to have two disjoint climatologies - ???
+            # abrupt-4xCO2 also has multiple climatologies - ???
+            if len(year) != 1:
+                dstr = 'noUse, trouble with clim time grid'
                 return df7,2,dstr
         else:
             if not np.diff(year).sum() == len(year)-1:
