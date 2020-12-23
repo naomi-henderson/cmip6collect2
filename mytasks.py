@@ -121,21 +121,22 @@ def Download(ds_dir):
     for file in files:
         save_file = tmp + file
         df_file = df[df.ncfile == file]
-        expected_size = df_file.file_size.values[0]
+        expected_size = int(df_file.file_size.values[0])
         url = df_file.url.values[0]
         print(url)
 
         if os.path.isfile(save_file):
             if abs(os.path.getsize(save_file) - expected_size) <= 1000 :
                 gfiles += [save_file]
-                continue
+                continue  # already have, don't need to get it again
         try:
             #r = requests.get(url, timeout=3.1, stream=True)
             r = requests.get(url, timeout=(5, 14), stream=True)
             #print(r.headers['content-type'])
             with open(save_file, 'wb') as f:
                 shutil.copyfileobj(r.raw, f)  
-            doit(f'touch {save_file}')
+            command = f'touch {save_file}'
+            doit(command)
         except:
             trouble = 'Server not responding for: ' + url 
             return [],1,trouble
