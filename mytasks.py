@@ -246,7 +246,9 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
     if 'time' in ds.coords:
         year = sorted(list(set(df7.time.dt.year.values)))
         print(np.diff(year).sum(), len(year))
-        if '3hr' in table_id:
+        if 'abrupt-4xCO2' in ds_dir:
+            print('exception made for disjoint time intervals')
+        elif '3hr' in table_id:
             if not (np.diff(year).sum() == len(year)-1) | (np.diff(year).sum() == len(year)-2):
                 dstr = 'noUse, trouble with 3hr time grid'
                 return df7,2,dstr
@@ -257,9 +259,11 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
         elif 'clim' in table_id:
             # IPSL seems to have two disjoint climatologies - ???
             # abrupt-4xCO2 also has multiple climatologies - ???
-            if len(year) != 1:
-                dstr = 'noUse, trouble with clim time grid'
-                return df7,2,dstr
+            # Dec 23, 2020 - decided to allow whatever time grid is provided
+            print('exception made for clim table_id time intervals')
+            #if len(year) != 1:
+            #    dstr = 'noUse, trouble with clim time grid'
+            #    return df7,2,dstr
         else:
             if not np.diff(year).sum() == len(year)-1:
                 dstr = 'noUse, trouble with time grid'
