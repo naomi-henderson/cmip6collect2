@@ -111,8 +111,10 @@ def Download(ds_dir):
 
     df = df_needed[df_needed.ds_dir == ds_dir]
 
-    if len(df) != df.start.nunique():
-       trouble = "noUse, netcdf files overlapping in time?"
+    lendf = len(df)
+    dfstartn = df.start.nunique()
+    if lendf != dfstartn:
+       trouble = f"noUse, netcdf files overlapping in time? {lendf} and {dfstartn}"
        return [],2,trouble
     
     files = sorted(df.ncfile.unique())
@@ -280,10 +282,11 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
     date = str(datetime.datetime.now().strftime("%Y-%m-%d"))
     nstatus = date + ';created; by gcs.cmip6.ldeo@gmail.com'
     df7.attrs['status'] = nstatus
+
     
     if 'time' in df7.coords:
         nt = len(df7.time.values)
-        chunksize = min(chunksize,int(nt/2))
+        chunksize = min(chunksize,max(1,int(nt/2)))
         df7 = df7.chunk(chunks={'time' : chunksize})   # yes, do it again
 
     return df7, 0, ''
