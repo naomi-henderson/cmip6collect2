@@ -111,6 +111,12 @@ def Download(ds_dir):
 
     df = df_needed[df_needed.ds_dir == ds_dir]
 
+    nversions = df.version_id.nunique()
+    if nversions > 1:
+       print('keeping only last version of',nversions)
+       lastversion = df.version_id.unique()[-1]
+       df = df[df.version_id == lastversion]
+
     lendf = len(df)
     dfstartn = df.start.nunique()
     if lendf != dfstartn:

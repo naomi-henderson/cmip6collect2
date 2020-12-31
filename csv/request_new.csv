@@ -204,8 +204,7 @@ ocean  ecology in the  CMIP6 models and satellite data",Thank you very much
 11/5/2020 10:46:52,Harmanveer.Singh@Dartmouth.edu,,['All'],['land-hist'],"['HadGEM3-GC31-LL', 'UKESM1-0-LL']","['cSoil', 'mrsol']",Emon,Harry Singh,Analyzing historical droughts in the US,HS1
 11/5/2020 10:49:05,Harmanveer.Singh@Dartmouth.edu,,['All'],['land-hist'],"['HadGEM3-GC31-LL', 'UKESM1-0-LL']","['evspsbl', 'tas', 'pr']",Amon,Harmanveer Singh,Analyzing historical droughts in the US,HS2
 11/10/2020 7:42:29,aurold31@gmail.com,,['All'],['historical'],['All'],['hcont300'],Emon,aurore voldoire,,
-11/10/2020 11:37:11,suraj.atmos@gmail.com,,['One'],['esm-hist'],['CNRM-CM6-1'],['temperature'],Amon,Suraj,"Extreme climate events prediction, how it changes from CMIP5 to CMIP6.  
-",
+11/10/2020 11:37:11,suraj.atmos@gmail.com,,['One'],['esm-hist'],['CNRM-CM6-1'],['temperature'],Amon,Suraj,"Extreme climate events prediction, how it changes from CMIP5 to CMIP6.  ",
 11/11/2020 0:36:08,rebeccaherman1@berkeley.edu,,['r11i1p1f2'],['historical'],['GISS-E2-1-G'],['ts'],Amon,Rebecca Herman,studying monsoons in GCMs,"we've got this run on the cloud for pr, but not for ts!"
 11/11/2020 0:38:38,rh2856@columbia.edu,,['r10i1p5f1'],['historical'],['GISS-E2-1-G'],['ts'],Amon,Rebecca Herman,,"we have it on the cloud for pr, but not for ts!"
 11/11/2020 0:41:48,rh2856@columbia.edu,,['r1i1p1f1'],['historical'],['NorESM2-LM'],['pr'],Amon,Rebecca Herman,,"We have it on the cloud for ts, but not for pr!"
@@ -217,8 +216,9 @@ ocean  ecology in the  CMIP6 models and satellite data",Thank you very much
 12/8/2020 4:47:14,hiba.omrani@gmail.com,,['All'],"['historical', 'ssp126', 'ssp245', 'ssp370', 'ssp585']",['All'],"['tas', 'pr', 'tasmax', 'tasmin', 'uas', 'vas']",day,Hiba Omrani,climat impact studies,
 12/11/2020 16:47:24,Hassanakbari22@gmail.com,,['All'],['1pctCO2-cdr'],['FGOALS-f3-L'],['yes'],CFday,Hassan Akbari,"CMPI6, Research",
 12/13/2020 14:07:05,nadiakiran.gis@gmail.com,,['All'],"['1pctCO2', 'abrupt-4xCO2', 'amip', 'esm-hist', 'esm-piControl', 'historical', 'lgm', 'past1000', 'piControl', 'ssp126', 'ssp245', 'ssp370', 'ssp585']",['All'],"['pr(42717)', 'tasmax(28222)', 'tasmin(28574)']",fx,Syeda Nadia Kiran,impacts of climate change on flood,I want to process CMIP6 data to assess the impact of climate change on flooding
-2020-07-29,joshua.studholme@yale.edu,,['One'],"['piControl', 'historical', 'ssp126', 'ssp245', 'ssp585']",['All'],['msftmz'],Omon,Josh Studholme,,JS2
 ,,,[''],[''],[''],[''],,,,
+,,,[''],[''],[''],[''],,,,
+2020-07-29,joshua.studholme@yale.edu,,['One'],"['piControl', 'historical', 'ssp126', 'ssp245', 'ssp585']",['All'],['msftmz'],Omon,Josh Studholme,,JS2
 2019-10-02,sridge@ldeo.columbia.edu,,[''],['historical'],['CESM2'],"['thetao', 'so', 'dissic', 'no3', 'cfc11', 'sf6', 'po4', 'talk']",Omon,Sean Ridge,CMIP6 Ocean Atlas,as many ensemble members as possible
 9/27/2019 15:30:03,berner@ucar.edu,,[''],['piControl'],"['CESM2', 'GFDL-CM4']","['ua', 'rlut']",day,Judith Berner,ENSO,
 10/10/2019 14:52:53,mmsmith@uw.edu,,[''],"['1pctCO2', 'abrupt-4xCO2', 'historical', 'piControl', 'ssp585']",['All'],"['rlus', 'rlds']",Amon,Madison Smith,Sensitivity of sea ice to changes in air temperature,

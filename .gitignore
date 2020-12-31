@@ -5,8 +5,13 @@ __pycache__
 MigrateCodes.ipynb
 csv/exceptions.csv
 csv/*test*
-logs/*test*
+ncsv/*
+dsets/*
+issues/*
+shelf/*
+logs/*
 logs/progress*
+notebooks_keep/*
 *~
 upload
 download
