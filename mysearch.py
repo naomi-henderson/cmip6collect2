@@ -85,6 +85,9 @@ def esgf_search(search, server="https://esgf-node.llnl.gov/esg-search/search",
     dz['start'] = [s.split('_')[-1].split('-')[0] for s in dz.ncfile ]
     dz['stop'] = [s.split('_')[-1].split('-')[-1].split('.')[0] for s in dz.ncfile ]
 
+    # remove all 999 nodes
+    dz = dz[dz.node_order != 999]
+
     # keep only best node 
     dz = dz.sort_values(by=['node_order'])
     dz = dz.drop_duplicates(subset =["ds_dir","ncfile","version_id"],keep='first')

@@ -18,11 +18,11 @@ target_keys = ['activity_id','institution_id','source_id','experiment_id','membe
 target_format = '%(' + ')s/%('.join(target_keys) + ')s'
 target_prefix = 'gs://cmip6/'
 
-node_pref = {'esgf-data1.llnl.gov':0,'esgf-data2.llnl.gov':0,'aims3.llnl.gov':0,'esgdata.gfdl.noaa.gov':99,'esgf-data.ucar.edu':4,
- 'dpesgf03.nccs.nasa.gov':5,'crd-esgf-drc.ec.gc.ca':6, 'cmip.bcc.cma.cn':10, 'cmip.dess.tsinghua.edu.cn':10,
+node_pref = {'esgf-data1.llnl.gov':0,'esgf-data2.llnl.gov':0,'aims3.llnl.gov':0,'esgdata.gfdl.noaa.gov':999,'esgf-data.ucar.edu':4,
+ 'dpesgf03.nccs.nasa.gov':5,'crd-esgf-drc.ec.gc.ca':6, 'cmip.bcc.cma.cn':20, 'cmip.dess.tsinghua.edu.cn':10,
  'cmip.fio.org.cn':10, 'dist.nmlab.snu.ac.kr':10, 'esg-cccr.tropmet.res.in':10, 'esg-dn1.nsc.liu.se':10,
  'esg-dn2.nsc.liu.se':10, 'esg.camscma.cn':10, 'esg.lasg.ac.cn':10, 'esg1.umr-cnrm.fr':10, 'esgf-cnr.hpc.cineca.it':10,
- 'esgf-data2.diasjp.net':10, 'esgf-data3.ceda.ac.uk':10, 'esgf-data3.diasjp.net':10, 'esgf-nimscmip6.apcc21.org':10, 'esgf-node2.cmcc.it':10, 'esgf.bsc.es':10, 'esgf.dwd.de':10, 'esgf.ichec.ie':10, 'esgf.nci.org.au':10, 'esgf.rcec.sinica.edu.tw':10, 'esgf3.dkrz.de':10, 'noresg.nird.sigma2.no':10, 'polaris.pknu.ac.kr':10, 'vesg.ipsl.upmc.fr':10}
+ 'esgf-data2.diasjp.net':0, 'esgf-data3.ceda.ac.uk':10, 'esgf-data3.diasjp.net':10, 'esgf-nimscmip6.apcc21.org':10, 'esgf-node2.cmcc.it':10, 'esgf.bsc.es':10, 'esgf.dwd.de':10, 'esgf.ichec.ie':10, 'esgf.nci.org.au':10, 'esgf.rcec.sinica.edu.tw':10, 'esgf3.dkrz.de':10, 'noresg.nird.sigma2.no':10, 'polaris.pknu.ac.kr':10, 'vesg.ipsl.upmc.fr':10}
 
 
 dtype = {'llnl' : "https://esgf-node.llnl.gov/esg-search/search",

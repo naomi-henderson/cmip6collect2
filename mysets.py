@@ -43,6 +43,8 @@ ms['extreme_day_2dvars'] = ['hursmax', 'hursmin', 'sfcWindmax', 'tasmax', 'tasmi
 ms['flux_day_2dvars']    = ['hfls', 'hfss', 'prsn', 'rlus', 'rlut', 'rsus', 'snw']
 ms['land_day_2dvars']    = ['mrro', 'mrso', 'mrsos']
 
+ms['core_3hr_2dvars'] = ['tas', 'ps', 'huss', 'rsds', 'rsdsdiff', 'rsus', 
+                         'rlus', 'rlds', 'uas', 'vas']
 
 # define some common searches:
 all_search = {}
@@ -98,4 +100,20 @@ all_search['fx-coremips'] = {'table_id': ms['fx_tables'],
                                 'activity_id': ms['core_mips']}
 all_search['yr-coremips'] = {'table_id': ms['yr_tables'],
                              'activity_id': ms['core_mips']}
+
+all_search['3hr-historical'] = {'table_id': ['3hr'],
+                             'experiment_id': ['historical'],
+                             'variable_id': ms['core_3hr_2dvars']}
+all_search['3hr-ssp1'] = {'table_id': ['3hr'],
+                             'experiment_id': ['ssp245', 'ssp370'],
+                             'variable_id': ms['core_3hr_2dvars']}
+all_search['3hr-ssp2'] = {'table_id': ['3hr'],
+                             'experiment_id': ['esm-hist', 'ssp126', 'ssp585'],
+                             'variable_id': ms['core_3hr_2dvars']}
+all_search['3hr-hist1'] = {'table_id': ['3hr'],
+                             'experiment_id': ['historical'],
+                             'variable_id': ['tas', 'uas', 'vas']}
+all_search['3hr-hist2'] = {'table_id': ['3hr'],
+                             'experiment_id': ['historical'],
+                             'variable_id': ['ps', 'huss', 'rsds', 'rsdsdiff', 'rsus','rlus', 'rlds']}
 

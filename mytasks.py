@@ -28,6 +28,19 @@ def set_bnds_as_coords(ds):
     ds = ds.set_coords(new_coords_vars)
     return ds
 
+def set_bnds_as_coords_drop_height(ds):
+    ds = set_bnds_as_coords(ds)
+    if 'height' in ds.coords:
+        ds = ds.drop('height')
+    return ds
+
+def set_bnds_as_coords_drop_bnds(ds):
+    ds = set_bnds_as_coords(ds)
+    if 'bnds' in ds.coords:
+        ds = ds.drop('bnds')
+    return ds
+
+
 from functools import partial
 def getFolderSize(p):
     prepend = partial(os.path.join, p)
@@ -113,16 +126,20 @@ def Download(ds_dir):
 
     nversions = df.version_id.nunique()
     if nversions > 1:
-       print('keeping only last version of',nversions)
-       lastversion = df.version_id.unique()[-1]
-       df = df[df.version_id == lastversion]
-
+       codes = read_codes(ds_dir)
+       if 'allow_versions' in codes:
+           print('allowing multiple versions',df.version_id.unique())
+       else:
+           print('keeping only last version of',nversions)
+           lastversion = df.version_id.unique()[-1]
+           df = df[df.version_id == lastversion]
+    
     lendf = len(df)
     dfstartn = df.start.nunique()
     if lendf != dfstartn:
        trouble = f"noUse, netcdf files overlapping in time? {lendf} and {dfstartn}"
        return [],2,trouble
-    
+
     files = sorted(df.ncfile.unique())
     tmp = myconfig.local_source_prefix
 
@@ -201,6 +218,8 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
                 preprocess = convert2gregorian
             if 'drop_height' in codes:
                 preprocess = set_bnds_as_coords_drop_height
+            if 'drop_bnds' in codes:
+                preprocess = set_bnds_as_coords_drop_bnds
             if 'override' in code:
                 join = 'override'
 

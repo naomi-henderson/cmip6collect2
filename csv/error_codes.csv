@@ -1,80 +1,10 @@
 ds_dir,code,description
-AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-2xDMS/r1i1p1f2/Amon/va/gr,noUse,unknown HDF error when creating zarr
-AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-2xdust/r1i1p1f2/Amon/ta/gr,noUse,unknown HDF error when creating zarr
-AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-HC/r1i1p1f2/Amon/o3/gr,noUse,unknown HDF error when creating zarr
-AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-HC/r1i1p1f2/Amon/rlut/gr,noUse,unknown HDF error when creating zarr
-AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-NTCF/r1i1p1f2/Amon/ua/gr,noUse,unknown HDF error when creating zarr
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/ch4/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/co2/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/hur/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/hus/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/n2o/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/o3/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/ta/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/tasmax/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/tasmin/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/ua/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/va/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/wap/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Amon/zg/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/fracLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/gppLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/hflsLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/hfssLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/hussLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/laiLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/mrroLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/mrsoLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/mrsosLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/nppLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/raLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/rhLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/rls/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/rlusLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/rss/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/rsusLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/tasLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/tslsiLut/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/utendnogw/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/utendogw/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/vtendnogw/gr1,noUse,year 1938 is missing in first netcdf file
-AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piAer/r1i1p1f1/Emon/vtendogw/gr1,noUse,year 1938 is missing in first netcdf file
 AerChemMIP/NOAA-GFDL/GFDL-ESM4/histSST-piCH4/r1i1p1f1/Amon/o3/gr1,noUse,year 1938 is missing in first netcdf file
-all/CCCma/CanESM5/hist-GHG/r7i1p1f1/Amon/huss/gn,noUse,unknown to_zarr HDF error
-all/EC-Earth-Consortium/EC-Earth3/ssp370/r6i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
-all/EC-Earth-Consortium/EC-Earth3/ssp370/r9i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
-all/NASA-GISS/GISS-E2-1-G/hist-nat/r4i1p1f1/Amon/hus/gn,noUse,crazy time: ValueError: invalid second provided in cftime.DatetimeNoLeap
-all/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmax/gn,noUse,unknown
-all/NCAR/CESM2/ssp370/r2i1p1f1/day/tasmax/gn,noUse,multiple time gaps
-all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/hfls/gn,noUse,trouble with grid
-all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/pr/gn,noUse,missing time periods (20450101-20541231)
-all/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/tas/gn,noUse,missing time periods (20450101-20541231)
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cl/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cli/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/hur/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/hus/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/ta/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/ua/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/va/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/wap/gr2,drop_bnds,last nc file does not have bnds defined as the others
-all/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFmon/clcalipso/gr1,noUse,trouble with ncfiles
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/hus/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/ta/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/tasmax/gr1,noUse,missing years 81-82 and 108-109
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/tasmin/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/ua/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/va/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/wa/gr1,noUse,8 missing years
-C4MIP/NOAA-GFDL/GFDL-ESM4/1pctCO2-bgc/r1i1p1f1/Amon/zg/gr1,noUse,8 missing years
-CMIP/AS-RCEC/TaiESM1/historical/r1i1p1f1/6hrLev/all/gn,noUse,ALL ZEROS - will not concatenate in time
-CMIP/AWI/AWI-ESM-1-1-LR/historical/r1i1p1f1/Amon/hus/gn,noUse,many missing dates
-CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/6hrLev/hus/gn,noUse,all data after 2012 has zeros in the dimensions
+CMIP/BCC/BCC-CSM2-MR/historical/r1i1p1f1/6hrLev/hus/gn,noUse,all data after 2012 has zeros in the dimensions - can no longer download from cmip.bcc.cma.cn
 CMIP/BCC/BCC-CSM2-MR/piControl/r1i1p1f1/Amon/o3/gn,noUse,change Amon to Aclim
 CMIP/CAS/FGOALS-f3-L/historical/r3i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 CMIP/CAS/FGOALS-f3-L/piControl/r1i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
-CMIP/CAS/FGOALS-f3-L/piControl/r1i1p1f1/Omon/thetao/gn,noUse,missing time chunks
 CMIP/CAS/FGOALS-g3/piControl/r1i1p1f1/Amon/cli/gn,360_day,dates from Feb 321 to Dec 329 are bad
-CMIP/CCCma/CanESM5-CanOE/piControl/r1i1p2f1/Omon/vmo/gn,noUse,KeyError: 'missing_value': OverflowError: Python int too large to convert to C
 CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/sos/gn,noUse,missing 1890-1899
 CMIP/CCCR-IITM/IITM-ESM/1pctCO2/r1i1p1f1/Omon/tos/gn,noUse,missing 1890-1899
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r16i1p1f2/day/va/gr,noUse,open_mfdataset works - to_zarr doesn't
@@ -84,8 +14,6 @@ CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r23i1p1f2/Omon/so/gn,noUse,missing 19500
 CMIP/CNRM-CERFACS/CNRM-CM6-1/historical/r23i1p1f2/Omon/thetao/gn,noUse,missing 195001-197412
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Omon/bigthetao/gn,noUse,missing 1870-1875
 CMIP/CNRM-CERFACS/CNRM-CM6-1-HR/piControl/r1i1p1f2/Omon/wmo/gn,noUse,missing times
-CMIP/CNRM-CERFACS/CNRM-CM6-1/piControl/r1i1p1f2/Amon/all/all,360_day,trying again
-CMIP/CNRM-CERFACS/CNRM-CM6-1/piControl/r1i1p1f2/Amon/all/all,drop_tb,trying again
 CMIP/CNRM-CERFACS/CNRM-CM6-1/piControl/r1i1p1f2/Amon/evspsbl/gr,noUse,missing 40 years in middle of run
 CMIP/CNRM-CERFACS/CNRM-CM6-1/piControl/r1i1p1f2/Omon/bigthetao/gn,noUse,missing chunk
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r1i1p1f2/AERmon/ch4/gr,noUse,cannot to_zarr: HDF error? - even ncview cannot handle
@@ -145,6 +73,7 @@ CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/tasmin/gr,noUse,lon
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/uas/gr,noUse,after 2008 the files do not concatenate
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/vas/gr,noUse,staggered lon grid: after 2008 the files do not concatenate
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r24i1p1f1/Amon/wap/gr,noUse,
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r25i1p1f1/Amon/hurs/gr, noUse, trouble with time grid
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/day/all/gr,noUse,some are on gr and some on gn - e.g. compare snw 1935 with 1936. KeyError: 'lat'
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/LImon/snc/gr,noUse,half of files are gr- the other are still gn
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/LImon/snw/gr,noUse,half of files are gr- the other are still gn
@@ -162,8 +91,8 @@ CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/Omon/uo/gn,noUse,some of 
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/Omon/vmo/gn,noUse,some of the files are on a different vertical grid
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/Omon/vo/gn,noUse,some of the files are on a different vertical grid
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/Omon/wo/gn,noUse,some of the files are on a different vertical grid
-CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/Omon/wo/gn,noUse,some of the files are on a different vertical grid
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r2i1p1f1/SImon/siconca/gr,noUse,half of files are gr- the other are still gn
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/all/gr, override, error in open_mfdataset - lat indices differ
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/clt/gr,noUse, 1: error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/evspsbl/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/hfls/gr,override,
@@ -178,12 +107,16 @@ CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/rsdt/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/rsut/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/sfcWind/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/tas/gr,override,
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/tasmax/gr, noUse, error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/tasmin/gr, noUse, error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/ts/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/uas/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/vas/gr,override,
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/day/all/gr,noUse,lats inconsistent
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Lmon/mrso/gr,noUse,indexes along dimension 'lat' are not equal
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r7i1p1f1/Oday/tos/gr,noUse,same KeyError: 'lon' as for day
+CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Amon/tasmax/gr, noUse, error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Amon/tasmin/gr, noUse, error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/bigthetao/gn,noUse,conflicting values for variable 'vertices_longitude' 
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/umo/gn,noUse,conflicting values for variable 'vertices_longitude' 
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/vmo/gn,noUse,conflicting values for variable 'vertices_longitude' 
@@ -201,8 +134,10 @@ CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Amon/o3/gr,noUse,process by hand and 
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/nh4/gn,noUse,Memory Error - Unable to allocate array with shape
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/phymisc/gn,noUse,Memory Error - Unable to allocate array with shape
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/all/gr,drop_tb,drop('time_bounds') before to_zarr
+CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Odec/thkcello/gn, noUse, kills kernel when making the zarr store
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel 
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel + TypeError: object of type 'datetime.timedelta' has no len()
+CMIP/KIOST/KIOST-ESM/all/r1i1p1f1/Omon/all/gr1, noUse, takes too long to download huge file
 CMIP/MIROC/MIROC6/historical/r10i1p1f1/day/hur/gn,noUse,most of files must come from esgf-data2.diasjp.net - too slow
 CMIP/MIROC/MIROC6/historical/r2i1p1f1/day/ua/gn,noUse,many missing time chunk
 CMIP/MIROC/MIROC6/historical/r2i1p1f1/day/wap/gn,noUse,most data missing
@@ -226,6 +161,8 @@ CMIP/NASA-GISS/GISS-E2-1-G/1pctCO2/r1i1p5f1/Omon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/SImon/sithick/gn,noUse, 3: netcdf download not complete
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/AERmon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/all/gn,noUse,missing data
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/tasmax/gn, noUse, trouble with time grid
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/tasmin/gn, noUse, trouble with time grid
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/LImon/snw/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrro/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrso/gn,noUse,missing data
@@ -306,18 +243,16 @@ CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/pr/gn,noUse, 4: trouble with 
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tas/gn,noUse, 4: trouble with time grid
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tasmax/gn,noUse, 4: trouble with time grid
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tasmin/gn,noUse, 4: trouble with time grid
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/3hr/all/gr1,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/3hr/all/gr1z,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/3hr/all/gr2,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/3hr/all/gr2z,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/AERmonZ/all/gr1z,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Eday/all/gr2,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/EdayZ/all/gr2z,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Emon/all/gr1,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Emon/utendogw/gr1,noUse,bad files
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/EmonZ/all/gr1z,AllowDisjointTimeIntervals,first/last 40 years
-#CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/EmonZ/all/gr2z,AllowDisjointTimeIntervals,first/last 40 years
-CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/AERmonZ/ua/gr1z,noUse,time grid is all messed up
+CMIP/NOAA-GFDL/GFDL-CM4/abrupt-4xCO2/r1i1p1f1/Emon/utendogw/gr1,drop_bnds,indexes along dimension 'bnds' are not equal
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cl/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/cli/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/hur/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/hus/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/ta/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/ua/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/va/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFday/wap/gr2,drop_bnds,last nc file does not have bnds defined as the others
+CMIP/NOAA-GFDL/GFDL-CM4/amip/r1i1p1f1/CFmon/clcalipso/gr1,noUse, 'alt40' not present in all (last) datasets and coords='different' 
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/day/hurs/gr1,noUse,ValueError: variables {'height'} are present in some datasets but not others. 
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/day/hurs/gr2,noUse,ValueError: variables {'height'} are present in some datasets but not others. 
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/day/huss/gr1,noUse,ValueError: variables {'height'} are present in some datasets but not others. 
@@ -399,6 +334,7 @@ DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r4i1p1f2/Amon/prc/gn,noUse,unknown
 DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r4i1p1f2/Amon/pr/gn,noUse,unknown
 DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r5i1p1f2/Amon/prc/gn,noUse,unknown
 DAMIP/NASA-GISS/GISS-E2-1-G/hist-aer/r5i1p1f2/Amon/pr/gn,noUse,unknown
+DAMIP/NASA-GISS/GISS-E2-1-G/hist-nat/r4i1p1f1/Amon/hus/gn,noUse,crazy time: ValueError: invalid second provided in cftime.DatetimeNoLeap
 DAMIP/NCAR/CESM2/hist-aer/r1i1p1f1/Amon/ta/gn,noUse,chunks missing
 DAMIP/NCAR/CESM2/hist-aer/r1i1p1f1/Amon/ua/gn,noUse,missing chunk 1950-2000
 DAMIP/NCAR/CESM2/hist-aer/r1i1p1f1/Amon/va/gn,noUse,missing chunk 1950-2000
@@ -418,11 +354,19 @@ HighResMIP/MOHC/HadGEM3-GC31-MM/control-1950/r1i1p1f1/Amon/rsdt/gn,noUse,to_zarr
 OMIP/NOAA-GFDL/GFDL-CM4/omip1/r1i1p1f1/Oday/tos/gn,noUse,- kills the kernel about halfway throught the zarr save
 OMIP/NOAA-GFDL/GFDL-CM4/omip1/r1i1p1f1/Ofx/deptho/gn,noUse,lat and lon have multiple fill values
 PMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/past1000/r1i1p1f1/Omon/wo/gn,noUse,bad file wo_Omon_EC-Earth3-Veg-LR_past1000_r1i1p1f1_gn_116001-116012.nc
+ScenarioMIP/CAS/FGOALS-g3/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time? not version trouble
+ScenarioMIP/CAS/FGOALS-g3/ssp370/r1i1p1f1/3hr/tas/gn, allow_versions, version trouble - used both v20190820 and v20190821
+ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/hurs/gn, noUse, netcdf files overlapping in time?
+ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time?
+ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/tasmax/gn, noUse, netcdf files overlapping in time? 10 and 9
+ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/tasmin/gn, noUse, netcdf files overlapping in time? 10 and 9
 ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp126/r1i1p1f2/Omon/umo/gn,noUse,HDF errpr
 ScenarioMIP/CNRM-CERFACS/CNRM-CM6-1-HR/ssp126/r1i1p1f2/Omon/uo/gn,noUse,HDF errpr
 ScenarioMIP/CNRM-CERFACS/CNRM-ESM2-1/ssp126/r4i1p1f2/Amon/rlut/gr,remove_files2,old file is causing trouble
 ScenarioMIP/CNRM-CERFACS/CNRM-ESM2-1/ssp126/r4i1p1f2/Amon/rsdt/gr,remove_files2,old file is causing trouble
 ScenarioMIP/CNRM-CERFACS/CNRM-ESM2-1/ssp126/r4i1p1f2/Amon/rsut/gr,remove_files2,old file is causing trouble
+ScenarioMIP/E3SM-Project/E3SM-1-1/ssp585/r1i1p1f1/Omon/masscello/gr, noUse, to_zarr failure 
+ScenarioMIP/E3SM-Project/E3SM-1-1/ssp585/r1i1p1f1/Omon/so/gr, noUse, to_zarr failure
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r116i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r116i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r116i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -436,10 +380,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r119i1p1f1/Omon/sos/gn,noUse,co
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r119i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r119i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r121i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp119/r121i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -542,13 +483,18 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp245/r20i1p1f1/day/pr/gr,noUse,the l
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp245/r20i1p1f1/day/tasmax/gr,noUse,the last ncfile: tasmax_day_EC-Earth3_ssp245_r20i1p1f1_gr_21000101-21001231.nc is bad
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp245/r20i1p1f1/Oday/all/gn,noUse,more of the same
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp245/r20i1p1f1/Oday/all/gr,noUse,more of the same
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp370/r6i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp370/r9i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp370/r9i1p1f1/SImon/siconc/gn,noUse, 4: trouble with time grid
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r102i1p1f1/Amon/tasmin/gr, noUse, trouble with time grid
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r102i1p1f1/Amon/tasmax/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r113i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r113i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r113i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r114i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r114i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r114i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r115i1p1f1/Amon/tasmin/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r115i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r115i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r115i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -565,10 +511,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r119i1p1f1/Omon/sos/gn,noUse,co
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r119i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r119i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r121i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r121i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -594,6 +537,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r127i1p1f1/Omon/zos/gn,noUse,co
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r128i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r128i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r128i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Amon/rsds/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -685,10 +629,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r119i1p1f1/Omon/sos/gn,noU
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r119i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r119i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r121i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r121i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -753,7 +694,6 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r140i1p1f1/Omon/zos/gn,noU
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r141i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r141i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r141i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r141i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r142i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r142i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp534-over/r142i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -806,10 +746,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r119i1p1f1/Omon/sos/gn,noUse,co
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r119i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r119i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r120i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r121i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r121i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
@@ -907,15 +844,20 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r9i1p1f1/Amon/tas/gr,noSizeChec
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r9i1p1f1/Omon/sos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r9i1p1f1/Omon/tos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r9i1p1f1/Omon/zos/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/ssp585/r1i1p1f1/Omon/masscello/gn, noUse, to_zarr failure
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/ssp585/r1i1p1f1/Omon/vmo/gn, noUse, to_zarr failure 
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp245/r3i1p1f1/day/tas/gr,noUse,lons not all on same grid - staggered grid problem
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r1i1p1f1/Omon/masscello/gn, noUse, to_zarr failure
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r1i1p1f1/Omon/vmo/gn,noUse,?
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r3i1p1f1/Amon/tas/gr,noUse,lons not all on same grid - staggered grid problem
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r3i1p1f1/day/tas/gr,noUse,lons not all on same grid - staggered grid problem
+ScenarioMIP/KIOST/KIOST-ESM/all/r1i1p1f1/Omon/all/gr1, noUse, takes too long to download huge file
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
-ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
-ScenarioMIP/KIOST/KIOST-ESM/ssp585/r1i1p1f1/day/vas/gr1,noUse, 4: trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sisnthick/gr1, noUse, trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sithick/gr1, noUse, trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp585/r1i1p1f1/day/vas/gr1,noUse, 4: trouble with time grid
+ScenarioMIP/MIROC/MIROC6/ssp119/r1i1p1f1/Omon/so/gn, noUse, to_zarr failure
 ScenarioMIP/MRI/MRI-ESM2-0/ssp119/r1i1p1f1/Amon/ua/gn,noUse,unknown HDF error?
 ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/albisccp/gn,noUse,big gap in time grid
 ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/cllcalipso/gn,noUse,big gap in time grid
@@ -932,7 +874,9 @@ ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/ua/gn,noUse,missing two chunks of dat
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/va/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/wap/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/zg/gn,noUse,missing two chunks of data in the output
+ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmax/gn,noUse,unknown
 ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmin/gn,noUse, 4: trouble with time grid
+ScenarioMIP/NCAR/CESM2/ssp370/r2i1p1f1/day/tasmax/gn,noUse,multiple time gaps
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/hur/gn,noUse,missing three chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/hus/gn,noUse,missing three chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/tasmax/gn,noUse,missing three chunks of data in the output
@@ -942,22 +886,10 @@ ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/va/gn,noUse,missing chunks of data in
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/wap/gn,noUse,missing chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/zg/gn,noUse,missing chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp585/r2i1p1f1/day/tasmax/gn,noUse,missing two chunks of data in the output
+ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/hfls/gn,noUse,trouble with grid
+ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/pr/gn,noUse,missing time periods (20450101-20541231)
+ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/tas/gn,noUse,missing time periods (20450101-20541231)
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
-ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid
-CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Odec/thkcello/gn, noUse, kills kernel when making the zarr store
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Amon/rsds/gr, noUse, trouble with time grid
-CMIP/EC-Earth-Consortium/EC-Earth3/historical/r25i1p1f1/Amon/hurs/gr, noUse, trouble with time grid
-ScenarioMIP/MIROC/MIROC6/ssp119/r1i1p1f1/Omon/so/gn, noUse, to_zarr failure
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/ssp585/r1i1p1f1/Omon/vmo/gn, noUse, to_zarr failure 
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/ssp585/r1i1p1f1/Omon/masscello/gn, noUse, to_zarr failure
-ScenarioMIP/E3SM-Project/E3SM-1-1/ssp585/r1i1p1f1/Omon/masscello/gr, noUse, to_zarr failure 
-ScenarioMIP/E3SM-Project/E3SM-1-1/ssp585/r1i1p1f1/Omon/so/gr, noUse, to_zarr failure
-ScenarioMIP/EC-Earth-Consortium/EC-Earth3-Veg/ssp585/r1i1p1f1/Omon/masscello/gn, noUse, to_zarr failure
-ScenarioMIP/CAS/FGOALS-g3/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time?
-ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time?
-ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/hurs/gn, noUse, netcdf files overlapping in time?
-CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/huss/gr, noUse, error in open_mfdataset
-CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/hurs/gr, noUse, error in open_mfdataset
-
+ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid - two repeated years - 2095 and 2096

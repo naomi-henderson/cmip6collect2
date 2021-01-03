@@ -216,6 +216,7 @@ ocean  ecology in the  CMIP6 models and satellite data",Thank you very much
 12/8/2020 4:47:14,hiba.omrani@gmail.com,,['All'],"['historical', 'ssp126', 'ssp245', 'ssp370', 'ssp585']",['All'],"['tas', 'pr', 'tasmax', 'tasmin', 'uas', 'vas']",day,Hiba Omrani,climat impact studies,
 12/11/2020 16:47:24,Hassanakbari22@gmail.com,,['All'],['1pctCO2-cdr'],['FGOALS-f3-L'],['yes'],CFday,Hassan Akbari,"CMPI6, Research",
 12/13/2020 14:07:05,nadiakiran.gis@gmail.com,,['All'],"['1pctCO2', 'abrupt-4xCO2', 'amip', 'esm-hist', 'esm-piControl', 'historical', 'lgm', 'past1000', 'piControl', 'ssp126', 'ssp245', 'ssp370', 'ssp585']",['All'],"['pr(42717)', 'tasmax(28222)', 'tasmin(28574)']",fx,Syeda Nadia Kiran,impacts of climate change on flood,I want to process CMIP6 data to assess the impact of climate change on flooding
+1/2/2021 0:53:06,kong97@purdue.edu,,['All'],"['esm-hist', 'historical', 'ssp126', 'ssp245', 'ssp370', 'ssp585']",['All'],"['tas', 'ps', 'huss', 'rsds', 'rsdsdiff', 'rsus', 'rlus', 'rlds', 'uas', 'vas']",3hr,QINQIN KONG,"Use CMIP6 climate model output to study heat stress. The data needed including near surface air temperature, humidity, wind speed, pressure, and all kinds of surface radiation components.","Generally, when the requested data can be uploaded into google cloud, and will I be informed by email? Thanks a lot!"
 ,,,[''],[''],[''],[''],,,,
 ,,,[''],[''],[''],[''],,,,
 2020-07-29,joshua.studholme@yale.edu,,['One'],"['piControl', 'historical', 'ssp126', 'ssp245', 'ssp585']",['All'],['msftmz'],Omon,Josh Studholme,,JS2
