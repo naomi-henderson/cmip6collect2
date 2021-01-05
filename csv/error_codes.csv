@@ -126,8 +126,8 @@ CMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/historical/r1i1p1f1/Omon/all/gn,noUse,
 CMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,conflicting values for variable 'vertices_longitude' 
 #CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/abrupt-4xCO2/r1i1p1f1/Omon/masscello/gn,noUse,trouble with time grid
 CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
-#CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel
-#CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel
+CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel
+CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/historical/r12i1p1f1/3hr/uas/gr,noUse,unknown HDF error for open_dataset and ncview
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/AERmon/zg/gr,noUse,ValueError: julian day must be a positive integer error when using use_cftime=True
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Amon/o3/gr,noUse,process by hand and change Amon to Aclim
@@ -158,7 +158,6 @@ CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Omon/all/gn,noUse,unknown
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Omon/all/gr,noUse,unknown
 CMIP/MRI/MRI-ESM2-0/piControl/r1i2p1f1/Omon/all/gr,noUse,unknown
 CMIP/NASA-GISS/GISS-E2-1-G/1pctCO2/r1i1p5f1/Omon/all/gn,noUse,missing data
-CMIP/NASA-GISS/GISS-E2-1-G/historical/r11i1p1f2/SImon/sithick/gn,noUse, 3: netcdf download not complete
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/AERmon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/tasmax/gn, noUse, trouble with time grid
@@ -168,7 +167,7 @@ CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrro/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrso/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Lmon/mrsos/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Omon/all/gn,noUse,missing data
-#CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/all/gn,noUse,missing data
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/all/gn,noUse,missing chunks of data 
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/sithick/gn,noUse, 4: trouble with time grid
 CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
 #CMIP/NASA-GISS/GISS-E2-2-G/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
@@ -225,18 +224,12 @@ CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtalk/gn,noUse,missing time chunk
 CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtdife/gn,noUse,trouble with grid
 CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtdip/gn,noUse,missing time chunks
 CMIP/NCC/NorCPM1/historical/all/Amon/all/gn,override,latitudes do not match
-#CMIP/NCC/NorESM2-LM/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,there are 3 damaged files in the middle - from 01231020 - 01501019
-CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse, 1: error in open_mfdataset
-#CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-LM/historical/r3i1p1f1/SImon/siconc/gn,noUse, 1: error in open_mfdataset
+CMIP/NCC/NorESM2-LM/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,there are 3 damaged files in the middle - from 01231020 - 01501019
+#CMIP/NCC/NorESM2-LM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude' use coords='minimal' and compat='override'
 #CMIP/NCC/NorESM2-LM/historical/r3i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/siconc/gn,noUse, 1: error in open_mfdataset
 #CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/siconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse, 1: error in open_mfdataset
 #CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnconc/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnthick/gn,noUse, 1: error in open_mfdataset
 #CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sisnthick/gn,noUse,conflicting values for variable 'vertices_longitude'
-CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sithick/gn,noUse, 1: error in open_mfdataset
 #CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sithick/gn,noUse,conflicting values for variable 'vertices_longitude'
 #CMIP/NCC/NorESM2-MM/historical/r1i1p1f1/SImon/sivol/gn,noUse,conflicting values for variable 'vertices_longitude'
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/pr/gn,noUse, 4: trouble with time grid
@@ -294,7 +287,6 @@ CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/intpbp/gr,noUse,MergeError: conf
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/intpcalcite/gr,noUse,MergeError: conflicting values for variable 'geolon' on objects to be combined
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/intpp/gr,noUse,MergeError: conflicting values for variable 'geolon' on objects to be combined
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/spco2/gr,noUse,MergeError: conflicting values for variable 'geolon' on objects to be combined
-#CMIP/NOAA-GFDL/GFDL-ESM4/abrupt-4xCO2/r1i1p1f1/Eday/all/gr1,AllowDisjointTimeIntervals,first/last 40 years
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-hist/r1i1p1f1/Amon/hus/gr1,noUse,missing random years between 1908-1920
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-hist/r1i1p1f1/Amon/ta/gr1,noUse,missing random years
 CMIP/NOAA-GFDL/GFDL-ESM4/esm-hist/r1i1p1f1/Amon/tasmax/gr1,noUse,missing random years between 1908-1920
@@ -893,3 +885,10 @@ ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files ma
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid - two repeated years - 2095 and 2096
+all/KIOST/KIOST-ESM/all/all/3hr/all/all,noUse, too slow
+all/CAS/FGOALS-g3/all/all/3hr/all/all,noUse, too slow
+all/MRI/MRI-ESM2-0/all/all/3hr/all/all,noUse, too slow
+all/BCC/BCC-CSM2-MR/all/all/3hr/all/all,noUse, too slow
+all/MIROC/MIROC-ES2L/all/all/3hr/all/all,noUse, too slow
+all/MIROC/MIROC6/all/all/3hr/all/all,noUse, too slow
+all/NUIST/NESM3/all/all/3hr/all/all,noUse, too slow

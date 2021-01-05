@@ -8,8 +8,8 @@ ms['mon_tables']   = ['AERmon', 'Amon', 'CFmon', 'Emon', 'ImonAnt', 'ImonGre', '
 ms['monZ_tables']  = ['AERmonZ', 'EmonZ']
 
 ms['core_experiments'] = [ '1pctCO2', 'abrupt-4xCO2',  'historical', 'piControl' 
-    ,'ssp119', 'ssp126', 'ssp245', 'ssp370', 'ssp434', 'ssp460',
-'ssp534-over', 'ssp585' ]
+    ,'ssp119', 'ssp126', 'ssp245', 'ssp370', 'ssp434', 'ssp460', 'ssp534-over', 'ssp585' ]
+
 ms['more_experiments'] = [ 'piControl-spinup', 'amip-hist', 'esm-hist', 'esm-piControl',
 'esm-piControl-spinup' ,'1pctCO2-bgc','lgm', 'past1000', 'amip' ]
                    
