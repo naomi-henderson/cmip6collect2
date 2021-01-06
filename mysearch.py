@@ -14,7 +14,7 @@ import pandas as pd
 def esgf_search(search, server="https://esgf-node.llnl.gov/esg-search/search",
                 files_type="HTTPServer", local_node=True,
                 project="CMIP6", page_size=500, verbose=False,
-                format="application%2Fsolr%2Bjson"):
+                format="application%2Fsolr%2Bjson", toFilter=True):
 
     client = requests.session()
     payload = search
@@ -85,15 +85,17 @@ def esgf_search(search, server="https://esgf-node.llnl.gov/esg-search/search",
     dz['start'] = [s.split('_')[-1].split('-')[0] for s in dz.ncfile ]
     dz['stop'] = [s.split('_')[-1].split('-')[-1].split('.')[0] for s in dz.ncfile ]
 
-    # remove all 999 nodes
-    dz = dz[dz.node_order != 999]
 
-    # keep only best node 
-    dz = dz.sort_values(by=['node_order'])
-    dz = dz.drop_duplicates(subset =["ds_dir","ncfile","version_id"],keep='first')
+    if toFilter:
+       # remove all 999 nodes
+       dz = dz[dz.node_order != 999]
 
-    # keep only most recent version from best node
-    dz = dz.sort_values(by=['version_id'])
-    dz = dz.drop_duplicates(subset =["ds_dir","ncfile"],keep='last')
+       # keep only best node 
+       dz = dz.sort_values(by=['node_order'])
+       dz = dz.drop_duplicates(subset =["ds_dir","ncfile","version_id"],keep='first')
+
+       # keep only most recent version from best node
+       dz = dz.sort_values(by=['version_id'])
+       dz = dz.drop_duplicates(subset =["ds_dir","ncfile"],keep='last')
 
     return dz
