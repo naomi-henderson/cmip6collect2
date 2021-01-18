@@ -1,0 +1,323 @@
+experiment_id,experiment,activity_id,tier,min_number_yrs_per_sim,start_year,end_year
+1pctCO2,1 percent per year increase in CO2,['CMIP'],1,150,,
+1pctCO2-4xext,extension from year 140 of 1pctCO2 with 4xCO2,['ISMIP6'],1,210,,
+1pctCO2-bgc,biogeochemically-coupled version of 1 percent per year increasing CO2 experiment,['C4MIP'],1,150,,
+1pctCO2-cdr,1 percent per year decrease in CO2 from 4xCO2,['CDRMIP'],1,200,,
+1pctCO2-rad,radiatively-coupled version of 1 percent per year increasing CO2 experiment,['C4MIP'],2,150,,
+1pctCO2Ndep,1 percent per year increasing CO2 experiment with increasing N-deposition,['C4MIP'],2,150,,
+1pctCO2Ndep-bgc,biogeochemically-coupled version of 1 percent per year increasing CO2 experiment with increasing N-deposition,['C4MIP'],2,150,,
+1pctCO2to4x-withism,simulation with interactive ice sheet forced by 1 percent per year increase in CO2 to 4xCO2 (subsequently held fixed),['ISMIP6'],1,350,,
+G1,abrupt quadrupling of CO2 plus reduction in total solar irradiance,['GeoMIP'],1,100,,
+G6SST1,"SSTs, forcings, and other prescribed conditions from year 2020 of SSP5-8.5",['GeoMIP'],2,10,,
+G6SST2-solar,SSTs from year 2020 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G6solar,['GeoMIP'],2,10,,
+G6SST2-sulfur,SSTs from year 2020 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G6sulfur,['GeoMIP'],2,10,,
+G6solar,total solar irradiance reduction to reduce net forcing from SSP585 to SSP245,['GeoMIP'],1,81,2020,2100
+G6sulfur,stratospheric sulfate aerosol injection to reduce net forcing from SSP585 to SSP245,['GeoMIP'],1,81,2020,2100
+G7SST1-cirrus,SSTs from year 2020 of SSP5-8.5; forcings and other prescribed conditions from year 2020 of SSP5-8.5 and cirrus thinning,['GeoMIP'],2,10,,
+G7SST2-cirrus,SSTs from year 2100 of SSP5-8.5; forcings and other prescribed conditions from year 2100 of G7cirrus,['GeoMIP'],2,10,,
+G7cirrus,increase cirrus ice crystal fall speed to reduce net forcing in SSP585 by 1 W m-2,['GeoMIP'],2,81,2020,2100
+a4SST,as piSST but with SSTs from abrupt-4xCO2,['CFMIP'],2,30,,
+a4SSTice,as piSST but with SSTs and sea ice from abrupt-4xCO2,['CFMIP'],2,30,,
+a4SSTice-4xCO2,"as piSST but with SSTs and sea ice from abrupt-4xCO2, and 4xCO2 seen by radiation and vegetation",['CFMIP'],2,30,,
+abrupt-0p5xCO2,abrupt halving of CO2,['CFMIP'],2,150,,
+abrupt-2xCO2,abrupt doubling of CO2,['CFMIP'],2,150,,
+abrupt-4xCO2,abrupt quadrupling of CO2,['CMIP'],1,150,,
+abrupt-solm4p,abrupt 4% decrease in solar constant,['CFMIP'],2,150,,
+abrupt-solp4p,abrupt 4% increase in solar constant,['CFMIP'],2,150,,
+amip,AMIP,['CMIP'],1,36,1979,2014
+amip-4xCO2,AMIP SSTs with 4xCO2,['CFMIP'],1,36,1979,2014
+amip-TIP,"same as ""amip"" run, but surface elevations of the Tibetan-Iranian Plateau and Himalayas reduced to 500m",['GMMIP'],3,36,1979,2014
+amip-TIP-nosh,"same as ""amip"" run, but sensible heat not allowed for elevations of the Tibetan-Iranian Plateau and Himalayas above 500m",['GMMIP'],3,36,1979,2014
+amip-a4SST-4xCO2,as AMIP but with warming pattern from abrupt-4xCO2 added to SSTs and 4xCO2 seen by radiation and vegetation,['CFMIP'],2,36,1979,2014
+amip-climSIC,AMIP with climatological SIC,['PAMIP'],3,36,1979,2014
+amip-climSST,AMIP with climatological SST,['PAMIP'],3,36,1979,2014
+amip-future4K,AMIP with patterned 4K SST increase,['CFMIP'],1,36,1979,2014
+amip-hist,AMIP-style simulation covering the period 1870-2014,['GMMIP'],1,145,1870,2014
+amip-hld,"same as ""amip"" run, but surface elevations of the East African Highlands in Africa, Sierra Madre in N. America and Andes in S. America reduced to 500m",['GMMIP'],3,36,1979,2014
+amip-lfmip-pObs,prescribed land (from pseudo-observations) and AMIP SSTs,['LS3MIP'],2,36,1979,2014
+amip-lfmip-pdLC,"prescribed modern land surface climatology from historical, prescribed SST and sea-ice from historical plus scenario runs",['LS3MIP'],2,36,1979,2014
+amip-lfmip-rmLC,"prescribed land surface climatology from historical plus scenario 30yr running mean, prescribed SST and sea-ice from historical plus scenario runs",['LS3MIP'],2,36,1979,2014
+amip-lwoff,AMIP experiment with longwave cloud-radiative effects off,['CFMIP'],2,36,1979,2014
+amip-m4K,AMIP with uniform 4K SST decrease,['CFMIP'],2,36,1979,2014
+amip-p4K,AMIP with uniform 4K SST increase,['CFMIP'],1,36,1979,2014
+amip-p4K-lwoff,AMIP experiment with uniform 4K SST increase and with longwave cloud radiative effects off,['CFMIP'],2,36,1979,2014
+amip-piForcing,AMIP SSTs with pre-industrial anthropogenic and natural forcing,['CFMIP'],2,145,1870,2014
+aqua-4xCO2,aquaplanet with control SST and 4xCO2,['CFMIP'],1,10,,
+aqua-control,aquaplanet control,['CFMIP'],1,10,,
+aqua-control-lwoff,aquaplanet control with longwave cloud radiative effects off,['CFMIP'],2,10,,
+aqua-p4K,aquaplanet with uniform 4K SST increase,['CFMIP'],1,10,,
+aqua-p4K-lwoff,aquaplanet with uniform 4K SST increase and with longwave cloud radiative effects off,['CFMIP'],2,10,,
+control-1950,coupled control with fixed 1950's forcing (HighResMIP equivalent of pre-industrial control),['HighResMIP'],2,100,,
+control-slab,control with slab ocean,['VolMIP'],3,30,,
+dcppA-assim,"Assimilation run paralleling the historical simulation, which may be used to generate hindcast initial conditions",['DCPP'],2,56,before 1961,2016
+dcppA-hindcast,hindcast initialized based on observations and using historical forcing,['DCPP'],1,5,a year in the range 1960-2019,5 - 10 years after start year
+dcppA-hindcast-niff,hindcast initialized based on observations but without using knowledge of subsequent historical forcing,['DCPP'],4,5,a year in the range 1960-2019,5 - 10 years after start year
+dcppA-historical-niff,hindcast initialized from historical climate simulation but without using knowledge of subsequent historical forcing,['DCPP'],4,5,a year in the range 1960-2019,5 - 10 years after start year
+dcppB-forecast,forecast initialized from observations with forcing from ssp245,['DCPP'],1,5,a year in the range 2017-2029,5 years after start year
+dcppC-amv-ExTrop-neg,Idealized climate impact of negative extratropical AMV anomaly pattern,['DCPP'],2,10,,
+dcppC-amv-ExTrop-pos,Idealized climate impact of positive extratropical AMV anomaly pattern,['DCPP'],2,10,,
+dcppC-amv-Trop-neg,Idealized climate impact of negative tropical AMV anomaly pattern,['DCPP'],2,10,,
+dcppC-amv-Trop-pos,idealized positive tropical AMV anomaly pattern,['DCPP'],2,10,,
+dcppC-amv-neg,Idealized climate impact of negative AMV anomaly pattern,['DCPP'],1,10,,
+dcppC-amv-pos,Idealized climate impact of positive AMV anomaly pattern,['DCPP'],1,10,,
+dcppC-atl-control,Idealized Atlantic control,['DCPP'],1,10,,
+dcppC-atl-pacemaker,pacemaker Atlantic experiment,['DCPP'],3,65,"1910, 1920 or 1950",2014
+dcppC-atl-spg,predictability of 1990s warming of Atlantic sub-polar gyre,['DCPP'],3,5,A year in the range 1992-1999,5 - 10 years after start year
+dcppC-forecast-addAgung,2015 forecast with added Agung forcing,['DCPP'],3,5,2014,5 - 10 years after start year
+dcppC-forecast-addElChichon,2015 forecast with added El Chichon forcing,['DCPP'],3,5,2014,5 - 10 years after start year
+dcppC-forecast-addPinatubo,2015 forecast with added Pinatubo forcing,"['DCPP', 'VolMIP']",1,5,2014,5 - 10 years after start year
+dcppC-hindcast-noAgung,hindcast but with only background volcanic forcing to be the same as that used in the 2015 forecast,['DCPP'],2,5,1962,5 - 10 years after start year
+dcppC-hindcast-noElChichon,hindcast but with only background volcanic forcing to be the same as that used in the 2015 forecast,['DCPP'],2,5,1981,5 - 10 years after start year
+dcppC-hindcast-noPinatubo,hindcast but with only background volcanic forcing to be the same as that used in the 2015 forecast,['DCPP'],1,5,1990,5 - 10 years after start year
+dcppC-ipv-NexTrop-neg,idealized negative northern extratropical IPV anomaly pattern,['DCPP'],2,10,,
+dcppC-ipv-NexTrop-pos,idealized positive northern extratropical IPV anomaly pattern,['DCPP'],2,10,,
+dcppC-ipv-neg,idealized negative IPV anomaly pattern,['DCPP'],1,10,,
+dcppC-ipv-pos,idealized positive IPV anomaly pattern,['DCPP'],1,10,,
+dcppC-pac-control,idealized Pacific control,['DCPP'],1,10,,
+dcppC-pac-pacemaker,pacemaker Pacific experiment,['DCPP'],3,65,"1910, 1920 or 1950",2014
+deforest-globe,idealized transient global deforestation,['LUMIP'],1,81,,
+esm-1pct-brch-1000PgC,zero emissions simulation branched from 1% run after 1000 PgC cumulative emission,"['C4MIP', 'CDRMIP']",2,100,,
+esm-1pct-brch-2000PgC,zero emissions simulation branched from 1% run after 2000 PgC cumulative emission,"['C4MIP', 'CDRMIP']",3,100,,
+esm-1pct-brch-750PgC,zero emissions simulation branched from 1% run after 750 PgC cumulative emission,"['C4MIP', 'CDRMIP']",3,100,,
+esm-1pctCO2,emissions driven 1% run,"['C4MIP', 'CDRMIP']",3,150,,
+esm-bell-1000PgC,emissions driven 1000PgC bell-curve,"['C4MIP', 'CDRMIP']",3,200,,
+esm-bell-2000PgC,emissions driven 2000PgC bell-curve,"['C4MIP', 'CDRMIP']",3,200,,
+esm-bell-750PgC,emissions driven 750PgC bell-curve,"['C4MIP', 'CDRMIP']",3,200,,
+esm-hist,all-forcing simulation of the recent past with atmospheric CO2 concentration calculated,['CMIP'],1,165,1850,2014
+esm-hist-ext,post-2014 all-forcing simulation with atmospheric CO2 concentration calculated,['CMIP'],2,1,2015,present
+esm-past1000,last millennium experiment with interactive carbon cycle,['PMIP'],3,1000,850,1849
+esm-pi-CO2pulse,pulse addition of 100 Gt carbon to pre-industrial atmosphere,['CDRMIP'],1,100,,
+esm-pi-cdr-pulse,pulse removal of 100 Gt carbon from pre-industrial atmosphere,['CDRMIP'],1,100,,
+esm-piControl,pre-industrial control simulation with CO2 concentration calculated,['CMIP'],1,500,,
+esm-piControl-spinup,pre-industrial control simulation with CO2 concentration calculated (spin-up),['CMIP'],2,100,,
+esm-ssp534-over,emission-driven SSP5-3.4-OS scenario,['CDRMIP'],2,61,2040,2100 or 2300
+esm-ssp585,emission-driven RCP8.5 based on SSP5,['C4MIP'],1,86,2015,2100
+esm-ssp585-ocn-alk,emission-driven SSP5-8.5 scenario but with ocean alkalinization from year 2020 onward,['CDRMIP'],2,81,2020,2100 or 2300
+esm-ssp585-ocn-alk-stop,emission-driven SSP5-8.5 scenario with alkalinization terminated in year 2070,['CDRMIP'],3,31,2070,2100
+esm-ssp585-ssp126Lu,emissions-driven SSP5-8.5 with SSP1-2.6 land use,['LUMIP'],1,86,2015,2100
+esm-ssp585-ssp126Lu-ext,extension of the LUMIP emissions-driven simulation following SSP5-8.5 with SSP1-2.6 land use,['CDRMIP'],2,200,2101,2300
+esm-ssp585ext,emission-driven long-term extension of the SSP5-8.5 scenario,['CDRMIP'],2,200,2101,2300
+esm-yr2010CO2-CO2pulse,instantaneous 100 Gt C addition to an industrial era atmosphere,['CDRMIP'],3,101,2015,2115
+esm-yr2010CO2-cdr-pulse,instantaneous 100 Gt C removal from industrial era atmosphere,['CDRMIP'],3,101,2015,2115
+esm-yr2010CO2-control,historical emissions followed by fixed 2010 emissions (both model-diagnosed),['CDRMIP'],3,266,1850,2115
+esm-yr2010CO2-noemit,branches from esm-yr2010CO2-control with zero emissions,['CDRMIP'],3,101,2015,2115
+faf-all,"control plus perturbative surface fluxes of momentum, heat and water into ocean",['FAFMIP'],2,70,,
+faf-antwater-stress,"control plus perturbative surface fluxes of momentum and freshwater into ocean, the latter around the coast of Antarctica only",['FAFMIP'],2,70,,
+faf-heat,control plus perturbative surface flux of heat into ocean,['FAFMIP'],1,70,,
+faf-heat-NA0pct,control plus perturbative surface flux of heat into ocean,['FAFMIP'],2,70,,
+faf-heat-NA50pct,control plus perturbative surface flux of heat into ocean,['FAFMIP'],1,70,,
+faf-passiveheat,control plus surface flux of passive heat tracer into ocean,['FAFMIP'],2,70,,
+faf-stress,control plus perturbative surface flux of momentum into ocean,['FAFMIP'],1,70,,
+faf-water,control plus perturbative surface flux of water into ocean,['FAFMIP'],1,70,,
+futSST-pdSIC,Atmosphere time slice with future SST and present day SIC,['PAMIP'],2,1,2000,2001
+futureSST-4xCO2-solar,year 100 SSTs from abrupt-4xCO2 with quadrupled CO2 and solar reduction,['GeoMIP'],2,10,,
+highres-future,coupled future 2015-2050 using a scenario as close to CMIP5 RCP8.5 as possible within CMIP6,['HighResMIP'],2,36,2015,2050
+highresSST-4xCO2,highresSST-present SST with 4xCO2 concentrations,['HighResMIP'],3,36,1979,2014
+highresSST-LAI,common LAI dataset within the highresSST-present experiment,['HighResMIP'],3,36,1979,2014
+highresSST-future,forced atmosphere experiment for 2015-2050 using SST/sea-ice derived from CMIP5 RCP8.5 simulations and a scenario as close to RCP8.5 as possible within CMIP6,['HighResMIP'],3,36,2015,2050
+highresSST-p4K,uniform 4K warming of highresSST-present SST,['HighResMIP'],3,36,1979,2014
+highresSST-present,forced atmosphere experiment for 1950-2014,['HighResMIP'],1,65,1950,2014
+highresSST-smoothed,smoothed SST version of highresSST-present,['HighResMIP'],3,36,1979,2014
+hist-1950,coupled historical 1950-2014,['HighResMIP'],2,65,1950,2014
+hist-1950HC,"historical forcing, but with1950s halocarbon concentrations; initialized in 1950",['AerChemMIP'],1,65,1950,2014
+hist-CO2,historical CO2-only run,['DAMIP'],3,171,1850,2020
+hist-GHG,historical well-mixed GHG-only run,['DAMIP'],1,171,1850,2020
+hist-GHG-cmip5,historical well-mixed GHG-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing),['DAMIP'],3,171,1850,2020
+hist-aer,historical anthropogenic aerosols-only run,['DAMIP'],1,171,1850,2020
+hist-aer-cmip5,historical anthropogenic aerosols-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing),['DAMIP'],3,171,1850,2020
+hist-all-aer2,historical ALL-forcing run with alternate estimates of aerosol forcing,['DAMIP'],3,171,1850,2020
+hist-all-nat2,historical ALL-forcing run with alternate estimates of natural forcing,['DAMIP'],3,171,1850,2020
+hist-bgc,biogeochemically-coupled version of the simulation of the recent past with CO2 concentration prescribed,['C4MIP'],2,165,1850,2014
+hist-nat,historical natural-only run,['DAMIP'],1,171,1850,2020
+hist-nat-cmip5,historical natural-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing),['DAMIP'],3,171,1850,2020
+hist-noLu,historical with no land-use change,['LUMIP'],1,165,1850,2014
+hist-piAer,"historical forcing, but with pre-industrial aerosol emissions",['AerChemMIP'],2,165,1850,2014
+hist-piNTCF,"historical forcing, but with pre-industrial NTCF emissions",['AerChemMIP'],1,165,1850,2014
+hist-resAMO,"initialized from ""historical"" run year 1870 and SSTs in the AMO domain (0deg-70degN, 70degW-0deg) restored to AMIP SSTs with historical forcings",['GMMIP'],2,145,1870,2014
+hist-resIPO,"initialized from ""historical"" run year 1870 and SSTs in tropical lobe of the IPO domain (20degS-20degN, 175degE-75degW) restored to AMIP SSTs with historical forcings",['GMMIP'],2,145,1870,2014
+hist-sol,historical solar-only run,['DAMIP'],3,171,1850,2020
+hist-spAer-aer,"historical simulation with specified anthropogenic aerosols, no other forcings",['RFMIP'],2,165,1850,2014
+hist-spAer-all,historical simulation with specified anthropogenic aerosols,['RFMIP'],1,165,1850,2014
+hist-stratO3,historical stratospheric ozone-only run,['DAMIP'],2,171,1850,2020
+hist-totalO3,historical total ozone-only run,['DAMIP'],3,171,1850,2020
+hist-volc,historical volcanic-only run,['DAMIP'],3,171,1850,2020
+histSST,historical prescribed SSTs and historical forcing,['AerChemMIP'],1,165,1850,2014
+histSST-1950HC,"historical SSTs and historical forcing, but with 1950 halocarbon concentrations. Experiment is initialized from histSST (AerChemMIP) simulation from January 1950",['AerChemMIP'],1,65,1950,2014
+histSST-noLu,"historical SSTs and historical forcing, but with pre-industrial LULCC",['AerChemMIP'],1,165,1850,2014
+histSST-piAer,"historical SSTs and historical forcing, but with pre-industrial aerosol emissions",['AerChemMIP'],2,165,1850,2014
+histSST-piCH4,"historical SSTs and historical forcing, but with pre-industrial methane concentrations",['AerChemMIP'],1,165,1850,2014
+histSST-piN2O,"historical SSTs and historical forcings, but with pre-industrial N2O concentrations",['AerChemMIP'],2,165,1850,2014
+histSST-piNTCF,"historical SSTs and historical forcing, but with pre-industrial NTCF emissions",['AerChemMIP'],1,165,1850,2014
+histSST-piO3,"historical SSTs and historical forcing, but with pre-industrial ozone precursor emissions",['AerChemMIP'],2,165,1850,2014
+historical,all-forcing simulation of the recent past,['CMIP'],1,165,1850,2014
+historical-cmip5,all-forcing simulation of the recent past (CMIP5-era [1850-2005] forcing),['CMIP'],2,156,1850,2005
+historical-ext,post-2014 all-forcing simulation,['CMIP'],2,1,2015,present
+historical-withism,historical with interactive ice sheet,['ISMIP6'],2,165,1850,2014
+ism-1pctCO2to4x-self,offline ice sheet model forced by ISM's own AOGCM 1pctCO2to4x output,['ISMIP6'],1,350,,
+ism-1pctCO2to4x-std,offline ice sheet model forced by ISMIP6-specified AOGCM 1pctCO2to4x output,['ISMIP6'],1,350,,
+ism-amip-std,offline ice sheet forced by ISMIP6-specified AGCM AMIP output,['ISMIP6'],3,36,1979,2014
+ism-asmb-std,offline ice sheet forced by initMIP synthetic atmospheric experiment,['ISMIP6'],1,100,,
+ism-bsmb-std,offline ice sheet forced by initMIP synthetic oceanic experiment,['ISMIP6'],1,100,,
+ism-ctrl-std,offline ice sheet model initMIP control,['ISMIP6'],1,100,,
+ism-historical-self,offline ice sheet forced by ISM's own AOGCM historical output,['ISMIP6'],2,165,1850,2014
+ism-historical-std,offline ice sheet forced by ISMIP6-specified AOGCM historical output,['ISMIP6'],2,165,1850,2014
+ism-lig127k-std,offline ice sheet forced by ISMIP6-specified AGCM last interglacial output,['ISMIP6'],3,20000,,
+ism-pdControl-std,offline ice sheet forced by ISMIP6-specified AOGCM pdControl output,['ISMIP6'],1,100,,
+ism-piControl-self,offline ice sheet forced by ISM's own AOGCM piControl output,['ISMIP6'],1,500,,
+ism-ssp585-self,offline ice sheet forced by ISM's own AOGCM ssp585 output,['ISMIP6'],2,86,2015,2100 or 2300
+ism-ssp585-std,offline ice sheet forced by ISMIP6-specified AOGCM ssp585 output,['ISMIP6'],2,86,2015,2100 or 2300
+land-cCO2,historical land-only constant CO2,['LUMIP'],2,165,1850 or 1700,2014
+land-cClim,historical land-only constant climate,['LUMIP'],2,165,1850 or 1700,2014
+land-crop-grass,historical land-only with cropland as natural grassland,['LUMIP'],2,165,1850 or 1700,2014
+land-crop-noFert,historical land-only with no fertilizer,['LUMIP'],2,165,1850 or 1700,2014
+land-crop-noIrrig,historical land-only with no irrigation,['LUMIP'],2,165,1850 or 1700,2014
+land-crop-noIrrigFert,historical land-only with managed crops but with irrigation and fertilization held constant,['LUMIP'],2,165,1850 or 1700,2014
+land-hist,historical land-only,"['LS3MIP', 'LUMIP']",1,165,1850 or 1700,2014
+land-hist-altLu1,historical land-only alternate land-use history,['LUMIP'],2,165,1850 or 1700,2014
+land-hist-altLu2,historical land-only alternate land use history,['LUMIP'],2,165,1850 or 1700,2014
+land-hist-altStartYear,historical land-only alternate start year,['LUMIP'],1,165,1850 or 1700,2014
+land-hist-cruNcep,as land-hist with CRU-NCEP forcings,['LS3MIP'],2,165,1850,2014
+land-hist-princeton,as land-hist with Princeton forcings,['LS3MIP'],2,165,1850,2014
+land-hist-wfdei,as land-hist with WFDEI forcings,['LS3MIP'],2,165,1850,2014
+land-noFire,historical land-only with no human fire management,['LUMIP'],2,165,1850 or 1700,2014
+land-noLu,historical land-only with no land-use change,['LUMIP'],1,165,1850 or 1700,2014
+land-noPasture,historical land-only with constant pastureland,['LUMIP'],2,165,1850 or 1700,2014
+land-noShiftCultivate,historical land-only with shifting cultivation turned off,['LUMIP'],2,165,1850 or 1700,2014
+land-noWoodHarv,historical land-only with no wood harvest,['LUMIP'],2,165,1850 or 1700,2014
+land-ssp126,future ssp1-2.6 land only,['LS3MIP'],1,86,2015,2100
+land-ssp434,future ssp4-3.4 land only,['LS3MIP'],2,86,2015,2100
+land-ssp585,future ssp5-8.5 land only,['LS3MIP'],1,86,2015,2100
+lfmip-initLC,"initialized from ""historical"" run year 1980, but with land conditions initialized from pseudo-observations",['LS3MIP'],2,35,1980,2014
+lfmip-pdLC,"prescribed land conditions (from current climate climatology) and initialized from ""historical"" run year 1980",['LS3MIP'],1,121,1980,2100
+lfmip-pdLC-cruNcep,as LFMIP-pdLC with Land-Hist-cruNcep,['LS3MIP'],2,121,1980,2100
+lfmip-pdLC-princeton,as LFMIP-pdLC with Land-Hist-princeton,['LS3MIP'],2,121,1980,2100
+lfmip-pdLC-wfdei,as LFMIP-pdLC with Land-Hist-wfdei,['LS3MIP'],2,121,1980,2100
+lfmip-rmLC,"prescribed land conditions (from running mean climatology) and initialized from ""historical"" run year 1980",['LS3MIP'],2,121,1980,2100
+lfmip-rmLC-cruNcep,as LFMIP-rmLC with Land-Hist-cruNcep,['LS3MIP'],2,121,1980,2100
+lfmip-rmLC-princeton,as LFMIP-rmLC with Land-Hist-princeton,['LS3MIP'],2,121,1980,2100
+lfmip-rmLC-wfdei,as LFMIP-rmLC with Land-Hist-wfdei,['LS3MIP'],2,121,1980,2100
+lgm,last glacial maximum,['PMIP'],1,100,,
+lig127k,last interglacial (127k),['PMIP'],1,100,,
+midHolocene,mid-Holocene,['PMIP'],1,200,,
+midPliocene-eoi400,mid-Pliocene warm period,['PMIP'],1,100,,
+modelSST-futArcSIC,Atmosphere time slice with present day coupled model SST and future Arctic SIC,['PAMIP'],3,1,2000,2001
+modelSST-pdSIC,Atmosphere time slice present day control with coupled model SST,['PAMIP'],3,1,2000,2001
+omip1,"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized with observed physical and biogeochemical ocean data",['OMIP'],1,310,,
+omip1-spunup,"OMIP experiment forced by Large and Yeager (CORE-2, NCEP) atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model",['OMIP'],2,310,,
+omip2,OMIP experiment forced by JRA55-do atmospheric data set and initialized with observed physical and biogeochemical ocean data,['OMIP'],3,366,,
+omip2-spunup,OMIP experiment forced by JRA55-do atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model,['OMIP'],3,366,,
+pa-futAntSIC,Partially-coupled time slice constrained by future Antarctic SIC,['PAMIP'],2,1,2000,2001
+pa-futAntSIC-ext,Partially-coupled extended simulation with future Antarctic SIC,['PAMIP'],3,100,2000,2099
+pa-futArcSIC,Partially-coupled time slice constrained by future Arctic SIC,['PAMIP'],2,1,2000,2001
+pa-futArcSIC-ext,Partially-coupled extended simulation with future Arctic SIC,['PAMIP'],3,100,2000,2099
+pa-pdSIC,Partially-coupled time slice contrained by present day SIC,['PAMIP'],2,1,2000,2001
+pa-pdSIC-ext,Partially-coupled extended simulation constrained by present day SIC,['PAMIP'],3,100,2000,2099
+pa-piAntSIC,Partially-coupled time slice with pre-industrial Antarctic SIC,['PAMIP'],2,1,2000,2001
+pa-piArcSIC,Partially-coupled time slice constrained by pre-industrial Arctic SIC,['PAMIP'],2,1,2000,2001
+past1000,last millennium,['PMIP'],1,1000,850,1849
+past1000-solaronly,last millennium experiment using only solar forcing,['PMIP'],2,1000,850,1849
+past1000-volconly,last millennium experiment using only volcanic forcing,['PMIP'],2,1000,850,1849
+past2k,last two millennia experiment,['PMIP'],3,1849,1,1849
+pdSST-futAntSIC,Atmosphere time slice with present day SST and future Antarctic SIC,['PAMIP'],1,1,2000,2001
+pdSST-futArcSIC,Atmosphere time slice with present day SST and future Arctic SIC,['PAMIP'],1,1,2000,2001
+pdSST-futArcSICSIT,Atmosphere time slice with present day SST and future Arctic SIC and sea ice thickness,['PAMIP'],3,1,2000,2001
+pdSST-futBKSeasSIC,Atmosphere time slice with present day SST and future Barents and Kara Seas SIC,['PAMIP'],3,1,2000,2001
+pdSST-futOkhotskSIC,Atmosphere time slice with present day SST and future Sea of Okhotsk SIC,['PAMIP'],3,1,2000,2001
+pdSST-pdSIC,Atmosphere time slice with present day SST and SIC,['PAMIP'],1,1,2000,2001
+pdSST-pdSICSIT,Atmosphere time slice constrained by present day conditions including sea ice thickness,['PAMIP'],3,1,2000,2001
+pdSST-piAntSIC,Atmosphere time slice with present day SST and pre-industrial Antarctic SIC,['PAMIP'],1,1,2000,2001
+pdSST-piArcSIC,Atmosphere time slice with present day SST and pre-industrial Arctic SIC,['PAMIP'],1,1,2000,2001
+piClim-2xDMS,"pre-industrial climatological SSTs and forcing, but with doubled emissions of DMS",['AerChemMIP'],3,30,,
+piClim-2xNOx,"pre-industrial climatological SSTs and forcing, but with doubled production of NOx due to lightning",['AerChemMIP'],3,30,,
+piClim-2xVOC,"pre-industrial climatological SSTs and forcing, but with doubled emissions of biogenic VOCs",['AerChemMIP'],3,30,,
+piClim-2xdust,"pre-industrial climatological SSTs and forcing, but with doubled emissions of dust",['AerChemMIP'],2,30,,
+piClim-2xfire,"pre-industrial climatological SSTs and forcing, but with doubled emissions from fires",['AerChemMIP'],3,30,,
+piClim-2xss,"pre-industrial climatological SSTs and forcing, but with doubled emissions of sea salt",['AerChemMIP'],2,30,,
+piClim-4xCO2,effective radiative forcing by 4xCO2,['RFMIP'],1,30,,
+piClim-BC,"pre-industrial climatological SSTs and forcing, but with 2014 black carbon emissions",['AerChemMIP'],2,30,,
+piClim-CH4,"pre-industrial climatological SSTs and forcing, but with 2014 methane concentrations (including chemistry)",['AerChemMIP'],1,30,,
+piClim-HC,"pre-industrial climatological SSTs and forcing, but with 2014 halocarbon concentrations (including chemistry)",['AerChemMIP'],1,30,,
+piClim-N2O,"pre-industrial climatological SSTs and forcing, but with 2014 N2O concentrations (including chemistry)",['AerChemMIP'],2,30,,
+piClim-NH3,"pre-industrial climatological SSTs and forcing, but with 2014 ammonia emissions",['AerChemMIP'],3,30,,
+piClim-NOx,"pre-industrial climatological SSTs and forcing, but with 2014 NOx emissions",['AerChemMIP'],3,30,,
+piClim-NTCF,"pre-industrial climatological SSTs and forcing, but with 2014 NTCF emissions",['AerChemMIP'],1,30,,
+piClim-O3,"pre-industrial climatological SSTs and forcing, but with 2014 ozone precursor emissions",['AerChemMIP'],2,30,,
+piClim-OC,"pre-industrial climatological SSTs and forcing, but with 2014 organic carbon emissions",['AerChemMIP'],3,30,,
+piClim-SO2,"pre-industrial climatological SSTs and forcing, but with 2014 SO2 emissions",['AerChemMIP'],3,30,,
+piClim-VOC,"pre-industrial climatological SSTs and forcing, but with 2014 VOC emissions",['AerChemMIP'],3,30,,
+piClim-aer,effective radiative forcing by present-day aerosols,"['RFMIP', 'AerChemMIP']",1,30,,
+piClim-anthro,effective radiative forcing by present day anthropogenic agents,['RFMIP'],1,30,,
+piClim-control,Control simulation providing baseline for evaluating effective radiative forcing (ERF),"['RFMIP', 'AerChemMIP']",1,30,,
+piClim-ghg,effective radiative forcing by present-day greenhouse gases,['RFMIP'],1,30,,
+piClim-histaer,transient effective radiative forcing by aerosols,['RFMIP'],2,251,1850,2100
+piClim-histall,transient effective radiative forcing,['RFMIP'],2,251,1850,2100
+piClim-histghg,transient effective radiative forcing by greenhouse gases,['RFMIP'],2,251,1850,2100
+piClim-histnat,transient effective radiative forcing by natural perturbations,['RFMIP'],2,251,1850,2100
+piClim-lu,effective radiative forcing by present-day land use,['RFMIP'],1,30,,
+piClim-spAer-aer,"effective radiative forcing at present day with specified anthropogenic aerosol optical properties, all forcings",['RFMIP'],2,,,
+piClim-spAer-anthro,"effective radiative forcing at present day with specified anthropogenic aerosol optical properties, anthropogenic forcings",['RFMIP'],2,,,
+piClim-spAer-histaer,"transient effective radiative forcing with specified anthropogenic aerosol optical properties, aerosol forcing",['RFMIP'],2,165,1850,2014
+piClim-spAer-histall,"transient effective radiative forcing with specified anthropogenic aerosol optical properties, all forcings",['RFMIP'],2,165,1850,2014
+piControl,pre-industrial control,['CMIP'],1,500,,
+piControl-cmip5,pre-industrial control (CMIP5-era [1850-2005] forcing),['CMIP'],2,500,,
+piControl-spinup,pre-industrial control (spin-up),['CMIP'],2,100,,
+piControl-spinup-cmip5,pre-industrial control (spin-up; CMIP5-era [1850-2005] forcing),['CMIP'],2,100,,
+piControl-withism,preindustrial control with interactive ice sheet,['ISMIP6'],1,500,,
+piSST,"experiment forced with pre-industrial SSTs, sea ice and atmospheric constituents",['CFMIP'],2,30,,
+piSST-4xCO2,as piSST with radiation and vegetation seeing 4xCO2,['CFMIP'],2,30,,
+piSST-4xCO2-rad,as piSST with radiation-only seeing 4xCO2,['CFMIP'],2,30,,
+piSST-4xCO2-solar,preindustrial control SSTs with quadrupled CO2 and solar reduction,['GeoMIP'],2,10,,
+piSST-pdSIC,Atmosphere time slice with pre-industrial SST and present day SIC,['PAMIP'],1,1,2000,2001
+piSST-piSIC,Atmosphere time slice with pre-industrial SST and SIC,['PAMIP'],2,1,2000,2001
+piSST-pxK,as piSST with uniform SST increase with magnitude based on abrupt-4xCO2 response,['CFMIP'],2,20,,
+rad-irf,offline assessment of radiative transfer parmeterizations in clear skies,['RFMIP'],1,,,
+rcp26-cmip5,future projection based on CMIP5-era RCP2.6 scenario (CMIP5-era [2006-2100] forcing),['ScenarioMIP'],3,95,2006,2100 or 2300
+rcp45-cmip5,future projection based on CMIP5-era RCP4.5 scenario (CMIP5-era [2006-2100] forcing),['ScenarioMIP'],3,95,2006,2100 or 2300
+rcp60-cmip5,future projection based on CMIP5-era RCP6.0 scenario (CMIP5-era [2006-2100] forcing),['ScenarioMIP'],3,95,2006,2100 or 2300
+rcp85-cmip5,future projection based on CMIP5-era RCP8.5 scenario (CMIP5-era [2006-2100] forcing),['ScenarioMIP'],3,95,2006,2100 or 2300
+spinup-1950,coupled spinup with fixed 1950s forcings from 1950 initial conditions (with ocean at rest) to provide initial condition for control-1950 and hist-1950,['HighResMIP'],2,30,,
+ssp119,"low-end scenario reaching 1.9 W m-2, based on SSP1",['ScenarioMIP'],2,86,2015,2100
+ssp126,update of RCP2.6 based on SSP1,['ScenarioMIP'],1,86,2015,2100 or 2300
+ssp126-ssp370Lu,SSP1-2.6 with SSP3-7.0 land use,['LUMIP'],1,86,2015,2100
+ssp245,update of RCP4.5 based on SSP2,['ScenarioMIP'],1,86,2015,2100
+ssp245-GHG,well-mixed GHG-only SSP2-4.5 run,['DAMIP'],2,80,2021,2100
+ssp245-aer,aerosol-only SSP2-4.5 run,['DAMIP'],3,80,2021,2100
+ssp245-cov-GHG,"2-year Covid-19 emissions blip including well mixed GHG only, based upon ssp245",['DAMIP'],3,5,2020,2024 or 2050
+ssp245-cov-aer,"2-year Covid-19 emissions blip including anthropogenic aerosols only, based upon ssp245",['DAMIP'],3,5,2020,2024 or 2050
+ssp245-cov-fossil,"2-year Covid-19 emissions blip followed by increased emissions due to a fossil-fuel based recovery, based upon ssp245",['DAMIP'],3,31,2020,2050
+ssp245-cov-modgreen,"2-year Covid-19 emissions blip followed by moderate-green stimulus recovery, based upon ssp245",['DAMIP'],3,31,2020,2050
+ssp245-cov-strgreen,"2-year Covid-19 emissions blip followed by strong-green stimulus recovery, based upon ssp245",['DAMIP'],2,31,2020,2050
+ssp245-covid,2-year Covid-19 emissions blip based upon ssp245,['DAMIP'],2,5,2020,2024 or 2050
+ssp245-nat,natural-only SSP2-4.5 run,['DAMIP'],3,80,2021,2100
+ssp245-stratO3,stratospheric ozone-only SSP2-4.5 (ssp245) run,['DAMIP'],2,80,2021,2100
+ssp370,gap-filling scenario reaching 7.0 based on SSP3,"['ScenarioMIP', 'AerChemMIP']",1,86,2015,2100
+ssp370-lowNTCF,"SSP3-7.0, with low NTCF emissions",['AerChemMIP'],1,86,2015,2100
+ssp370-lowNTCFCH4,"SSP3-7.0, with low NTCF emissions and methane concentrations",['AerChemMIP'],3,86,2015,2100
+ssp370-ssp126Lu,SSP3-7.0 with SSP1-2.6 land use,['LUMIP'],1,86,2015,2100
+ssp370SST,"SSP3-7.0, with SSTs prescribed from ssp370",['AerChemMIP'],1,86,2015,2100
+ssp370SST-lowAer,"SSP3-7.0, prescribed SSTs, with low aerosol emissions",['AerChemMIP'],2,86,2015,2100
+ssp370SST-lowBC,"SSP3-7.0, prescribed SSTs, with low black carbon emissions",['AerChemMIP'],2,86,2015,2100
+ssp370SST-lowCH4,"SSP3-7.0, prescribed SSTs, with low methane concentrations",['AerChemMIP'],1,86,2015,2100
+ssp370SST-lowNTCF,"SSP3-7.0, prescribed SSTs, with low NTCF emissions",['AerChemMIP'],1,86,2015,2100
+ssp370SST-lowNTCFCH4,"SSP3-7.0, prescribed SSTs, with low NTCF emissions and methane concentrations",['AerChemMIP'],3,86,2015,2100
+ssp370SST-lowO3,"SSP3-7.0, prescribed SSTs, with low ozone precursor emissions",['AerChemMIP'],2,86,2015,2100
+ssp370SST-ssp126Lu,"SSP3-7.0, prescribed SSTs, with SSP1-2.6 land use",['AerChemMIP'],1,86,2015,2100
+ssp370pdSST,"SSP3-7.0, with SSTs prescribed as present day",['AerChemMIP'],2,86,2015,2100
+ssp434,gap-filling scenario reaching 3.4 based on SSP4,['ScenarioMIP'],2,86,2015,2100
+ssp460,update of RCP6.0 based on SSP4,['ScenarioMIP'],2,86,2015,2100
+ssp534-over,overshoot of 3.4 W/m**2 branching from ssp585 in 2040,['ScenarioMIP'],2,61,2040,2100 or 2300
+ssp534-over-bgc,biogeochemically-coupled version of the RCP3.4-overshoot based on SSP5,['C4MIP'],2,61,2040,2100 or 2300
+ssp585,update of RCP8.5 based on SSP5,['ScenarioMIP'],1,86,2015,2100 or 2300
+ssp585-bgc,biogeochemically-coupled version of the RCP8.5 based on SSP5,['C4MIP'],2,86,2015,2100 or 2300
+ssp585-withism,ssp585 with interactive ice sheet,['ISMIP6'],2,86,2015,2100 or 2300
+volc-cluster-21C,volcanic cluster experiment under 21st century SSP2-4.5 scenario,['VolMIP'],3,86,2015,2100
+volc-cluster-ctrl,19th century volcanic cluster initialized from PiControl,['VolMIP'],2,50,,
+volc-cluster-mill,19th century volcanic cluster initialized from past1000,['VolMIP'],3,69,1790,1858
+volc-long-eq,idealized equatorial volcanic eruption emitting 56.2 Tg SO2,['VolMIP'],1,20,,
+volc-long-hlN,idealized Northern Hemisphere high-latitude eruption emitting 28.1 Tg of SO2,['VolMIP'],2,20,,
+volc-long-hlS,Idealized Southern Hemisphere high-latitude eruption emitting 28.1 Tg of SO2,['VolMIP'],3,20,,
+volc-pinatubo-full,Pinatubo experiment,['VolMIP'],1,3,,
+volc-pinatubo-slab,Pinatubo experiment with slab ocean,['VolMIP'],3,3,,
+volc-pinatubo-strat,"Pinatubo experiment with partial radiative forcing, includes only stratospheric warming",['VolMIP'],1,3,,
+volc-pinatubo-surf,"Pinatubo experiment with partial radiative forcing, solar radiation scattering only",['VolMIP'],1,3,,
+yr2010CO2,concentration-driven fixed 2010 forcing,['CDRMIP'],3,106,2010,2115

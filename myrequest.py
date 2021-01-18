@@ -80,7 +80,7 @@ def requests(df_prior,rows=[],emails=[],tables=[]):
     
     # save and read back in order to look like df_prior
     df_all.to_csv('csv/request_new.csv',index=False, encoding='latin1')
-    df_all = pd.read_csv('csv/request_new.csv',encoding='latin1')
+    df_all = pd.read_csv('csv/request_new.csv', dtype='unicode',encoding='latin1')
       
     df_new = df_all.merge(df_prior, how='left', indicator=True)
     df_new = df_new[df_new['_merge']=='left_only'].drop('_merge',1)
@@ -99,15 +99,18 @@ def set_request_id():
     return datetime.now().strftime('%Y%m%d-%H%M')
 
 def request_clean(df):
-    experiments = list(pd.read_csv('csv/Experiments_tier1.csv').experiment_id.unique())
-    experiments += list(pd.read_csv('csv/Experiments_tier2.csv').experiment_id.unique())
-    experiments += list(pd.read_csv('csv/Experiments_tier3.csv').experiment_id.unique())
-    experiments += list(pd.read_csv('csv/Experiments_tier4.csv').experiment_id.unique())
+
+    df_exp = pd.read_csv('CVs/Experiments.csv')
+    experiments = list(df_exp.experiment_id.unique())
+    #experiments = list(pd.read_csv('csv/Experiments_tier1.csv').experiment_id.unique())
+    #experiments += list(pd.read_csv('csv/Experiments_tier2.csv').experiment_id.unique())
+    #experiments += list(pd.read_csv('csv/Experiments_tier3.csv').experiment_id.unique())
+    #experiments += list(pd.read_csv('csv/Experiments_tier4.csv').experiment_id.unique())
     
-    df_var = pd.read_csv('csv/Variables.csv')
+    df_var = pd.read_csv('CVs/Variables.csv')
     variables = list(df_var.variable_id.unique())
 
-    df_source = pd.read_csv('csv/Models.csv')
+    df_source = pd.read_csv('CVs/Models.csv')
     sources = list(df_source.source_id.unique())
     
     dtrouble = {}

@@ -116,4 +116,7 @@ all_search['3hr-hist1'] = {'table_id': ['3hr'],
 all_search['3hr-hist2'] = {'table_id': ['3hr'],
                              'experiment_id': ['historical'],
                              'variable_id': ['ps', 'huss', 'rsds', 'rsdsdiff', 'rsus','rlus', 'rlds']}
+all_search['req-213'] = {'table_id': ['day'],
+                             'experiment_id': ['historical', 'ssp245', 'ssp585'],
+                             'variable_id': ['hurs']}
 

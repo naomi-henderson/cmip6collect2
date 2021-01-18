@@ -212,8 +212,9 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
                 command = '/bin/rm nctemp/*NorESM2-LM*1230.nc'
                 if doit(command):
                     print('file not removed')
-                gfiles = [file for file in gfiles if ('1231.nc' in
-                                                      file)]
+                gfiles = [file for file in gfiles if ('1231.nc' in file)]
+            if 'last_only' in code:
+                gfiles = [gfiles[-1]]
             if 'fix_time' in code:
                 preprocess = convert2gregorian
             if 'drop_height' in codes:
@@ -331,9 +332,6 @@ def SaveAsZarr(ds_dir, ds, dir2local):
     except:
         return 2,f'noUse, to_zarr failure'
 
-    if not os.path.isfile(zbdir+'/.zmetadata'):
-        return 3,f'{zbdir}: to_zarr not complete'
-    
     return 0, ''
 
 @exception_handler

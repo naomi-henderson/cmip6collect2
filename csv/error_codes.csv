@@ -48,8 +48,9 @@ CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Omon/wfo/gr,noUse,unknown
 #CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/SImon/siconc/gr,noUse,extra file Resulting object does not have monotonic global indexes along dimension time
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrso/gr,noUse,missing decade 2000-2009
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrsos/gr,noUse,missing decade 2000-2009
-CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/pr/gr,noUse,error in open_mfdataset
-CMIP/EC-Earth-Consortium/EC-Earth2/historical/r3i1p1f1/day/tas/gr,noUse,error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/day/pr/gr,noUse,error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/day/tas/gr,noUse,error in open_mfdataset
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/3hr/all/gr, noUse, error in open_mfdataset - need override for the latitudes?
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/all/Emon/orog/gr,noUse,??
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r13i1p1f1/Amon/evspsbl/gr,noUse,trouble with time grid
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r13i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
@@ -131,11 +132,12 @@ CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name c
 CMIP/IPSL/IPSL-CM6A-LR/historical/r12i1p1f1/3hr/uas/gr,noUse,unknown HDF error for open_dataset and ncview
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/AERmon/zg/gr,noUse,ValueError: julian day must be a positive integer error when using use_cftime=True
 CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Amon/o3/gr,noUse,process by hand and change Amon to Aclim
-CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/nh4/gn,noUse,Memory Error - Unable to allocate array with shape
-CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/phymisc/gn,noUse,Memory Error - Unable to allocate array with shape
+#CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/nh4/gn,noUse,Memory Error - Unable to allocate array with shape
+#CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/phymisc/gn,noUse,Memory Error - Unable to allocate array with shape
+CMIP/IPSL/IPSL-CM6A-LR/historical/all/3hr/ps/gr,last_only, disjoint 3hr time grid - use last chunk only
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/all/gr,drop_tb,drop('time_bounds') before to_zarr
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Odec/thkcello/gn, noUse, kills kernel when making the zarr store
-CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel 
+#CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel  # FIXED WITH NEW VERSION
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel + TypeError: object of type 'datetime.timedelta' has no len()
 CMIP/KIOST/KIOST-ESM/all/r1i1p1f1/Omon/all/gr1, noUse, takes too long to download huge file
 CMIP/MIROC/MIROC6/historical/r10i1p1f1/day/hur/gn,noUse,most of files must come from esgf-data2.diasjp.net - too slow
@@ -145,7 +147,7 @@ CMIP/MIROC/MIROC-ES2L/piControl/r1i1p1f2/Omon/zooc/gn,noUse,missing chunks
 CMIP/MOHC/HadGEM3-GC31-LL/historical/r1i1p1f3/CFday/clisccp/gn,noUse,saving zarr kills process
 CMIP/MOHC/HadGEM3-GC31-LL/piControl/r1i1p1f1/Omon/thetaoga/gm,noUse,only contains 3 of 5 files
 CMIP/MOHC/HadGEM3-GC31-MM/historical/r1i1p1f3/Omon/vmo/gn,noUse,coordinate trouble?
-CMIP/MOHC/HadGEM3-GC31-MM/piControl/r1i1p1f1/Amon/rsdt/gn,noUse,to_zarr ValueError: Codec does not support buffers of > 2147483647 bytesn
+#CMIP/MOHC/HadGEM3-GC31-MM/piControl/r1i1p1f1/Amon/rsdt/gn,noUse,to_zarr ValueError: Codec does not support buffers of > 2147483647 bytesn
 CMIP/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Omon/prra/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/agessc/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/uo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
@@ -193,6 +195,7 @@ CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Oyr/ph/gr,noUse,years 1950-2000 missing
 CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Oyr/talknat/gr,noUse,years 1950-2000 missing
 CMIP/NCAR/CESM2-FV2/historical/r1i1p1f1/day/wap/gn,noUse,no 19000101-19091231
 CMIP/NCAR/CESM2-FV2/piControl/r1i1p1f1/Lmon/mrsos/gn,noUse,missing chunks of data
+CMIP/NCAR/CESM2-FV2/1pctCO2/r1i1p1f1/Lmon/mrro/gn, noUse, trouble with time grid
 CMIP/NCAR/CESM2/historical/r10i1p1f1/day/hur/gn,noUse,crazy times
 CMIP/NCAR/CESM2/historical/r10i1p1f1/day/hus/gn,noUse,crazy times
 CMIP/NCAR/CESM2/historical/r10i1p1f1/day/ua/gn,noUse,crazy times
@@ -347,7 +350,7 @@ OMIP/NOAA-GFDL/GFDL-CM4/omip1/r1i1p1f1/Oday/tos/gn,noUse,- kills the kernel abou
 OMIP/NOAA-GFDL/GFDL-CM4/omip1/r1i1p1f1/Ofx/deptho/gn,noUse,lat and lon have multiple fill values
 PMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/past1000/r1i1p1f1/Omon/wo/gn,noUse,bad file wo_Omon_EC-Earth3-Veg-LR_past1000_r1i1p1f1_gn_116001-116012.nc
 ScenarioMIP/CAS/FGOALS-g3/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time? not version trouble
-ScenarioMIP/CAS/FGOALS-g3/ssp370/r1i1p1f1/3hr/tas/gn, allow_versions, version trouble - used both v20190820 and v20190821
+ScenarioMIP/CAS/FGOALS-g3/ssp370/r1i1p1f1/3hr/all/gn, allow_versions, version trouble - used both v20190820 and v20190821
 ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/hurs/gn, noUse, netcdf files overlapping in time?
 ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/huss/gn, noUse, netcdf files overlapping in time?
 ScenarioMIP/CCCR-IITM/IITM-ESM/ssp126/r1i1p1f1/Amon/tasmax/gn, noUse, netcdf files overlapping in time? 10 and 9
@@ -848,6 +851,7 @@ ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with t
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sisnthick/gr1, noUse, trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp126/r1i1p1f1/SImon/sithick/gr1, noUse, trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/uas/gr1,noUse, 4: trouble with time grid
+ScenarioMIP/KIOST/KIOST-ESM/ssp245/r1i1p1f1/day/hurs/gr1, noUse, trouble with time grid
 ScenarioMIP/KIOST/KIOST-ESM/ssp585/r1i1p1f1/day/vas/gr1,noUse, 4: trouble with time grid
 ScenarioMIP/MIROC/MIROC6/ssp119/r1i1p1f1/Omon/so/gn, noUse, to_zarr failure
 ScenarioMIP/MRI/MRI-ESM2-0/ssp119/r1i1p1f1/Amon/ua/gn,noUse,unknown HDF error?
@@ -887,8 +891,19 @@ ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra file
 ScenarioMIP/NOAA-GFDL/GFDL-CM4/ssp585/r1i1p1f1/SImon/sisnconc/gr,noUse, 4: trouble with time grid - two repeated years - 2095 and 2096
 all/KIOST/KIOST-ESM/all/all/3hr/all/all,noUse, too slow
 all/CAS/FGOALS-g3/all/all/3hr/all/all,noUse, too slow
+all/CAS/FGOALS-f3-L/all/all/3hr/all/all,noUse, too slow
 all/MRI/MRI-ESM2-0/all/all/3hr/all/all,noUse, too slow
 all/BCC/BCC-CSM2-MR/all/all/3hr/all/all,noUse, too slow
 all/MIROC/MIROC-ES2L/all/all/3hr/all/all,noUse, too slow
 all/MIROC/MIROC6/all/all/3hr/all/all,noUse, too slow
 all/NUIST/NESM3/all/all/3hr/all/all,noUse, too slow
+all/SNU/SAM0-UNICON/historical/all/3hr/all/all, noUse, too slow
+all/KIOST/KIOST-ESM/all/all/day/all/all,noUse, too slow
+all/CAS/FGOALS-g3/all/all/day/all/all,noUse, too slow
+all/CAS/FGOALS-f3-L/all/all/day/all/all,noUse, too slow
+all/MRI/MRI-ESM2-0/all/all/day/all/all,noUse, too slow
+all/BCC/BCC-CSM2-MR/all/all/day/all/all,noUse, too slow
+all/MIROC/MIROC-ES2L/all/all/day/all/all,noUse, too slow
+all/MIROC/MIROC6/all/all/day/all/all,noUse, too slow
+all/NUIST/NESM3/all/all/day/all/all,noUse, too slow
+all/SNU/SAM0-UNICON/historical/all/day/all/all, noUse, too slow

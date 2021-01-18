@@ -2,6 +2,7 @@ import requests
 import zarr
 import fsspec
 import warnings
+import myconfig
 warnings.simplefilter('always', UserWarning)
 
 def id2jdict(id):
@@ -15,6 +16,11 @@ def id2jdict(id):
     dtype = [s['type'] for s in dict2['values']]
     ddata = [s['data']['value'] for s in dict2['values']]
     return dict(zip(dtype,ddata))
+
+def gsurl2search(gsurl):
+    values = gsurl[11:-1].split('/')
+    keys = myconfig.target_keys
+    return dict(zip(keys,values))
 
 def gsurl2tracks(gsurl):
     mapper = fsspec.get_mapper(gsurl)
@@ -41,13 +47,28 @@ def _get_dsid(tracks):
     return ds_tracking_id
 
 def _get_dsdict(tracks):
-    ds_tracking_id = _get_dsid(tracks)
+    # TEST FOR MULTIPLE DATASETS? 
+    ds_tracking_id = _get_dsid(tracks).split(';')
+    if len(set(ds_tracking_id)) > 1:
+        warnings.warn(f'multiple dataset_ids correspond to the dataset tracking_ids!\n{ds_tracking_id}')
+    ds_tracking_id = ds_tracking_id[0]
     jdict = id2jdict(ds_tracking_id)
     return jdict
 
+def tracks2cloudversion(tracks):
+    ds_tracking_id = _get_dsid(tracks)
+    if len(set(ds_tracking_id.split(';'))) > 1:
+        warnings.warn(f'multiple dataset_ids correspond to the dataset tracking_ids!\n{ds_tracking_id}')
+
+    versions = []
+    for dsid in ds_tracking_id.split(';'):
+        jdict = id2jdict(dsid)
+        versions += [jdict['VERSION_NUMBER']]
+         
+    return (sorted(list(set(versions))),jdict)
+
 def tracks2version(tracks):
-    jdict =  _get_dsdict(tracks)
-    version_cloud = jdict['VERSION_NUMBER']
+    (version_cloud,jdict) = tracks2cloudversion(tracks)
     print('current version from GC tracks = ',version_cloud)
 
     (version_latest, jdict) = dict2lversion(jdict)
@@ -74,13 +95,13 @@ def tracks2source(tracks):
 
     (version, jdict) = dict2lversion(jdict)
 
-    return jdict_ds2source(jdict)
+    return jdict2source(jdict)
 
 def dsid2source(dsid):
     jdict = id2jdict(dsid)
-    return jdict_ds2source(jdict)
+    return jdict2source(jdict)
 
-def jdict_ds2source(jdict):
+def jdict2source(jdict):
     surls = []
     for track in jdict['HAS_PARTS'].split(';'):
         jdict_file = id2jdict(track)

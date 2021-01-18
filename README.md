@@ -9,5 +9,6 @@ The notebook
 The notebook
 [Requests.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/Requests.ipynb) is now what I use day-to-day to handle data requests (may be be phased out in the future)
 
-The only steps not here are the updating of the GC catalog - which is done only one or two times per day, via
-a separate script and the updating of the ES-DOC errata list.
+My working spreadsheat for updating the Google Cloud CMIP6 collection
+is
+[here](https://docs.google.com/spreadsheets/d/1yAt7604tVt7OXXZUyL2uALtGP2WVa-Pb5NMuTluFsAc/edit?usp=sharing).
