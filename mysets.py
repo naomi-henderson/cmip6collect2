@@ -46,6 +46,8 @@ ms['land_day_2dvars']    = ['mrro', 'mrso', 'mrsos']
 ms['core_3hr_2dvars'] = ['tas', 'ps', 'huss', 'rsds', 'rsdsdiff', 'rsus', 
                          'rlus', 'rlds', 'uas', 'vas']
 
+ms['core_SImon_vars'] = ['sisnconc','sisnmass','sndmasssnf','siconca','sispeed','sitimefrac','sitemptop','sivol','sisnthick','siu','simass','siv','sithick','siconc']
+
 # define some common searches:
 all_search = {}
 
@@ -93,6 +95,10 @@ all_search['D2d-1l'] = {'table_id': ['day'], 'experiment_id':
 all_search['D3d-1c'] = {'table_id': ['day'], 'experiment_id':
                         ms['core_experiments'], 'variable_id':
                         ms['core_day_3dvars']}
+all_search['SIm-1c'] = {'table_id': ['SImon'], 'experiment_id':
+                        ms['core_experiments'], 'variable_id':
+                        ms['core_SImon_vars']}
+
 
 all_search['other-coremips'] = {'table_id': ms['other_tables'],
                                 'activity_id': ms['core_mips']}
@@ -119,4 +125,3 @@ all_search['3hr-hist2'] = {'table_id': ['3hr'],
 all_search['req-213'] = {'table_id': ['day'],
                              'experiment_id': ['historical', 'ssp245', 'ssp585'],
                              'variable_id': ['hurs']}
-

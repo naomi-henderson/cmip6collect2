@@ -67,9 +67,10 @@ def tracks2cloudversion(tracks):
          
     return (sorted(list(set(versions))),jdict)
 
-def tracks2version(tracks):
+def tracks2version(tracks,verbose=True):
     (version_cloud,jdict) = tracks2cloudversion(tracks)
-    print('current version from GC tracks = ',version_cloud)
+    if verbose:
+        print('current version from GC tracks = ',version_cloud)
 
     (version_latest, jdict) = dict2lversion(jdict)
 
