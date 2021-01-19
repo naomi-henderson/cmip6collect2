@@ -10,11 +10,14 @@ dsets/*
 issues/*
 shelf/*
 logs/*
-logs/progress*
+olds/*
 notebooks_keep/*
 *~
 upload
 download
+csv/pangeo-cmip6-2020*
+csv/pangeo-cmip6-2021*
+csv/errata-files-2020*
 .ipynb_checkpoints
 new
 csv/ESGF*

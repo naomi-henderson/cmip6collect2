@@ -123,10 +123,11 @@ CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/umo/gn,noUse,confl
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Omon/vmo/gn,noUse,conflicting values for variable 'vertices_longitude' 
 CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r1i1p1f1/Omon/bigthetao/gn,noUse,conflicting values for variable 'vertices_longitude'
 CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r2i1p1f1/Amon/all/gr,fix_time,to fix mixed cftime types
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r6i1p1f1/3hr/vas/gr, noUse, trouble with 3hr time grid 
 CMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/historical/r1i1p1f1/Omon/all/gn,noUse,conflicting values for variable 'vertices_longitude' on objects to be combined
 CMIP/EC-Earth-Consortium/EC-Earth3-Veg-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,conflicting values for variable 'vertices_longitude' 
 #CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/abrupt-4xCO2/r1i1p1f1/Omon/masscello/gn,noUse,trouble with time grid
-CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
+#CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/historical/r12i1p1f1/3hr/uas/gr,noUse,unknown HDF error for open_dataset and ncview
@@ -152,8 +153,8 @@ CMIP/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Omon/prra/gn,noUse,conflicting values 
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/agessc/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/uo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/vo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
-CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
-CMIP/MPI-M/MPI-ESM1-2-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
+#CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
+#CMIP/MPI-M/MPI-ESM1-2-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,360_day,trying again
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,drop_tb,drop('time_bnds') before to_zarr
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Omon/all/gn,noUse,unknown
