@@ -7,7 +7,7 @@ The notebook
 [GetSpecified.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetSpecified.ipynb) is now what I use day-to-day to update our GC collection.
 
 The notebook
-[Requests.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/Requests.ipynb) is now what I use day-to-day to handle data requests (may be be phased out in the future)
+[GetRequest.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetRequest.ipynb) is now what I use day-to-day to handle data requests (may be be phased out in the future)
 
 My working spreadsheat for updating the Google Cloud CMIP6 collection
 is
