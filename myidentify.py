@@ -36,7 +36,7 @@ def gsurl2tracks(gsurl):
 
 def _get_dsid(tracks):
     ids = []
-    for track in tracks.split('\n'):
+    for track in tracks.split('\n')[-1:]:
         jdict = id2jdict(track)
         ds_tracking_id = jdict['IS_PART_OF']
         ids += [ds_tracking_id]
@@ -61,9 +61,13 @@ def tracks2cloudversion(tracks):
         warnings.warn(f'multiple dataset_ids correspond to the dataset tracking_ids!\n{ds_tracking_id}')
 
     versions = []
+    jdict = {}
     for dsid in ds_tracking_id.split(';'):
-        jdict = id2jdict(dsid)
-        versions += [jdict['VERSION_NUMBER']]
+        try:
+            jdict = id2jdict(dsid)
+            versions += [jdict['VERSION_NUMBER']]
+        except:
+            warnings.warn(f'error resolving tracking_id {dsid}')
          
     return (sorted(list(set(versions))),jdict)
 
@@ -104,7 +108,7 @@ def dsid2source(dsid):
 
 def jdict2source(jdict):
     surls = []
-    for track in jdict['HAS_PARTS'].split(';'):
+    for track in jdict['HAS_PARTS'].split(';')[-1:]:
         jdict_file = id2jdict(track)
         keys = jdict_file.keys()
         if 'URL_ORIGINAL_DATA' in keys:        

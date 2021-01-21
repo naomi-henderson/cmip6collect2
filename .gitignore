@@ -6,6 +6,7 @@ MigrateCodes.ipynb
 csv/exceptions.csv
 csv/*test*
 ncsv/*
+GC/*
 dsets/*
 issues/*
 shelf/*
