@@ -9,6 +9,6 @@ The notebook
 The notebook
 [GetRequest.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetRequest.ipynb) is now what I use day-to-day to handle data requests (may be be phased out in the future)
 
-My working spreadsheat for updating the Google Cloud CMIP6 collection
+My working spreadsheat for updating the Google Cloud CMIP6 zarr collection
 is
 [here](https://docs.google.com/spreadsheets/d/1yAt7604tVt7OXXZUyL2uALtGP2WVa-Pb5NMuTluFsAc/edit?usp=sharing).
