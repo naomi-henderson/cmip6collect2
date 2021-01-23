@@ -370,6 +370,7 @@ ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r102i1p1f1/Amon/tasmin/gr, noUs
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r102i1p1f1/Amon/tasmax/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r115i1p1f1/Amon/tasmin/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r129i1p1f1/Amon/rsds/gr, noUse, trouble with time grid
+ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp434/r131i1p1f1/Amon/rlds/gr, noUse, trouble with time grid
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r15i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r6i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size
 ScenarioMIP/EC-Earth-Consortium/EC-Earth3/ssp585/r9i1p1f1/Amon/tas/gr,noSizeCheck,incorrect expected size

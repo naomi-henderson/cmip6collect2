@@ -13,7 +13,7 @@ ms['core_experiments'] = [ '1pctCO2', 'abrupt-4xCO2',  'historical', 'piControl'
 ms['more_experiments'] = [ 'piControl-spinup', 'amip-hist', 'esm-hist', 'esm-piControl',
 'esm-piControl-spinup' ,'1pctCO2-bgc','lgm', 'past1000', 'amip' ]
                    
-ms['core_Amon_2dvars']  = ['clt', 'evspsbl', 'hfls', 'pr', 'prc', 'ps',
+ms['core_Amon_2dvars']  = ['clt', 'evspsbl', 'pr', 'prc', 'ps',
                     'psl', 'sfcWind', 'tas', 'ts', 'uas',
                     'vas','huss','hurs']
 ms['flux_Amon_2dvars']  = ['rlds', 'rlus', 'rlut', 'rsds', 'rsdt', 'rsus',
