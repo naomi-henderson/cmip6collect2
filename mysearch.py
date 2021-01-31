@@ -2,7 +2,7 @@
 """
 import requests
 import numpy
-from myconfig import target_keys, target_format, node_pref
+from myconfig import target_format, node_pref
 import pandas as pd
 
 # Author: Unknown

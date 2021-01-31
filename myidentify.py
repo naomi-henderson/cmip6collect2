@@ -18,9 +18,22 @@ def id2jdict(id):
     return dict(zip(dtype,ddata))
 
 def gsurl2search(gsurl):
-    values = gsurl[11:-1].split('/')
-    keys = myconfig.target_keys
+    if '/CMIP6/' in gsurl:
+       values = gsurl[17:-1].split('/')
+       keys = myconfig.target_keys2
+    else:
+       values = gsurl[11:-1].split('/')
+       keys = myconfig.target_keys
+
     return dict(zip(keys,values))
+
+def gsurl2dsdir(gsurl):
+    if '/CMIP6/' in gsurl:
+       values = gsurl[17:-1].split('/')
+       return '/'.join(values[:-1])
+    else:
+       values = gsurl[11:-1].split('/')
+       return '/'.join(values)
 
 def gsurl2tracks(gsurl):
     mapper = fsspec.get_mapper(gsurl)

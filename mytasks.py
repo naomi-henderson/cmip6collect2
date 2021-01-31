@@ -78,8 +78,6 @@ def read_codes(ds_dir):
 
 @exception_handler
 def Check(ds_dir,dir2local):
-    gsurl = dir2url(ds_dir)+'/'
-    local = dir2local(ds_dir)
     exception = ''
 
     df_GCS = myconfig.df_GCS
@@ -90,10 +88,31 @@ def Check(ds_dir,dir2local):
         exception =  'noUse in codes'
         return 1, exception 
 
-    cstore = df_GCS[df_GCS.zstore == gsurl]
+    cstore = df_GCS[df_GCS.ds_dir == ds_dir]
     if len(cstore) > 0:
         exception = 'store already in cloud catalog'
         return 1, exception 
+
+    gsurl_new = dir2url(ds_dir)
+    gsurl_old = dir2url(ds_dir).replace('/CMIP6/','/')
+
+    exists = False
+    try:
+        contents = fs.ls(gsurl_new)
+        if any("/v20" in s for s in contents):
+            exception = 'store already in cloud'
+            exists = True
+            return 1, exception
+    except:
+        exists = False
+    try:
+        contents = fs.ls(gsurl_old)
+        if any("zmetadata" in s for s in contents):
+            exception = 'store already in cloud'
+            exists = True
+            return 1, exception
+    except:
+        exists = False
 
     # is zarr already in cloud?  Unreliable
     try:
@@ -106,7 +125,10 @@ def Check(ds_dir,dir2local):
         return 1, exception 
     
     # does zarr exist on active drive?  
+    local = dir2local(ds_dir)
+
     contents = glob(f'{local}/*')
+
     if any("zmetadata" in s for s in contents):
         exception = 'store already exists locally, but not in cloud'
         return 2, exception 
@@ -125,20 +147,20 @@ def Download(ds_dir):
     df = df_needed[df_needed.ds_dir == ds_dir]
 
     nversions = df.version_id.nunique()
+    lastversion = df.version_id.unique()[-1]
     if nversions > 1:
        codes = read_codes(ds_dir)
        if 'allow_versions' in codes:
            print('allowing multiple versions',df.version_id.unique())
        else:
            print('keeping only last version of',nversions)
-           lastversion = df.version_id.unique()[-1]
            df = df[df.version_id == lastversion]
     
     lendf = len(df)
     dfstartn = df.start.nunique()
     if lendf != dfstartn:
        trouble = f"noUse, netcdf files overlapping in time? {lendf} and {dfstartn}"
-       return [],2,trouble
+       return [],lastversion,2,trouble
 
     files = sorted(df.ncfile.unique())
     tmp = myconfig.local_source_prefix
@@ -164,26 +186,26 @@ def Download(ds_dir):
             doit(command)
         except:
             trouble = 'Server not responding for: ' + url 
-            return [],1,trouble
+            return [],lastversion,1,trouble
 
         if check_size:
             actual_size = os.path.getsize(save_file)
             if actual_size != expected_size:
                 if abs(actual_size - expected_size) > 200:
                     trouble = 'netcdf download not complete'
-                    return [],1,trouble
+                    return [],lastversion,1,trouble
 
         gfiles += [save_file]
         time.sleep(2)
                            
-    return sorted(gfiles),0,''
+    return sorted(gfiles),lastversion,0,''
 
 import warnings
 import datetime
 import numpy as np
 import xarray as xr
 @exception_handler
-def ReadFiles(ds_dir, gfiles, dir2dict):
+def ReadFiles(ds_dir, gfiles, version, dir2dict):
     table_id = dir2dict(ds_dir)['table_id']
 
     dstr = ''
@@ -304,12 +326,12 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
             dsl = xr.open_dataset(file)
             tracking_id += '\n'+dsl.tracking_id
     df7.attrs['tracking_id'] = tracking_id
+    df7.attrs['version_id'] = version
 
     date = str(datetime.datetime.now().strftime("%Y-%m-%d"))
     nstatus = date + ';created; by gcs.cmip6.ldeo@gmail.com'
     df7.attrs['status'] = nstatus
 
-    
     if 'time' in df7.coords:
         nt = len(df7.time.values)
         chunksize = min(chunksize,max(1,int(nt/2)))
@@ -319,25 +341,27 @@ def ReadFiles(ds_dir, gfiles, dir2dict):
 
 @exception_handler
 def SaveAsZarr(ds_dir, ds, dir2local):
-    zbdir = dir2local(ds_dir)
-    gsurl = dir2url(ds_dir)
+    # need version in path
+    version = ds.attrs['version_id']
+    zbdir = f"{dir2local(ds_dir)}/{version}"
+
     variable_id = ds.variable_id
 
     if os.path.isfile(zbdir+'/.zmetadata'):
         print('zarr already exists locally')
-        return 0,''
+        return version,0,''
 
     try:
         ds.to_zarr(zbdir, consolidated=True, mode='w')
     except:
-        return 2,f'noUse, to_zarr failure'
+        return version,2,f'noUse, to_zarr failure'
 
-    return 0, ''
+    return version,0, ''
 
 @exception_handler
-def Upload(ds_dir, dir2local):   
-    zbdir = dir2local(ds_dir)
-    gsurl = dir2url(ds_dir)
+def Upload(ds_dir, version, dir2local):   
+    zbdir = f"{dir2local(ds_dir)}/{version}"
+    gsurl = f"{dir2url(ds_dir)}/{version}"
     fs = myconfig.fs
 
     # upload to cloud
@@ -355,11 +379,11 @@ def Upload(ds_dir, dir2local):
     except:
         assert False, f'{gsurl} does not load properly'
 
-    return 0, exception
+    return zbdir, gsurl, 0, exception
 
 @exception_handler
-def Cleanup(ds_dir, gfiles, dir2local, nc_remove = True, zarr_remove = False):   
-    zbdir = dir2local(ds_dir)
+def Cleanup(ds_dir, version, gfiles, dir2local, nc_remove = True, zarr_remove = False):   
+    zbdir = f"{dir2local(ds_dir)}/{version}"
     
     if zarr_remove:
         if doit(f'/bin/rm -rf {zbdir}'):

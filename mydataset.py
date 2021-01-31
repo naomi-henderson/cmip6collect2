@@ -18,5 +18,5 @@ def dir2dict(zdir):
     tup = tuple(zdir.split('/'))
     return id2dict(tup)
 
-id2dict = id2dict_(myconfig.target_keys)
-dir2url = dir2url_(myconfig.target_prefix)
+id2dict = id2dict_(myconfig.target_keys2)
+dir2url = dir2url_(myconfig.target_prefix2)
