@@ -77,7 +77,7 @@ def read_codes(ds_dir):
     return codes
 
 @exception_handler
-def Check(ds_dir,dir2local):
+def Check(ds_dir,version,dir2local):
     exception = ''
 
     df_GCS = myconfig.df_GCS
@@ -88,46 +88,50 @@ def Check(ds_dir,dir2local):
         exception =  'noUse in codes'
         return 1, exception 
 
-    cstore = df_GCS[df_GCS.ds_dir == ds_dir]
-    if len(cstore) > 0:
-        exception = 'store already in cloud catalog'
+    dGCS = df_GCS[df_GCS.ds_dir == ds_dir]
+    if len(dGCS) > 0:
+       version_GCS = sorted(df_GCS[df_GCS.ds_dir == ds_dir].version.unique())[-1]
+    else:
+       version_GCS = '0'
+
+    #cstore = df_GCS[(df_GCS.ds_dir == ds_dir)&(df_GCS.version==version)]
+    #if len(cstore) > 0:
+    #    exception = 'same version already in cloud catalog'
+    #    return 1, exception 
+
+    if int(version) <= int(version_GCS):
+        print('cloud, ESGF versions:', version_GCS,version)
+        exception = 'same or later version already in cloud catalog'
         return 1, exception 
 
+
     gsurl_new = dir2url(ds_dir)
-    gsurl_old = dir2url(ds_dir).replace('/CMIP6/','/')
+    #gsurl_old = dir2url(ds_dir).replace('/CMIP6/','/')
 
     exists = False
     try:
         contents = fs.ls(gsurl_new)
-        if any("/v20" in s for s in contents):
+        if any(f"/v{version}" in s for s in contents):
             exception = 'store already in cloud'
             exists = True
             return 1, exception
     except:
         exists = False
-    try:
-        contents = fs.ls(gsurl_old)
-        if any("zmetadata" in s for s in contents):
-            exception = 'store already in cloud'
-            exists = True
-            return 1, exception
-    except:
-        exists = False
+    #try:
+    #    contents = fs.ls(gsurl_old)
+    #    if any("zmetadata" in s for s in contents):
+    #        exception = 'store already in cloud'
+    #        exists = True
+    #        return 1, exception
+    #except:
+    #    exists = False
 
     # is zarr already in cloud?  Unreliable
-    try:
-        contents = fs.ls(gsurl)
-    except:
-        contents = []
-
-    if any("zmetadata" in s for s in contents):
-        exception = 'store already in cloud'
-        return 1, exception 
     
     # does zarr exist on active drive?  
-    local = dir2local(ds_dir)
+    zbdir = f"{dir2local(ds_dir)}/v{version}"
 
-    contents = glob(f'{local}/*')
+    contents = glob(f'{zbdir}/*')
 
     if any("zmetadata" in s for s in contents):
         exception = 'store already exists locally, but not in cloud'
@@ -160,7 +164,7 @@ def Download(ds_dir):
     dfstartn = df.start.nunique()
     if lendf != dfstartn:
        trouble = f"noUse, netcdf files overlapping in time? {lendf} and {dfstartn}"
-       return [],lastversion,2,trouble
+       return df.ncfile.values,lastversion,2,trouble
 
     files = sorted(df.ncfile.unique())
     tmp = myconfig.local_source_prefix
@@ -377,7 +381,7 @@ def Upload(ds_dir, version, dir2local):
         ds = xr.open_zarr(fs.get_mapper(gsurl), consolidated=True)
         exception = f'successfully uploaded to {gsurl}'
     except:
-        assert False, f'{gsurl} does not load properly'
+        assert  False, f'{gsurl} does not load properly'
 
     return zbdir, gsurl, 0, exception
 
