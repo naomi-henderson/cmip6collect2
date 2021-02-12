@@ -131,7 +131,9 @@ CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Amon/o3/gr,noUse,process by hand and 
 #CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/nh4/gn,noUse,Memory Error - Unable to allocate array with shape
 #CMIP/IPSL/IPSL-CM6A-LR/historical/r2i1p1f1/Omon/phymisc/gn,noUse,Memory Error - Unable to allocate array with shape
 CMIP/IPSL/IPSL-CM6A-LR/historical/all/3hr/ps/gr,last_only, disjoint 3hr time grid - use last chunk only
-CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/all/gr,drop_tb,drop('time_bounds') before to_zarr
+#CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/all/gr,drop_tb,drop('time_bounds') before to_zarr
+#CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/pfull/gr,allow_disjoint,do not check time grid
+CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Amon/pfull/gr,noUse,do not check time grid
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Odec/thkcello/gn, noUse, kills kernel when making the zarr store
 #CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel  # FIXED WITH NEW VERSION
 CMIP/IPSL/IPSL-CM6A-LR/piControl/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel + TypeError: object of type 'datetime.timedelta' has no len()
@@ -448,4 +450,5 @@ all/MIROC/MIROC-ES2L/all/all/day/all/all,noUse, too slow
 all/MIROC/MIROC6/all/all/day/all/all,noUse, too slow
 all/NUIST/NESM3/all/all/day/all/all,noUse, too slow
 all/SNU/SAM0-UNICON/historical/all/day/all/all, noUse, too slow
-
+all/CAS/FGOALS-g3/piControl/all/Omon/all/all,noUse, too slow
+all/CAS/FGOALS-f3-L/piControl/all/Omon/all/all,noUse, too slow

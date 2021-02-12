@@ -1,5 +1,5 @@
 import myconfig
-from mydataset import id2dict, dir2url
+from mydataset import dir2url
 from glob import glob
 import os
 from subprocess import Popen, PIPE
@@ -145,7 +145,6 @@ import shutil
 def Download(ds_dir):
     gfiles = []
     check_size = True
-    
     df_needed = myconfig.df_needed
 
     df = df_needed[df_needed.ds_dir == ds_dir]
@@ -172,7 +171,7 @@ def Download(ds_dir):
     for file in files:
         save_file = tmp + file
         df_file = df[df.ncfile == file]
-        expected_size = int(df_file.file_size.values[0])
+        expected_size = int(float(df_file.file_size.values[0]))
         url = df_file.url.values[0]
         print(url)
 
@@ -273,6 +272,7 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
             return df7,2,dstr
                 
     if 1==1:
+        allow_disjoint=False
         for code in codes:
             if 'drop_tb' in code: # to_zarr cannot do chunking with time_bounds/time_bnds which is cftime (an object, not float)
                 timeb = [var for var in df7.coords if 'time_bnds' in
@@ -294,6 +294,8 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
                 #print('encoding time as noleap from year = ',year)
             if 'missing' in code:
                 del df7[svar].encoding['missing_value']
+            if 'allow_disjoint' in code: 
+                allow_disjoint=True
 
     #     check time grid to make sure there are no gaps in
 #     concatenated data (open_mfdataset checks for mis-ordering)
@@ -301,6 +303,8 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
         year = sorted(list(set(df7.time.dt.year.values)))
         print(np.diff(year).sum(), len(year))
         if 'abrupt-4xCO2' in ds_dir:
+            print('exception made for disjoint time intervals')
+        elif allow_disjoint:
             print('exception made for disjoint time intervals')
         elif '3hr' in table_id:
             if not (np.diff(year).sum() == len(year)-1) | (np.diff(year).sum() == len(year)-2):
@@ -329,7 +333,7 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
         for file in gfiles[1:]:
             dsl = xr.open_dataset(file)
             tracking_id += '\n'+dsl.tracking_id
-    df7.attrs['tracking_id'] = tracking_id
+    df7.attrs['netcdf_tracking_ids'] = tracking_id
     df7.attrs['version_id'] = version
 
     date = str(datetime.datetime.now().strftime("%Y-%m-%d"))

@@ -9,16 +9,14 @@ fs = gcsfs.GCSFileSystem(token='anon',access='read_only',cache_timeout=-1)
 local_target_prefix = '/h112/naomi/zarr-minimal/'
 local_source_prefix = 'netcdfs/'
 
-source_keys = ['activity_id','institution_id','source_id','experiment_id','member_id','table_id','variable_id','grid_label','version','ncfile']
-
 target_keys = ['activity_id','institution_id','source_id','experiment_id','member_id','table_id','variable_id','grid_label']
 target_keys2 = ['activity_id','institution_id','source_id','experiment_id','member_id','table_id','variable_id','grid_label','version']
 
 target_format = '%(' + ')s/%('.join(target_keys) + ')s'
 target_format2 = '%(' + ')s/%('.join(target_keys2) + ')s'
 
-target_prefix1 = 'gs://cmip6/'
-target_prefix2 = 'gs://cmip6/CMIP6/'
+#target_prefix1 = 'gs://cmip6/'
+#target_prefix2 = 'gs://cmip6/CMIP6/'
 
 node_pref = {'esgf-data1.llnl.gov':0,'esgf-data2.llnl.gov':0,'aims3.llnl.gov':0,'esgdata.gfdl.noaa.gov':999,'esgf-data.ucar.edu':4,
  'dpesgf03.nccs.nasa.gov':5,'crd-esgf-drc.ec.gc.ca':6, 'cmip.bcc.cma.cn':20, 'cmip.dess.tsinghua.edu.cn':10,

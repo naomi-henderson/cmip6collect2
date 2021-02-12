@@ -42,6 +42,7 @@ def add_time_info(df,verbose=False):
 # define a simple search on keywords
 def search_df(df, verbose= False, **search):
     '''search by keywords - if list, then match exactly, otherwise match as substring'''
+    # keys is only used in verbose
     keys = ['activity_id','institution_id','source_id','experiment_id','member_id', 'table_id', 'variable_id', 'grid_label','version']
     d = df
     for skey in search.keys():

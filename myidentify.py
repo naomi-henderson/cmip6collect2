@@ -17,35 +17,35 @@ def id2jdict(id):
     ddata = [s['data']['value'] for s in dict2['values']]
     return dict(zip(dtype,ddata))
 
-def gsurl2search(gsurl):
-    if '/CMIP6/' in gsurl:
-       values = gsurl[17:-1].split('/')
-       keys = myconfig.target_keys2
-    else:
-       values = gsurl[11:-1].split('/')
-       keys = myconfig.target_keys
-
-    return dict(zip(keys,values))
-
-def gsurl2dsdir(gsurl):
-    if '/CMIP6/' in gsurl:
-       values = gsurl[17:-1].split('/')
-       return '/'.join(values[:-1])
-    else:
-       values = gsurl[11:-1].split('/')
-       return '/'.join(values)
-
-def gsurl2tracks(gsurl):
-    mapper = fsspec.get_mapper(gsurl)
-    group = zarr.open_consolidated(mapper)
-    tracks = group.attrs['tracking_id']
-    tracking_ids = tracks.split('\n')
-
-    if len(tracking_ids) != len(set(tracking_ids)):
-        msg = f'\nnetcdf file tracking_ids are NOT UNIQUE!\n{tracking_ids}\n'
-        warnings.warn("\n" + msg)
-
-    return tracks
+#def gsurl2search(gsurl):
+#    if '/CMIP6/' in gsurl:
+#       values = gsurl[17:-1].split('/')
+#       keys = myconfig.target_keys2
+#    else:
+#       values = gsurl[11:-1].split('/')
+#       keys = myconfig.target_keys
+#
+#    return dict(zip(keys,values))
+#
+#def gsurl2dsdir(gsurl):
+#    if '/CMIP6/' in gsurl:
+#       values = gsurl[17:-1].split('/')
+#       return '/'.join(values[:-1])
+#    else:
+#       values = gsurl[11:-1].split('/')
+#       return '/'.join(values)
+#
+#def gsurl2tracks(gsurl):
+#    mapper = fsspec.get_mapper(gsurl)
+#    group = zarr.open_consolidated(mapper)
+#    tracks = group.attrs['tracking_id']
+#    tracking_ids = tracks.split('\n')
+#
+#    if len(tracking_ids) != len(set(tracking_ids)):
+#        msg = f'\nnetcdf file tracking_ids are NOT UNIQUE!\n{tracking_ids}\n'
+#        warnings.warn("\n" + msg)
+#
+#    return tracks
 
 def _get_dsid(tracks):
     ids = []
