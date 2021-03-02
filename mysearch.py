@@ -80,6 +80,7 @@ def esgf_search(search, server="https://esgf-node.llnl.gov/esg-search/search",
                             6:"variable_id",7:"grid_label",8:"version_id",
                             9:"ncfile",10:"file_size",11:"url",12:"data_node"})
 
+    
     dz['ds_dir'] = dz.apply(lambda row: target_format % row,axis=1)
     dz['node_order'] = [node_pref[s] for s in dz.data_node ]
     dz['start'] = [s.split('_')[-1].split('-')[0] for s in dz.ncfile ]

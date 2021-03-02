@@ -1,3 +1,4 @@
+.gitignore
 netcdfs/*.nc
 zarrs/*
 py
@@ -7,6 +8,11 @@ csv/exceptions.csv
 csv/*test*
 ncsv/*
 GC/*
+GC_exps/*
+csv1/*
+csv2/*
+logs_abbey
+logs_carney
 dsets/*
 issues/*
 shelf/*

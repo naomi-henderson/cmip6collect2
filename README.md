@@ -9,8 +9,8 @@ The notebook
 The notebook
 [GetRequested.ipynb](https://github.com/naomi-henderson/cmip6collect2/blob/main/GetRequested.ipynb) is now what I use day-to-day to handle data requests (may be be phased out in the future)
 
-The [esm-collection-spec](https://github.com/NCAR/esm-collection-spec/tree/master/collection-spec/examples) CSV spreadsheet for the Pangeo Google Cloud datasets is [pangeo-cmip6.csv](https://cmip6.storage.googleapis.com/pangeo-cmip6.csv).
+The [esm-collection-spec](https://github.com/NCAR/esm-collection-spec/tree/master/collection-spec/examples) CSV file for the Pangeo Google Cloud datasets is [pangeo-cmip6.csv](https://cmip6.storage.googleapis.com/pangeo-cmip6.csv).
 
-My working spreadsheat for updating the Google Cloud CMIP6 zarr collection
+My working request tracker for updating the Google Cloud CMIP6 zarr collection
 is
 [here](https://docs.google.com/spreadsheets/d/1yAt7604tVt7OXXZUyL2uALtGP2WVa-Pb5NMuTluFsAc/edit?usp=sharing).

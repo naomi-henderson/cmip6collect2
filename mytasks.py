@@ -52,6 +52,7 @@ def exception_handler(func):
     def inner_function(*args, **kwargs):
         #print(f'call {func.__name__}:')
         try:
+            #print(*args, **kwargs)
             result = func(*args, **kwargs) 
         except:
             result = f"{func.__name__} failed"
@@ -94,39 +95,30 @@ def Check(ds_dir,version,dir2local):
     else:
        version_GCS = '0'
 
-    #cstore = df_GCS[(df_GCS.ds_dir == ds_dir)&(df_GCS.version==version)]
-    #if len(cstore) > 0:
-    #    exception = 'same version already in cloud catalog'
-    #    return 1, exception 
+    #print('this version:',version,'cloud version:',version_GCS)
 
-    if int(version) <= int(version_GCS):
-        print('cloud, ESGF versions:', version_GCS,version)
+    cstore = df_GCS[(df_GCS.ds_dir == ds_dir)&(df_GCS.version==version)]
+    if len(cstore) > 0:
+        exception = 'same version already in cloud catalog'
+        return 1, exception 
+
+    if int(version[-8:]) <= int(version_GCS):
+        print('cloud, ESGF versions:', version_GCS, version[-8:])
         exception = 'same or later version already in cloud catalog'
         return 1, exception 
 
-
     gsurl_new = dir2url(ds_dir)
+    #print('gsurl_new',gsurl_new,version)
     #gsurl_old = dir2url(ds_dir).replace('/CMIP6/','/')
 
-    exists = False
     try:
         contents = fs.ls(gsurl_new)
-        if any(f"/v{version}" in s for s in contents):
-            exception = 'store already in cloud'
-            exists = True
-            return 1, exception
     except:
-        exists = False
-    #try:
-    #    contents = fs.ls(gsurl_old)
-    #    if any("zmetadata" in s for s in contents):
-    #        exception = 'store already in cloud'
-    #        exists = True
-    #        return 1, exception
-    #except:
-    #    exists = False
+        contents = []
 
-    # is zarr already in cloud?  Unreliable
+    if any(f"v{version}" in s for s in contents):
+        exception = 'store already in cloud'
+        return 1, exception
     
     # does zarr exist on active drive?  
     zbdir = f"{dir2local(ds_dir)}/v{version}"
@@ -150,15 +142,19 @@ def Download(ds_dir):
     df = df_needed[df_needed.ds_dir == ds_dir]
 
     nversions = df.version_id.nunique()
-    lastversion = df.version_id.unique()[-1]
+    versions = sorted(df.version_id.unique())
+    lastversion = sorted(df.version_id.unique())[-1]
     if nversions > 1:
        codes = read_codes(ds_dir)
        if 'allow_versions' in codes:
-           print('allowing multiple versions',df.version_id.unique())
+           print('allowing multiple versions',versions)
        else:
-           print('keeping only last version of',nversions)
+           print('keeping only last version',lastversion,' of',versions)
            df = df[df.version_id == lastversion]
     
+    # df = df[~df.ncfile.str.contains('areacello_Ofx_historical_NorESM2-LM_r1i1p1f1_gn.nc')]
+    df =  df[~df.ncfile.str.contains('volcello_Ofx_historical_NorESM2-LM_r1i1p1f1_gr.nc')]
+
     lendf = len(df)
     dfstartn = df.start.nunique()
     if lendf != dfstartn:
@@ -181,7 +177,10 @@ def Download(ds_dir):
                 continue  # already have, don't need to get it again
         try:
             #r = requests.get(url, timeout=3.1, stream=True)
-            r = requests.get(url, timeout=(5, 14), stream=True)
+            if 'esgf-data3.diasjp.net' in url:
+                r = requests.get(url, timeout=(20, 14), stream=True)
+            else:   
+                r = requests.get(url, timeout=(5, 14), stream=True)
             #print(r.headers['content-type'])
             with open(save_file, 'wb') as f:
                 shutil.copyfileobj(r.raw, f)  
@@ -356,8 +355,8 @@ def SaveAsZarr(ds_dir, ds, dir2local):
     variable_id = ds.variable_id
 
     if os.path.isfile(zbdir+'/.zmetadata'):
-        print('zarr already exists locally')
-        return version,0,''
+        exception = 'zarr already exists locally'
+        return version,1,exception
 
     try:
         ds.to_zarr(zbdir, consolidated=True, mode='w')
@@ -372,20 +371,28 @@ def Upload(ds_dir, version, dir2local):
     gsurl = f"{dir2url(ds_dir)}/{version}"
     fs = myconfig.fs
 
+    size_remote = fs.du(gsurl)
+    if size_remote > 0:
+        exception = 'zarr already exists in cloud!'
+        return zbdir, gsurl ,1,exception
+
     # upload to cloud
     if doit(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}'):
-        assert False, f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl} FAILED'
-        
+        exception = f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl} FAILED'
+        return zbdir, gsurl ,1,exception
+
     size_remote = fs.du(gsurl)
     size_local = getFolderSize(zbdir)
     if abs(size_remote - size_local) > 100: 
-        assert False, f'{zbdir}/{gsurl} zarr not completely uploaded'
+        exception = f'{zbdir}/{gsurl} zarr not completely uploaded'
+        return zbdir, gsurl ,1,exception
 
     try:
         ds = xr.open_zarr(fs.get_mapper(gsurl), consolidated=True)
         exception = f'successfully uploaded to {gsurl}'
     except:
-        assert  False, f'{gsurl} does not load properly'
+        exception = f'{gsurl} does not load properly'
+        return zbdir, gsurl ,1,exception
 
     return zbdir, gsurl, 0, exception
 

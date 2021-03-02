@@ -19,4 +19,4 @@ def dir2dict(zdir):
     return id2dict(tup)
 
 id2dict = id2dict_(myconfig.target_keys2)
-#dir2url = dir2url_(myconfig.target_prefix2)
+dir2url = dir2url_(myconfig.target_prefix2)

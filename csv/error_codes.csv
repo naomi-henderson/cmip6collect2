@@ -299,6 +299,7 @@ CMIP/NOAA-GFDL/GFDL-ESM4/esm-piControl/r1i1p1f1/Amon/zg/gr1,noUse,missing random
 CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/pr/gn,noUse,missing 2 files
 CMIP/NUIST/NESM3/piControl/r1i1p1f1/Amon/rlus/gn,noUse,missing 070001-079912
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/day/all/gn,try-again,they skip year 0290 in the middle of the run!
+CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/day/pr/gn,noUse, missing year 0020
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/LImon/snw/gn,try-again,they skip year 0290 in the middle of the run!
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Lmon/mrro/gn,try-again,they skip year 0290 in the middle of the run!
 CMIP/SNU/SAM0-UNICON/piControl/r1i1p1f1/Lmon/mrros/gn,try-again,they skip year 0290 in the middle of the run!
