@@ -95,7 +95,7 @@ def Check(ds_dir,version,dir2local):
     else:
        version_GCS = '0'
 
-    #print('this version:',version,'cloud version:',version_GCS)
+    print('this version:',version,'cloud version:',version_GCS)
 
     cstore = df_GCS[(df_GCS.ds_dir == ds_dir)&(df_GCS.version==version)]
     if len(cstore) > 0:
@@ -108,17 +108,28 @@ def Check(ds_dir,version,dir2local):
         return 1, exception 
 
     gsurl_new = dir2url(ds_dir)
-    #print('gsurl_new',gsurl_new,version)
+    #print('gsurl_new',gsurl_new)
     #gsurl_old = dir2url(ds_dir).replace('/CMIP6/','/')
 
+    exists = False
     try:
         contents = fs.ls(gsurl_new)
+        if any(f"/v{version}" in s for s in contents):
+            exception = 'store already in cloud'
+            exists = True
+            return 1, exception
     except:
-        contents = []
+        exists = False
+    #try:
+    #    contents = fs.ls(gsurl_old)
+    #    if any("zmetadata" in s for s in contents):
+    #        exception = 'store already in cloud'
+    #        exists = True
+    #        return 1, exception
+    #except:
+    #    exists = False
 
-    if any(f"v{version}" in s for s in contents):
-        exception = 'store already in cloud'
-        return 1, exception
+    # is zarr already in cloud?  Unreliable
     
     # does zarr exist on active drive?  
     zbdir = f"{dir2local(ds_dir)}/v{version}"
@@ -151,9 +162,9 @@ def Download(ds_dir):
        else:
            print('keeping only last version',lastversion,' of',versions)
            df = df[df.version_id == lastversion]
-    
+
     # df = df[~df.ncfile.str.contains('areacello_Ofx_historical_NorESM2-LM_r1i1p1f1_gn.nc')]
-    df =  df[~df.ncfile.str.contains('volcello_Ofx_historical_NorESM2-LM_r1i1p1f1_gr.nc')]
+    df = df[~df.ncfile.str.contains('volcello_Ofx_historical_NorESM2-LM_r1i1p1f1_gr.nc')]
 
     lendf = len(df)
     dfstartn = df.start.nunique()
@@ -177,8 +188,11 @@ def Download(ds_dir):
                 continue  # already have, don't need to get it again
         try:
             #r = requests.get(url, timeout=3.1, stream=True)
+            headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'}
             if 'esgf-data3.diasjp.net' in url:
-                r = requests.get(url, timeout=(20, 14), stream=True)
+                r = requests.get(url, headers=headers, timeout=(30, 14), stream=True)
+            elif 'esgf-data.ucar.edu' in url:
+                r = requests.get(url, headers=headers, timeout=(5, 14), stream=True) 
             else:   
                 r = requests.get(url, timeout=(5, 14), stream=True)
             #print(r.headers['content-type'])
@@ -273,6 +287,7 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
     if 1==1:
         allow_disjoint=False
         for code in codes:
+            print(code)
             if 'drop_tb' in code: # to_zarr cannot do chunking with time_bounds/time_bnds which is cftime (an object, not float)
                 timeb = [var for var in df7.coords if 'time_bnds' in
                          var or 'time_bounds' in var][0]
@@ -281,7 +296,9 @@ def ReadFiles(ds_dir, gfiles, version, dir2dict):
                 [y1,y2] = code.split('_')[-1].split('-')
                 df7 = df7.sel(time=slice(str(y1)+'-01-01',str(y2)+'-12-31'))
             if '360_day' in code:
+                print(gfiles[0])
                 year = gfiles[0].split('-')[-2][-6:-2]
+                print(year, df7.time.shape[0])
                 df7['time'] = cftime.num2date(np.arange(df7.time.shape[0]), units='months since '+year+'-01-16', calendar='360_day')
                 #print('encoding time as 360_day from year = ',year)
             if 'noleap' in code:
@@ -351,6 +368,8 @@ def SaveAsZarr(ds_dir, ds, dir2local):
     # need version in path
     version = ds.attrs['version_id']
     zbdir = f"{dir2local(ds_dir)}/{version}"
+    #print("nhn2",version,zbdir)
+    #return version,1,''
 
     variable_id = ds.variable_id
 
@@ -371,28 +390,23 @@ def Upload(ds_dir, version, dir2local):
     gsurl = f"{dir2url(ds_dir)}/{version}"
     fs = myconfig.fs
 
-    size_remote = fs.du(gsurl)
-    if size_remote > 0:
-        exception = 'zarr already exists in cloud!'
-        return zbdir, gsurl ,1,exception
-
     # upload to cloud
     if doit(f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl}'):
         exception = f'/usr/bin/gsutil -m cp -r {zbdir} {gsurl} FAILED'
-        return zbdir, gsurl ,1,exception
+        return zbdir, gsurl, 1, exception
 
     size_remote = fs.du(gsurl)
     size_local = getFolderSize(zbdir)
     if abs(size_remote - size_local) > 100: 
         exception = f'{zbdir}/{gsurl} zarr not completely uploaded'
-        return zbdir, gsurl ,1,exception
+        return zbdir, gsurl, 2, exception
 
     try:
         ds = xr.open_zarr(fs.get_mapper(gsurl), consolidated=True)
         exception = f'successfully uploaded to {gsurl}'
     except:
-        exception = f'{gsurl} does not load properly'
-        return zbdir, gsurl ,1,exception
+        exception =  f'{gsurl} does not load properly'
+        return zbdir, gsurl, 3, exception
 
     return zbdir, gsurl, 0, exception
 

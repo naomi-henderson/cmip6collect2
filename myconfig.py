@@ -18,7 +18,7 @@ target_format2 = '%(' + ')s/%('.join(target_keys2) + ')s'
 #target_prefix1 = 'gs://cmip6/'
 target_prefix2 = 'gs://cmip6/CMIP6/'
 
-node_pref = {'esgf-data1.llnl.gov':10,'esgf-data2.llnl.gov':10,'aims3.llnl.gov':0,'esgdata.gfdl.noaa.gov':10,'esgf-data.ucar.edu':4,
+node_pref = {'esgf-data1.llnl.gov':0,'esgf-data2.llnl.gov':0,'aims3.llnl.gov':0,'esgdata.gfdl.noaa.gov':10,'esgf-data.ucar.edu':10,
  'dpesgf03.nccs.nasa.gov':5,'crd-esgf-drc.ec.gc.ca':6, 'cmip.bcc.cma.cn':10, 'cmip.dess.tsinghua.edu.cn':10,
  'cmip.fio.org.cn':10, 'dist.nmlab.snu.ac.kr':10, 'esg-cccr.tropmet.res.in':10, 'esg-dn1.nsc.liu.se':10,
  'esg-dn2.nsc.liu.se':10, 'esg.camscma.cn':10, 'esg.lasg.ac.cn':10, 'esg1.umr-cnrm.fr':10, 'esgf-cnr.hpc.cineca.it':10,

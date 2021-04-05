@@ -38,7 +38,7 @@ CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/ua/gr,noUse,cannot to_z
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/va/gr,noUse,cannot to_zarr: HDF error? - even ncview cannot handle
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/wa/gr,noUse,cannot to_zarr: HDF error? - even ncview cannot handle
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/historical/r3i1p1f2/AERmon/zg/gr,noUse,cannot to_zarr: HDF error? - even ncview cannot handle
-CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/Amon/all/all,360_day,trying again
+#CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/Amon/all/all,360_day,trying again
 CMIP/CNRM-CERFACS/CNRM-ESM2-1/piControl/r1i1p1f2/Amon/all/all,drop_tb,trying again
 #CMIP/E3SM-Project/E3SM-1-0/historical/r2i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
 #CMIP/E3SM-Project/E3SM-1-0/historical/r3i1p1f1/SImon/siconc/gr,noUse,(time_1950-2014) missing one file 1945-1950 
@@ -48,6 +48,10 @@ CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/Omon/wfo/gr,noUse,unknown
 #CMIP/E3SM-Project/E3SM-1-0/piControl/r1i1p1f1/SImon/siconc/gr,noUse,extra file Resulting object does not have monotonic global indexes along dimension time
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrso/gr,noUse,missing decade 2000-2009
 CMIP/E3SM-Project/E3SM-1-1/piControl/r1i1p1f1/Lmon/mrsos/gr,noUse,missing decade 2000-2009
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/ta/gr, noUse, to_zarr failure
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/ua/gr, noUse, to_zarr failure
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/va/gr, noUse, to_zarr failure
+CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/Amon/va/gr, noUse, to_zarr failure
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/day/pr/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/day/tas/gr,noUse,error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/historical/r3i1p1f1/3hr/all/gr, noUse, error in open_mfdataset - need override for the latitudes?
@@ -120,9 +124,10 @@ CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Amon/tasmax/gr, noUse, 
 CMIP/EC-Earth-Consortium/EC-Earth3-LR/piControl/r1i1p1f1/Amon/tasmin/gr, noUse, error in open_mfdataset
 CMIP/EC-Earth-Consortium/EC-Earth3/piControl/r2i1p1f1/Amon/all/gr,fix_time,to fix mixed cftime types
 CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r6i1p1f1/3hr/vas/gr, noUse, trouble with 3hr time grid 
+CMIP/EC-Earth-Consortium/EC-Earth3-Veg/historical/r10i1p1f1/Amon/all/gr,noUse, trouble with time grid
 CMIP/FIO-QLNM/FIO-ESM-2-0/piControl/r1i1p1f1/Amon/clt/gn, noUse, trouble with time grid
 #CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/abrupt-4xCO2/r1i1p1f1/Omon/masscello/gn,noUse,trouble with time grid
-CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
+#CMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Omon/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/abrupt-4xCO2/r1i1p1f1/Oyr/all/gn,noUse,depth coord name change deptht to olevel
 CMIP/IPSL/IPSL-CM6A-LR/historical/r12i1p1f1/3hr/uas/gr,noUse,unknown HDF error for open_dataset and ncview
@@ -152,11 +157,16 @@ CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/uo/gn,noUse,conflicting values for
 CMIP/MOHC/UKESM1-0-LL/piControl/r1i1p1f2/Omon/vo/gn,noUse,conflicting values for variable 'vertices_latitude' on objects to be combined
 #CMIP/MPI-M/MPI-ESM1-2-HR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
 #CMIP/MPI-M/MPI-ESM1-2-LR/piControl/r1i1p1f1/Omon/all/gn,noUse,Python int too large to convert to C long
-CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,360_day,trying again
-CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,drop_tb,drop('time_bnds') before to_zarr
+#CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,360_day,trying again
+#CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,drop_tb,drop('time_bnds') before to_zarr
+CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Amon/all/all,noUse,unknown
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Omon/all/gn,noUse,unknown
 CMIP/MRI/MRI-ESM2-0/piControl/r1i1p1f1/Omon/all/gr,noUse,unknown
 CMIP/MRI/MRI-ESM2-0/piControl/r1i2p1f1/Omon/all/gr,noUse,unknown
+CMIP/NASA-GISS/GISS-E2-1-G/amip/r1i1p1f1/EmonZ/wtem/gn,noUse,download error?
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/EmonZ/epfz/gn,noUse,missing 1950-2000
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/EmonZ/epfy/gn,noUse,missing 1950-2000
+CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/EmonZ/vtem/gn,noUse,missing 1950-2000
 CMIP/NASA-GISS/GISS-E2-1-G/1pctCO2/r1i1p5f1/Omon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/AERmon/all/gn,noUse,missing data
 CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/Amon/all/gn,noUse,missing data
@@ -172,6 +182,8 @@ CMIP/NASA-GISS/GISS-E2-1-G/historical/r7i1p3f1/SImon/sithick/gn,noUse, 4: troubl
 CMIP/NASA-GISS/GISS-E2-2-G/1pctCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
 #CMIP/NASA-GISS/GISS-E2-2-G/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
 CMIP/NASA-GISS/GISS-E2-2-G/piControl/r1i1p1f1/day/pr/gn,noUse,missing chunk of data in middle
+CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/EmonZ/utendepfd/gn,noUse,missing time chunk
+CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/EmonZ/epfy/gn,noUse,missing time chunk
 CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Amon/huss/gn,noUse,years 1950 - 1999 not available
 CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Amon/o3/gn,noUse,years 1900 - 1949 not available
 CMIP/NCAR/CESM2/esm-hist/r1i1p1f1/Amon/rlus/gn,noUse,years 1900 - 1949 not available
@@ -191,6 +203,12 @@ CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Amon/rsds/gn,noUse,years 1900 - 1949 not avail
 CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Amon/tauu/gn,noUse,years 1950 - 1999 not available
 CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Oyr/ph/gr,noUse,years 1950-2000 missing
 CMIP/NCAR/CESM2/esm-hist/r2i1p1f1/Oyr/talknat/gr,noUse,years 1950-2000 missing
+CMIP/NCAR/CESM2/piControl/r1i1p1f1/EdayZ/utendogw/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2/1pctCO2/r1i1p1f1/EdayZ/utendogw/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2/1pctCO2/r1i1p1f1/EdayZ/utendwtem/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2/1pctCO2/r1i1p1f1/EdayZ/utendvtem/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2/1pctCO2/r1i1p1f1/EdayZ/utendepfd/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2/1pctCO2/r1i1p1f1/EdayZ/vtem/gn, noUse, trouble with time grid
 CMIP/NCAR/CESM2-FV2/historical/r1i1p1f1/day/wap/gn,noUse,no 19000101-19091231
 CMIP/NCAR/CESM2-FV2/piControl/r1i1p1f1/Lmon/mrsos/gn,noUse,missing chunks of data
 CMIP/NCAR/CESM2-FV2/1pctCO2/r1i1p1f1/Lmon/mrro/gn, noUse, trouble with time grid
@@ -201,6 +219,8 @@ CMIP/NCAR/CESM2/historical/r10i1p1f1/day/va/gn,noUse,crazy times
 CMIP/NCAR/CESM2/historical/r10i1p1f1/day/wap/gn,noUse,crazy times
 CMIP/NCAR/CESM2/historical/r10i1p1f1/day/zg/gn,noUse,crazy times
 CMIP/NCAR/CESM2/historical/r11i1p1f1/Lmon/cRoot/gn,time_1950-2014,years 1900 - 1949 not available
+CMIP/NCAR/CESM2/historical/r11i1p1f1/6hrLev/hus/gn,noUse, even with override (lats are not all equal) it causes the notebook to coredump while writing zarr
+CMIP/NCAR/CESM2/historical/r11i1p1f1/6hrLev/ta/gn,noUse,core dumps while writing zarr
 CMIP/NCAR/CESM2/historical/r1i1p1f1/day/psl/gn,noUse,redundant files - process by hand
 CMIP/NCAR/CESM2/historical/r2i1p1f1/day/psl/gn,noUse,redundant files - process by hand
 CMIP/NCAR/CESM2/historical/r3i1p1f1/day/psl/gn,noUse,redundant files - process by hand
@@ -210,6 +230,7 @@ CMIP/NCAR/CESM2/piControl/r1i1p1f1/CFday/ta/gn,noUse,too large - kills notebook
 CMIP/NCAR/CESM2-WACCM-FV2/historical/r1i1p1f1/day/all/gn,noUse,many nans in time grid
 CMIP/NCAR/CESM2-WACCM-FV2/historical/r2i1p1f1/day/all/gn,noUse,many nans in time grid
 CMIP/NCAR/CESM2-WACCM-FV2/historical/r3i1p1f1/day/all/gn,noUse,many nans in time grid
+CMIP/NCAR/CESM2-WACCM-FV2/piControl/r1i1p1f1/EdayZ/utendogw/gn, noUse, trouble with time grid
 CMIP/NCAR/CESM2-WACCM-FV2/piControl/r1i1p1f1/day/all/gn,noUse,many nans in time grid - overlapping times - skipped times - A TRUE MESS
 CMIP/NCAR/CESM2-WACCM-FV2/piControl/r1i1p1f1/Lmon/mrsos/gn,noUse,missing two early time periods - could remake with limited times
 CMIP/NCAR/CESM2-WACCM/historical/r1i1p1f1/day/prc/gn,noUse,prc_day_CESM2-WACCM_historical_r1i1p1f1_gn_18600101-18691231.nc not downloading correctly
@@ -224,8 +245,17 @@ CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Omon/wo/gn,noUse,missing 020001-029912
 CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtalk/gn,noUse,missing time chunks
 CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtdife/gn,noUse,trouble with grid
 CMIP/NCAR/CESM2-WACCM/piControl/r1i1p1f1/Oyr/bddtdip/gn,noUse,missing time chunks
+CMIP/NCAR/CESM2-WACCM-FV2/amip/r1i1p1f1/EdayZ/utendogw/gn, noUse, trouble with time grid
+CMIP/NCAR/CESM2-WACCM-FV2/amip/r1i1p1f1/EdayZ/ta/gn, noUse, trouble with time grid
 CMIP/NCC/NorCPM1/historical/all/Amon/all/gn,override,latitudes do not match
+CMIP/NCC/NorCPM1/historical/r12i1p1f1/Omon/vmo/gr, noUse, to_zarr failure
+CMIP/NCC/NorCPM1/historical/r13i1p1f1/Omon/vmo/gr, noUse, to_zarr failure
+CMIP/NCC/NorCPM1/historical/r14i1p1f1/Omon/vmo/gr, noUse, to_zarr failure
 CMIP/NCC/NorESM2-LM/abrupt-4xCO2/r1i1p1f1/day/pr/gn,noUse,there are 3 damaged files in the middle - from 01231020 - 01501019
+CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/SImon/sitemptop/gn, noUse, error in open_mfdataset
+CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/SImon/sndmasssnf/gn, noUse, error in open_mfdataset
+CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/SImon/sisnmass/gn, noUse, error in open_mfdataset
+CMIP/NCC/NorESM2-LM/piControl/r1i1p1f1/SImon/sivol/gn, noUse, error in open_mfdataset
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/pr/gn,noUse, 4: trouble with time grid
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tas/gn,noUse, 4: trouble with time grid
 CMIP/NIMS-KMA/UKESM1-0-LL/historical/r14i1p1f2/day/tasmax/gn,noUse, 4: trouble with time grid
@@ -267,8 +297,10 @@ CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpbfe/gr,noUse,geolon trouble
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpbpe/gr,noUse,geolon trouble - try again with new compat='override'
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpbp/gr,noUse,geolon trouble - try again with new compat='override'
 CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpcalcite/gr,noUse,geolon trouble - try again with new compat='override'
-CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpp/gr,noUse,geolon trouble - try again with new compat='override'
-CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/spco2/gr,noUse,geolon trouble - try again with new compat='override'
+#CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpp/gr,noUse,geolon trouble - try again with new compat='override'
+#CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/spco2/gr,noUse,geolon trouble - try again with new compat='override'
+CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/intpp/gr,override,geolon trouble - try again with new compat='override'
+CMIP/NOAA-GFDL/GFDL-CM4/historical/r1i1p1f1/Omon/spco2/gr,override,geolon trouble - try again with new compat='override'
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/day/mrro/gr2,noUse,no dataset_id - has been withdrawn?
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/dpco2/gr,noUse,MergeError: conflicting values for variable 'geolon' 
 CMIP/NOAA-GFDL/GFDL-CM4/piControl/r1i1p1f1/Omon/dpo2/gr,noUse,conflicting values of geolat
@@ -397,19 +429,19 @@ ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/albisccp/gn,noUse,big gap in ti
 ScenarioMIP/MRI/MRI-ESM2-0/ssp245/r1i1p1f1/CFmon/cllcalipso/gn,noUse,big gap in time grid
 ScenarioMIP/MRI/MRI-ESM2-0/ssp585/r1i1p1f1/CFmon/albisccp/gn,noUse,multiple time gaps
 ScenarioMIP/NASA-GISS/GISS-E2-1-G/ssp245/r1i1p3f1/AERmon/od550aer/gn,noUse,unknown
-ScenarioMIP/NCAR/CESM2/ssp126/r1i1p1f1/day/tasmax/gn,noUse,unknown
-ScenarioMIP/NCAR/CESM2/ssp126/r1i1p1f1/day/tasmin/gn,noUse,unknown
+ScenarioMIP/NCAR/CESM2/ssp126/r1i1p1f1/day/tasmax/gn,noUse,missing many chunks of data
+ScenarioMIP/NCAR/CESM2/ssp126/r1i1p1f1/day/tasmin/gn,noUse,missing many chunks of data
 ScenarioMIP/NCAR/CESM2/ssp126/r2i1p1f1/day/tasmin/gn,noUse,some data missing
-ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/hur/gn,noUse,non-contiquous data
-ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/hus/gn,noUse,non-contiquous data
+ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/hur/gn,noUse,non-contiguous data
+ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/hus/gn,noUse,non-contiguous data
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/tasmax/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/tasmin/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/ua/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/va/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/wap/gn,noUse,missing two chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp245/r1i1p1f1/day/zg/gn,noUse,missing two chunks of data in the output
-ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmax/gn,noUse,unknown
-ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmin/gn,noUse, 4: trouble with time grid
+ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmax/gn,noUse, missing time period (2025-2054)
+ScenarioMIP/NCAR/CESM2/ssp370/r1i1p1f1/day/tasmin/gn,noUse, missing time period (2065-2084)
 ScenarioMIP/NCAR/CESM2/ssp370/r2i1p1f1/day/tasmax/gn,noUse,multiple time gaps
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/hur/gn,noUse,missing three chunks of data in the output
 ScenarioMIP/NCAR/CESM2/ssp585/r1i1p1f1/day/hus/gn,noUse,missing three chunks of data in the output
@@ -423,6 +455,8 @@ ScenarioMIP/NCAR/CESM2/ssp585/r2i1p1f1/day/tasmax/gn,noUse,missing two chunks of
 ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/hfls/gn,noUse,trouble with grid
 ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/pr/gn,noUse,missing time periods (20450101-20541231)
 ScenarioMIP/NCAR/CESM2-WACCM/ssp370/r3i1p1f1/day/tas/gn,noUse,missing time periods (20450101-20541231)
+ScenarioMIP/NCAR/CESM2-WACCM/ssp585/r1i1p1f1/EdayZ/utendnogw/gn, noUse, trouble with time grid
+ScenarioMIP/NCAR/CESM2-WACCM/ssp585/r1i1p1f1/EdayZ/utendogw/gn, noUse, trouble with time grid
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/pr/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmax/gn,remove_files,extra files making duplicate time values
 ScenarioMIP/NCC/NorESM2-LM/ssp126/r1i1p1f1/day/tasmin/gn,remove_files,extra files making duplicate time values
