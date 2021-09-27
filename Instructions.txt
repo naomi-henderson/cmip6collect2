@@ -1,0 +1,17 @@
+# Need to install gsutils:
+
+   https://cloud.google.com/storage/docs/gsutil_install
+
+   test: 
+   gsutil -m ls gs://cmip6/CMIP6/
+
+   credentials in order to get write permission:
+     my credentials are in ~/.gcp-public-data-noaa-cmip6-23e583bb5125.json 
+     can also be found in Charles Blackmon-Luca's pangeo-cmip6-auth.zip
+
+--------------------
+# Need to install gspread
+
+   gspread is a Python API for Google Sheets
+   For the  google sheet to be writable: (~/json/CMIP6-d0cb1df722d1.json)
+

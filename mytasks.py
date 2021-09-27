@@ -188,7 +188,8 @@ def Download(ds_dir):
                 continue  # already have, don't need to get it again
         try:
             #r = requests.get(url, timeout=3.1, stream=True)
-            headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'}
+            #headers = {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'}
+            headers = {}
             if 'esgf-data3.diasjp.net' in url:
                 r = requests.get(url, headers=headers, timeout=(30, 14), stream=True)
             elif 'esgf-data.ucar.edu' in url:
