@@ -1,0 +1,8 @@
+{
+    "uid": "468da4c0-98c3-4d13-a012-4505eae46517",
+    "title": "'mmrpm10' and 'sfpm25' only partially published due to faulty diagnostics/setup",
+    "description": "'mmrpm10' and 'sfpm25' are requested at ambient conditions i.e. they include the aerosol water mass due to water uptake of the aerosol particles at ambient conditions. In the first implementation of the diagnostics the dry mass mixing ratios were diagnosed. This was later fixed. Several experiments have therefore incorrect 'mmrpm10' and 'sfpm25' values. Note that some of the experiments below are only partly affected, i.e. historical_r3i1p1f1(years 1950+), histpiAer_r3i1p1f1(years 1950+), piControl_r1i1p1f1(years 2830+) are not affected. All affected data were removed. Due to a lack of resources the affected experiments/years cannot be repeated.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

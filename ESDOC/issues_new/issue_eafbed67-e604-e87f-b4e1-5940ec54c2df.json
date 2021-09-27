@@ -1,0 +1,8 @@
+{
+    "uid": "eafbed67-e604-e87f-b4e1-5940ec54c2df",
+    "title": "Inconsistent sign convention for evspsbl",
+    "description": "Due to sign conventions in the underlying atmosphere model (IFS), the convention for evspsbl has been to be negative for fluxes directed upward from the surface into the atmosphere and positive in the opposite direction.\n\nIt is realised that this convention is not intuitive and not consistent with the sign conventions used for other variables and for evspsbl in other models. Therefore, the signs are flipped and the convention is applied that evspsbl\nflux directed upward from the surfact into the atmosphere is *positive*.\n\nThe data is unpublished, corrected, and re-published.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "d95325b4-eb06-3430-a5ea-4f91bfc67a65",
+    "title": "AERmonZ_vt100 submitted on wrong pressure level",
+    "description": "AERmonZ_vt100 has been interpolated to the pressure level 100 Pa instead of 100 hPa.\nA corrected version is on the way.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

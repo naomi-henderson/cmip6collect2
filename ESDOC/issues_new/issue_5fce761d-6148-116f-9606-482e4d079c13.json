@@ -1,0 +1,8 @@
+{
+    "uid": "5fce761d-6148-116f-9606-482e4d079c13",
+    "title": "Wrong units: reffclis and reffclws (CF3hr)",
+    "description": "Although the metadata says units are \"m\" as specified in the CMIP6 Data Description, the actual units are \"um (= 1e-6 m)\". Multiply by 1e-6 to correct the units.\nUpdate: New versions of all these variables have been published with the issue resolved.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

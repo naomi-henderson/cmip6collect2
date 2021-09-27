@@ -1,0 +1,8 @@
+{
+    "uid": "38917fc3-4e91-98d0-8708-2f9b17c66872",
+    "title": "SSP experiments setup with slightly incorrect aerosol forcings",
+    "description": "The main ScenarioMIP experiments performed with ACCESS-ESM1.5 were inadvertently forced with slightly incorrect biomass aerosol emissions (high and low emissions were swapped) and DMS emissions (zero over land). An analysis of the impact revealed increases in biomass AOD by ~5%, and sulfate optical depth by ~ 1%; but with no significant changes detected in total AOD, net radiation or surface temperature, therefore the data will not be retracted.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

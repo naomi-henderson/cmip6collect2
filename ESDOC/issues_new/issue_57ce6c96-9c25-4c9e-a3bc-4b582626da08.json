@@ -1,0 +1,8 @@
+{
+    "uid": "57ce6c96-9c25-4c9e-a3bc-4b582626da08",
+    "title": "retraction of data from experiment piClim-control with variant label  r1i1p2f1",
+    "description": "We have retracted data from experiment piClim-control with variant label  r1i1p2f1 from year 1-30. There is nothing wrong with retracted data. Only, we will soon republish those again with year 1-90 altogether.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "new"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "045ec364-1c0f-4745-8912-73ea1d449de2",
+    "title": "'meanage', 'aoanh' and 'nh50' contain numerical artefacts and were therefore removed",
+    "description": "'meanage', 'aoanh' and 'nh50' are passivly advected tracers but for an unknown reason (probably numerical errors), huge values can appear out of nowhere at a single point in the atmoshpere. Since these values can be so huge, they get transported throughout the whole atmosphere and lead to artificialy high values for months or even longer of 'meanage', 'aoanh' and 'nh50'. Although there will be time periods which are not affected by this alleged numerical errors, there is no reliable way to identify which time periods are affected or not.  Several attempts to fix the numerical errors in the model code reduced the problem but could not completly remove it. Therefore the variables were removed from all experiments for all years.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

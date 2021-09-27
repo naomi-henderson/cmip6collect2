@@ -1,0 +1,8 @@
+{
+    "uid": "e6b642cf-d449-dfa6-a9da-1d1d1e1c0ecd",
+    "title": "The parent experiment of the historical r1i1000p1f1 simulation is PMIP past1000",
+    "description": "The metadata are described as follows:\n    branch_method = \"standard (the actual parent run: PMIP past1000)\" ;\n    parent_activity_id = \"CMIP\" ;\n    parent_experiment_id = \"piControl\" ;\n\nAs the \"branch_method\" says, the true parent is as follows:\n    parent_activity_id = \"PMIP\" ;\n    parent_experiment_id = \"past1000\" ;",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

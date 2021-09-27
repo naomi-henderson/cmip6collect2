@@ -1,0 +1,12 @@
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rlds.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rlus.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rlut.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rsds.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rsdscs.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rsus.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.Amon.rsuscs.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.day.rlds.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.day.rlus.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.day.rlut.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.day.rsds.gr#20201214
+CMIP6.CMIP.EC-Earth-Consortium.EC-Earth3-AerChem.historical.r4i1p1f1.day.rsus.gr#20201214

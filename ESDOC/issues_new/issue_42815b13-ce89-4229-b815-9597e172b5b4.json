@@ -1,0 +1,8 @@
+{
+    "uid": "42815b13-ce89-4229-b815-9597e172b5b4",
+    "title": "Error created empty files",
+    "description": "An error in the post-processing pipeline caused these files to be created without any data. To be replaced.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

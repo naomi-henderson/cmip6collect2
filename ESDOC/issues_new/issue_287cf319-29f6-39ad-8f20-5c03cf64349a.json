@@ -1,0 +1,8 @@
+{
+    "uid": "287cf319-29f6-39ad-8f20-5c03cf64349a",
+    "title": "deleting datasets with variable siareas",
+    "description": "We are going to delete datasets with variable siareas  which was wrong; it would be republished later.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

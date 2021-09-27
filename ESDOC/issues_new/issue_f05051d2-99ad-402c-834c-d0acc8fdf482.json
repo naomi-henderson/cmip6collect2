@@ -1,0 +1,8 @@
+{
+    "uid": "f05051d2-99ad-402c-834c-d0acc8fdf482",
+    "title": "error related to variable sndmasssnf",
+    "description": "All datasets with variable sndmasssnf required some fix before comparison. Before comparison variable sndmasssnf should be divided by  330. This issue will be fixed for newly published variable.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

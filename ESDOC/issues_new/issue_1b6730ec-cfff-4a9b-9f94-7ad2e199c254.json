@@ -1,0 +1,8 @@
+{
+    "uid": "1b6730ec-cfff-4a9b-9f94-7ad2e199c254",
+    "title": "Extend CMCC-ESM2 piControl experiment",
+    "description": "Previous publication of this dataset (ver 20210126) was unfortunately padded to year 2100, while the experiment goes up to year 2350. Following ESGF guidelines, to update this dataset it is necessary to first retract published data and then redo the publication process.\nFor users, the whole experiment has no issues so far and this operation is carried out only to include data missing from earlier publication.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

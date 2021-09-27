@@ -1,0 +1,8 @@
+{
+    "uid": "2f3d2027-13ec-847b-ace3-fc0de5682c29",
+    "title": "Faulty data in lowest levels of Emon/wap for MOHC piControl simulations",
+    "description": "We have discovered that there are faulty data in the data for Emon/wap (omega on model levels) that only affect the lowest levels of the data. Users are recommended to mask the data prior to analysis.\n\nFor UKESM1-0-LL the lowest 10 levels are affected with issues north of 80N in levels 11 (956 m) and 12 (1123 m). \nFor HadGEM3-GC31-LL the lowest 8 levels are affected with issues north of 80N in levels 9 (663 m) and 10 (863 m). \nFor HadGEM3-GC31-MM the lowest 5 levels are affected for data up until the end of November 2089. A fix to the model code was applied after this point correcting the issue.\n\nAs the data above these affected levels is unaffected, and other piControl wap data is unavailable due to a similar issue, these datasets will remain available.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "wontfix"
+}

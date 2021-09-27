@@ -1,0 +1,8 @@
+{
+    "uid": "95cb5ad7-d4a5-425a-9c20-cd367f000313",
+    "title": "Mixed up instantaneous and mean version of the variable and errors in diagnostics",
+    "description": "For several 3 and 6-hourly atmospheric variables, the instantaneous and mean version of the respective variables have been accidentally swapped. This happened as for the simulations in question both versions of the variables have been written to the same output streams. Affected variables by MIP table: | E3hrPt: ua, va, wap, ta | E3hr: uas, vas, psl | CF3hr: ta, psl | 6hrLev: ua, va | 6hrPlev: uas, vas, wap, tas, psl | 6hrPlevPt: ua, va, ta, psl, hus, zg, zg500. Due to an error in the diagnostic, the values of the variable mrsofc are too small by a factor of 1.e6. Instead of near surface temperature, meridional near surface wind has been published as tas_6hrPlevPt due to a mix up of GRIB codes while standardizing the data. The specified unit for hurs_Amon and hurs_6hrPlev is incorrect. Instead of '%' as the variable attribute suggests, the unit of the data is '1'.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

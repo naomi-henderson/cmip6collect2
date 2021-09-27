@@ -1,0 +1,4 @@
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.control-1950.r1i1p2f1.day.pr.gr#20190906
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.control-1950.r1i1p2f1.day.tas.gr#20190906
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.control-1950.r1i1p2f1.day.tasmax.gr#20190906
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.control-1950.r1i1p2f1.day.tasmin.gr#20190906

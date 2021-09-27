@@ -1,0 +1,8 @@
+{
+    "uid": "b04c6fc3-ed5b-e7dd-a480-49dbcb66e315",
+    "title": "Incorrect units specified for variable tas_Amon",
+    "description": "In several LUMIP / LS3MIP simulations the variable tas_Amon \"degC\" should have been specified as the units attribute during the CMOR process. As a result the values are 273.15 K too low.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

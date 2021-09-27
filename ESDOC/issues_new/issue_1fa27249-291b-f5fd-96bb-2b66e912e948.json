@@ -1,0 +1,8 @@
+{
+    "uid": "1fa27249-291b-f5fd-96bb-2b66e912e948",
+    "title": "Grid vertices incorrect in sea-ice files (ACCESS-ESM1.5)",
+    "description": "The values contained within the 'vertices_latitude' & 'vertices_longitude' fields in all ACCESS-CM2/ACCESS-ESM1.5 datasets in the SImon and SIday tables, with dates prior to v202008812, were incorrectly applied, and are non-physical. Data to be retracted and replaced.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

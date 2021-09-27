@@ -1,0 +1,8 @@
+{
+    "uid": "e8e1a106-b555-3855-b34a-612cb4a22865",
+    "title": "Values on land not masked for some ocean variables submitted on staggered grid",
+    "description": "The zonal vector component is set to a value of 0, instead of the _FillValue/missing_value of 1.+e20, for values on land. Affected are the variables uo_Omon, umo_Omon, tauuo_Omon, hfx_Omon.\nIn the nearest future, no corrected version of the data will be published. A fix can be applied using CDOs:\n\n#Step 1 - Use the variable umo_Omon which is unlikely to be equal to 0 at any valid point and retrieve the u-point-mask from it:\ncdo div -seltimestep,1 umo_Omon_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn_255001-256912.nc -seltimestep,1 umo_Omon_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn_255001-256912.nc u-lsm.nc\n\n#Step 2 - This mask can then be applied on any of the affected variables using the cdo ifthen or div operators:\ncdo ifthen u-lsm.nc umo_Omon_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn_255001-256912.nc outfile\n\nFor the 2D fields hfx_Omon and tauuo_Omon, the first level would have to be selected when applying the mask:\ncdo ifthen -sellevidx,1  u-lsm.nc tauuo_Omon_MPI-ESM1-2-LR_piControl_r1i1p1f1_gn_255001-256912.nc outfile",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

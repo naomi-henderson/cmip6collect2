@@ -1,0 +1,8 @@
+{
+    "uid": "fc248c5d-254f-b3fa-9003-3f5b5179fa84",
+    "title": "Error found in IITM-ESM ssp370 6hrLev datasets",
+    "description": "We found an error in IITM-ESM ssp370 6hrLev in processing",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

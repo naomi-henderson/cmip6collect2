@@ -1,0 +1,8 @@
+{
+    "uid": "00f7fdab-c123-a55d-9788-bd73dfb8aa1a",
+    "title": "Error in albisccp and pctisccp variables",
+    "description": "An error in the monthly and daily averages of albisccp/pctisccp was detected in CNRM-CM6-1/CNRM-ESM2-1 output. These time-means were not weighted by the ISCCP Total Cloud Fraction (cltisccp).A few simulations have been rerun to provide corrected variables and republished on ESGF. This concerns the following experiments for CNRM-CM6-1 only: amip, amip-piForcing, amip-4xCO2, amip-p4K, amip-lwoff, amip-p4K-lwoff, amip-m4K, amip-future4K.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

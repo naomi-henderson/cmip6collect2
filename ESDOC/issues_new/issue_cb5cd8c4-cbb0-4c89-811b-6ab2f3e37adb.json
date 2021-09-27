@@ -1,0 +1,8 @@
+{
+    "uid": "cb5cd8c4-cbb0-4c89-811b-6ab2f3e37adb",
+    "title": "'rsutaf' and 'rsutcsaf' only partially published due to faulty diagnostics",
+    "description": "The diagnostics for 'rsutaf' and 'rsutcsaf' depend on the solar incoming radiation. The solar incoming radiation varies with time of the day and day in the year. In the first implementation of the diagnostics this time dependence of solar incoming radiation was neglected. This was later fixed. Several experiments have therefore incorrect 'rsutaf' and 'rsutcsaf' values. All affected years were removed. Note that some of the experiments below are only partly affected, i.e. piControl_r1i1p1f1(years 2370+), historical_r2i1p1f1(years 1970+), 1pctCO2_r1i1p1f1(years 1970+), abrupt-4xCO2_r1i1p1f1(years 1950+), histpiAer_r2i1p1f1(years 1990+) are not affected. Due to a lack of resources the affected experiments/years cannot be repeated.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

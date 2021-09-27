@@ -1,0 +1,8 @@
+{
+    "uid": "f3b709b2-8592-42ed-a835-c6f747510635",
+    "title": "Mean instead of instantaneous data submitted for Eyr_fracLut",
+    "description": "For a number of simulations, the variable Eyr_fracLut mistakenly has been submitted as mean instead of instantaneous data. The affected datasets will be retracted. Except for the simulation years 2630-2849 of the MPI-ESM-1-2-HAM piControl_r1i1p1f1 simulation, it is not planned to publish corrected versions. For the affected simulations, the january monthly mean values of the variable Emon_fracLut can be an alternative.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

@@ -1,0 +1,12 @@
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.3hr.rsdscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.3hr.rsuscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.Amon.rsdscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.Amon.rsuscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.CFday.rsdscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P-HR.highresSST-present.r1i1p1f1.CFday.rsuscs.gr#20170811
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.3hr.rsdscs.gr#20170911
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.3hr.rsuscs.gr#20170911
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.Amon.rsdscs.gr#20170911
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.Amon.rsuscs.gr#20170911
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.CFday.rsdscs.gr#20170911
+CMIP6.HighResMIP.EC-Earth-Consortium.EC-Earth3P.highresSST-present.r1i1p1f1.CFday.rsuscs.gr#20170911

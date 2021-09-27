@@ -1,0 +1,8 @@
+{
+    "uid": "9fd6f211-f2dd-d17c-aad5-0add80db7e02",
+    "title": "Retracting and republishing few datasets for ScenarioMIP and CMIP",
+    "description": "Few datasets related to ScenarioMIP and CMIP were having some kind of error; therefore we have retracted those and republished again.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

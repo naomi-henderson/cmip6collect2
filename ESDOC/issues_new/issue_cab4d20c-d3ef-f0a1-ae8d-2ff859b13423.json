@@ -1,0 +1,8 @@
+{
+    "uid": "cab4d20c-d3ef-f0a1-ae8d-2ff859b13423",
+    "title": "Retracting all datasets for NorESM2-LM  abrupt-4xCO2 experiment",
+    "description": "We are retracting all datasets for activity CMIP with abrupt-4xCO2 experiment. There is nothing wrong with datasets only those were divided over different versions and we have now republished same data with a single version.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

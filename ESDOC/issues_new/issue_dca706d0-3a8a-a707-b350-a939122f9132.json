@@ -1,0 +1,8 @@
+{
+    "uid": "dca706d0-3a8a-a707-b350-a939122f9132",
+    "title": "Incorrect source_id for some rad_irf output",
+    "description": "Four RFMIP/rad-irf datasets were published with the incorrect source_id GFDL-AM4. They will be retracted and published with the correct source_id GFDL-CM4.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

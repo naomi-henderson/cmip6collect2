@@ -1,0 +1,8 @@
+{
+    "uid": "3bf9b559-e9e8-2471-9a8b-3b580296abbf",
+    "title": "Short datasets submitted for some UKESM1-0-LL ssp245 simulations",
+    "description": "To aid in the analyses of ssp245-covid simulations we have performed additional ssp245 ensemble members, but have only published data for years 2019-2051 initially. These initial datasets will be extended in due course. Update (12/5/2021): All datasets have been extended to cover 2015-2100, (see version numbers starting with 2021)",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

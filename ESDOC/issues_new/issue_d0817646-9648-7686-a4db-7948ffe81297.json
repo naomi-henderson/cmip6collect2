@@ -1,0 +1,8 @@
+{
+    "uid": "d0817646-9648-7686-a4db-7948ffe81297",
+    "title": "EC-Earth3-Veg-LR volcanic forcing not correct in PMIP/past1000",
+    "description": "The issue is related to a PMIP experiment\ufffd past1000 using EC-Earth3-Veg-LR.\nWe found that the implemented volcanic forcing did not have any effects on\nthe global temperature, so we think it was not implemented correctly. We\nwill unpublish all the data from this experiment. A new experiment will soon\nbe setup and once it is done, we will republish them.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

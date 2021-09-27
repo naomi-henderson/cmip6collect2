@@ -1,0 +1,8 @@
+{
+    "uid": "75ab84d9-8eae-5958-8b87-da9804d9bb5a",
+    "title": "Wrong guidance time constant",
+    "description": "For this soil moisture guided AMIP simulation, the guidance time constant (in fractions of a day) should have been 1 day instead of 100 in the ORCHIDEE configuration used. The simulation will be rerun with the appropriate time constant and republish under a new version.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "onhold"
+}

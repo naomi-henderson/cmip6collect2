@@ -1,0 +1,8 @@
+{
+    "uid": "bea359f8-a6d4-5fd6-a448-3f341ee06a55",
+    "title": "Incorrect soil moisture data (mrso) in historical simulation and SSP585",
+    "description": "There is an issue with the soil moisture data (mrso) in historical simulation and SSP585 .They are about a factor 100 smaller than any other model.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

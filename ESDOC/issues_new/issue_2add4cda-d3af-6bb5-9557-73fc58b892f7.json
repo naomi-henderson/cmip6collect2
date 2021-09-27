@@ -1,0 +1,8 @@
+{
+    "uid": "2add4cda-d3af-6bb5-9557-73fc58b892f7",
+    "title": "rh and nep produced by CNRM-CM6-1 and CNRM-CM6-HR",
+    "description": "The carbon cycle diagnostics rh and nep have been wrongly produced by CNRM-CM6-1 and CNRM-CM6-1-HR (variables correctly produced by CNRM-ESM2-1) . These datasets have been unpublished from ESGF",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

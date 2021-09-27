@@ -1,0 +1,8 @@
+{
+    "uid": "d46ca5b3-ce53-4203-b7ad-8aa8e4716d35",
+    "title": "70 year extentions for ScenarioMIP ssp245 r[2-5]i1p1f1",
+    "description": "The r[2-5]i1p1f1 runs of the ScenarioMIP ssp245 experiment have been extended adding 70 simulated years (2031-2100).",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

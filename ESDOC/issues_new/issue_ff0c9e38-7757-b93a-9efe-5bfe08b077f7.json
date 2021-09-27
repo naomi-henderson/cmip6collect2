@@ -1,0 +1,8 @@
+{
+    "uid": "ff0c9e38-7757-b93a-9efe-5bfe08b077f7",
+    "title": "Incorrect data for the period 192310-192311: CMIP historical r6i1p1f1",
+    "description": "The data for the period 192310 to 192311 (two months) were incorrectly produced for the CMIP historical r6i1p1f1 simulation. There is no problem for the rest of the period. Update: New versions of all these variables have been published with the issue resolved.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

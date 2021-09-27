@@ -1,0 +1,8 @@
+{
+    "uid": "b2f23ed6-b868-8fd4-89d2-a956c136edfd",
+    "title": "Incorrect aggregation for several variables",
+    "description": "The monthly and daily mean values of several variables have not been aggregated correctly.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

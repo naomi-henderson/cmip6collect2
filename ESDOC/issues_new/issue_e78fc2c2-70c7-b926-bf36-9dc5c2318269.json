@@ -1,0 +1,8 @@
+{
+    "uid": "e78fc2c2-70c7-b926-bf36-9dc5c2318269",
+    "title": "fix Amon variable prw and retract Eday variable prw in CMCC-CM2-HR4 and CMCC-CM2-VHR4 experiments",
+    "description": "Variable prw (Water Vapor Path) was cmorized from the wrong raw model variable, so it will be replaced with the correct field. Unfortunately, the daily values for Eday table cannot be recovered.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

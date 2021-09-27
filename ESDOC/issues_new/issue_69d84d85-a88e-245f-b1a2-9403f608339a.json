@@ -1,0 +1,8 @@
+{
+    "uid": "69d84d85-a88e-245f-b1a2-9403f608339a",
+    "title": "PiControl extension (1500 extra years)",
+    "description": "The EC-Earth3-Veg piControl experiment r1i1p1f1 is extended to cover an overall of 2000 simulated years. The first 500 years correspond exactly to the previously published data.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

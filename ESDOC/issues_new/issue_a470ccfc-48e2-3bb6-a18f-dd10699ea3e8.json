@@ -1,0 +1,8 @@
+{
+    "uid": "a470ccfc-48e2-3bb6-a18f-dd10699ea3e8",
+    "title": "correction for zos data in historical",
+    "description": "In the previous version data\uff0cthere were some problems in 2014\uff0c which were corrected in the updated version.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

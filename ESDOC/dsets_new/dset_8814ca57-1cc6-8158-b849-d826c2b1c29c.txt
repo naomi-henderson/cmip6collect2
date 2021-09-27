@@ -1,0 +1,14 @@
+CMIP6.C4MIP.E3SM-Project.E3SM-1-1-ECA.hist-bgc.r1i1p1f1.Omon.msftmz.gr#20200124
+CMIP6.C4MIP.E3SM-Project.E3SM-1-1.hist-bgc.r1i1p1f1.Omon.msftmz.gr#20200511
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.1pctCO2.r1i1p1f1.Omon.msftmz.gr#20200501
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.abrupt-4xCO2.r1i1p1f1.Omon.msftmz.gr#20190910
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.historical.r1i1p1f1.Omon.msftmz.gr#20190927
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.historical.r2i1p1f1.Omon.msftmz.gr#20190911
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.historical.r3i1p1f1.Omon.msftmz.gr#20190911
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.historical.r4i1p1f1.Omon.msftmz.gr#20190910
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.historical.r5i1p1f1.Omon.msftmz.gr#20200429
+CMIP6.CMIP.E3SM-Project.E3SM-1-0.piControl.r1i1p1f1.Omon.msftmz.gr#20191007
+CMIP6.CMIP.E3SM-Project.E3SM-1-1-ECA.historical.r1i1p1f1.Omon.msftmz.gr#20200127
+CMIP6.CMIP.E3SM-Project.E3SM-1-1-ECA.piControl.r1i1p1f1.Omon.msftmz.gr#20200128
+CMIP6.CMIP.E3SM-Project.E3SM-1-1.historical.r1i1p1f1.Omon.msftmz.gr#20191204
+CMIP6.CMIP.E3SM-Project.E3SM-1-1.piControl.r1i1p1f1.Omon.msftmz.gr#20191028

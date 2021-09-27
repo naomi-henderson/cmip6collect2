@@ -1,0 +1,8 @@
+CMIP6.CMIP.NCC.NorESM1-F.piControl.r1i1p1f1.SImon.siarean.gn#20191108
+CMIP6.CMIP.NCC.NorESM1-F.piControl.r1i1p1f1.SImon.siareas.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.lig127k.r1i1p1f1.SImon.siarean.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.lig127k.r1i1p1f1.SImon.siareas.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.midHolocene.r1i1p1f1.SImon.siarean.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.midHolocene.r1i1p1f1.SImon.siareas.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.midPliocene-eoi400.r1i1p1f1.SImon.siarean.gn#20191108
+CMIP6.PMIP.NCC.NorESM1-F.midPliocene-eoi400.r1i1p1f1.SImon.siareas.gn#20191108

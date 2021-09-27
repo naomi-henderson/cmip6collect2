@@ -1,0 +1,8 @@
+{
+    "uid": "80061433-0a9f-921b-a23e-94e58fe72c24",
+    "title": "Specified unit for tntrs_Emon is incorrect",
+    "description": "Instead of \"K s-1\" as the variable attribute suggests, the unit of the data is \"K day-1\".\nThus the data values are too high by a factor of 86400.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

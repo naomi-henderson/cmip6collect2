@@ -1,0 +1,8 @@
+{
+    "uid": "c2245af1-2e72-4270-a54e-2d3a58025b34",
+    "title": "CMCC-ESM2 amip simulation",
+    "description": "The amip experiment of CMCC-ESM2 was not published as it can be directly borrowed from the CMCC-CM2-SR5, given that the two model share the same atmospheric and land components.\nThis was done to avoid data duplication that may be misleading to users.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

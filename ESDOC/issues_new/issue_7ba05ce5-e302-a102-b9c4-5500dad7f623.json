@@ -1,0 +1,8 @@
+{
+    "uid": "7ba05ce5-e302-a102-b9c4-5500dad7f623",
+    "title": "Faulty data (all zeros) in lower levels of 6hrLev temperature data (ta) in ACCESS-CM2",
+    "description": "The lowest level (20m) of 6-hourly temperature data on model levels in ACCESS-CM2 are all incorrectly set to zero, with similar artifacts on the second-to-lowest level (53m). To be corrected when resources permit.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

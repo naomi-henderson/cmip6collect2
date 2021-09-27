@@ -1,0 +1,8 @@
+{
+    "uid": "5c00b84c-4622-689d-9a8d-e49d1a4acff6",
+    "title": "land-hist-princeton ran with wrong forcing data",
+    "description": "LS3MIP simulation land-hist-princeton_r1i1p1f1-LR by accident used watch\ninstead of princeton forcing data. The simulation was repeated with\ncorrect forcing data.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

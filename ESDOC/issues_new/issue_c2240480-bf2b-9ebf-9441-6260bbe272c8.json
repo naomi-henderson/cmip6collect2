@@ -1,0 +1,8 @@
+{
+    "uid": "c2240480-bf2b-9ebf-9441-6260bbe272c8",
+    "title": "Two files with same name with same datasets",
+    "description": "There are two files with same name for mentioned datasets (NorESM2-LM - piControl) and file pointing to directory v20190920 should be used. We will fix the issue soon.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

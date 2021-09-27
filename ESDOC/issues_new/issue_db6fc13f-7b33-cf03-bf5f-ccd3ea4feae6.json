@@ -1,0 +1,8 @@
+{
+    "uid": "db6fc13f-7b33-cf03-bf5f-ccd3ea4feae6",
+    "title": "Mean instead of instantaneous data submitted vor 6hrPlevPt_sfcWind",
+    "description": "For a number of simulations, instead of 6-hourly instantaneous data, the 3-hourly mean for every second 3-hour interval has been submitted as 6hrPlevPt_sfcWind. The erroneous datasets will be retracted. It is not possible to publish corrected versions.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "ac3f57a5-8214-6bc7-b47b-958238f480c3",
+    "title": "Wrong data: 10 Emon variables in ssp245 and abrupt-4xCO2",
+    "description": "We found that 10 data files of Emon provided by the MIROC-ES2L were wrong. The data were calculated by an old & wrong way in the process of CMOR conversion. The wrong data files will be withdrawn. and the correct ones will be re-published soon.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

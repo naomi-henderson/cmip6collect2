@@ -1,0 +1,8 @@
+{
+    "uid": "23023457-c0d2-3c86-8be3-3b5dbda046b7",
+    "title": "Mismatch in variable definition for rsutcs",
+    "description": "There was a mismatch in the variable definition for rsutcs. This variable has been withdrawn, fixed and then published again with a version of v20200928.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "440508e2-a0cb-74f1-86b7-61a3e418ccce",
+    "title": "Wrong auxiliary variables vertices_longitude and vertices_latitude of ocean data",
+    "description": "The auxiliary variables vertices_longitude and vertices_latitude of some NEMO output from EC-Earth3-AerChem include a limited number of incorrect values along distinguished lines. However, neither the actual data variables nor the longitude and latitude coordinate values are affected. Nevertheless, using the vertices coordinates to compute, for example, areas, could yield inaccurate results. The affected datasets will be retracted and republished after correction.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

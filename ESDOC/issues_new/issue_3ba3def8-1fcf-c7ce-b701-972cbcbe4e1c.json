@@ -1,0 +1,8 @@
+{
+    "uid": "3ba3def8-1fcf-c7ce-b701-972cbcbe4e1c",
+    "title": "error with variables msftmrhompa, msftmzmpa and msftmrho",
+    "description": "Datasets with variables msftmrhompa, msftmzmpa and msftmrho are having errors and are usable only for first section (atlantic-arctic section) but not for other sections. So the first section is usable. And we don't plan to publish corrected version of these datasets. But, in future if we republish these data then, these will be publish after correction.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

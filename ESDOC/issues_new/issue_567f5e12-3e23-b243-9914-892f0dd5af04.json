@@ -1,0 +1,8 @@
+{
+    "uid": "567f5e12-3e23-b243-9914-892f0dd5af04",
+    "title": "CMCC-CM2-VHR4 control-1950 July 1982 blank",
+    "description": "All values for July 1982 in the first version (v20180705, v20190301 and v20200313) of CMCC-CM2-VHR4 control-1950 were zero. The entire simulation has been retracted, the bad filesv20200917 replaced and then republished with a new version of v20200917.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

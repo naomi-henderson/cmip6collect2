@@ -1,0 +1,8 @@
+{
+    "uid": "d6b18dd7-550b-4459-a2e3-d728a850c96b",
+    "title": "Extension of early UKESM1-0-LL piControl datasets",
+    "description": "The first batch of UKESM1-0-LL piControl datasets have been extended from 750 to 1100 years for consistency with other currently published datasets.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "843b8fca-cdfe-ac71-809d-5ff3433eb976",
+    "title": "Erroneous CNRM-CM6-1_amip-lfmip-rmLC_r1i1p1f2 simulation (v20200408)",
+    "description": "Soil moisture was relaxed more loosely than intended (24h relaxation time). Also, there was an issue with the way we computed the soil moisture running mean daily climatology (it is fine at the monthly time-scale but there is an issue on the day-to-day values). This simulation has been rerun and republished on ESGF (v20210512).",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

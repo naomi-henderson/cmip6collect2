@@ -1,0 +1,8 @@
+{
+    "uid": "1c049e7e-c8c1-263c-bdec-98f9ac220357",
+    "title": "Wrong sign in upwelling radiative flux in highresSST-present r1i1p1f1",
+    "description": "The signs of the upwelling radiative fluxes r(l|s)u(t|s)(cs) (except rsuscs which has additional errors) are negative and should be flipped to be consistent with the upward orientation attribute. This was due to a bug in the early versions of ece2cmor3. These files have been unpublished, fixed and a new version has been published with version v20201230.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

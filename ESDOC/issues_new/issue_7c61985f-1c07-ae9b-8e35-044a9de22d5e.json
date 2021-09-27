@@ -1,0 +1,8 @@
+{
+    "uid": "7c61985f-1c07-ae9b-8e35-044a9de22d5e",
+    "title": "deleting datasets chlos for Omon frequency",
+    "description": "There was something wrong with chlos datasets with Omon frequency. We are going to retract those and  will be republished again later.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

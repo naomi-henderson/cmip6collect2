@@ -1,0 +1,8 @@
+{
+    "uid": "9b4da6e6-91f5-443a-8303-f32db8921eb7",
+    "title": "Errors in COSP variables clcalipso2, climodis, cltmodis and clwmodis",
+    "description": "An error was detected in CNRM-CM6-1/CNRM-ESM2-1 output for the following COSP variables : clcalipso2, climodis, cltmodis and clwmodis (Tables Emon and E3hrPt). CNRM-CM6-1 amip simulation has been rerun and republished on ESGF",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

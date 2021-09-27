@@ -1,0 +1,8 @@
+{
+    "uid": "f4ca56ec-7aa1-ecf0-90f3-36b8a7c908eb",
+    "title": "Incorrect values for rsdscs and rsuscs in highresSST-present r1i1p1f1",
+    "description": "The values of rsdscs and rsuscs are incorrect due to an error in the post-processing formula in the ece2cmor3 version. Unfortunately, these variables cannot be created from other CMORrized data and have been withdrawn.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

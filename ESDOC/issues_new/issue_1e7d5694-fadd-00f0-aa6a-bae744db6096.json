@@ -1,0 +1,8 @@
+{
+    "uid": "1e7d5694-fadd-00f0-aa6a-bae744db6096",
+    "title": "Incorrect vertical coordinate in model-level output",
+    "description": "Different level data were output for the variables with model-level outputs.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

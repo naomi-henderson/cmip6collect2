@@ -1,0 +1,8 @@
+{
+    "uid": "d4a11704-808a-5869-b94d-234170eb70ea",
+    "title": "Incorrect Precipitation data (pr) in historical simulation and SSP585",
+    "description": "There is an issue with the Precipitation  data (pr) in historical simulation and SSP585, which is too small by a factor of 1000",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

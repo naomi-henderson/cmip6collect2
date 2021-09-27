@@ -1,0 +1,8 @@
+{
+    "uid": "6d63f8c4-7e54-93d9-b87c-b43368446c70",
+    "title": "Retracting all datasets for NorESM2-LM piControl experiment",
+    "description": "We are retracting all datasets for activity CMIP with piControl experiment. There is nothing wrong with datasets only those were divided over different versions and we will now republish same data with a single version.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

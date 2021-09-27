@@ -1,0 +1,3 @@
+CMIP6.CMIP.HAMMOZ-Consortium.MPI-ESM-1-2-HAM.historical.r1i1p1f1.Omon.tos.gn#20190627
+CMIP6.CMIP.MPI-M.MPI-ESM1-2-HR.historical.r1i1p1f1.Omon.tos.gn#20190710
+CMIP6.CMIP.MPI-M.MPI-ESM1-2-LR.historical.r1i1p1f1.Omon.tos.gn#20190710

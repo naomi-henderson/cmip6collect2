@@ -1,0 +1,8 @@
+{
+    "uid": "15259a50-a4f8-4da7-8d44-3431582c8b9d",
+    "title": "Incorrect data: nppLeaf, nppWood, and nppRoot",
+    "description": "In our model, the (annual) NPP allocation is carried out on the last day of the year (our NPP allocation largely follows Sitch et al. [2003, Global Change Biology, 9, 161-185]). The error is due to the time averaging process in making the monthly data. But, the ratio between nppLeaf, nppWood and nppRoot is correct. Therefore, please correct as follows: nppLeaf (correct) = npp * nppLeaf / (nppLeaf + nppWood + nppRoot), nppWood (correct) = npp * nppWood / (nppLeaf + nppWood + nppRoot), and nppRoot (correct) = npp * nppRoot / (nppLeaf + nppWood + nppRoot). Note that these variables are derived on an annual basis. The same issue has occurred with MRI-ESM1 (our CMIP5 model).\nUpdate: New versions of all these variables have been published with the issue resolved.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

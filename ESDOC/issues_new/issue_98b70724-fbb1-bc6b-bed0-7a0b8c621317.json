@@ -1,0 +1,8 @@
+{
+    "uid": "98b70724-fbb1-bc6b-bed0-7a0b8c621317",
+    "title": "tasmin and tasmax data between 1850-1949 is having some issue",
+    "description": "tasmax and tasmin  between 1850-1949 are having some issues and should be ignored.  These are removed from noresg server. But data between 1950-2014  are good for comparison without problem.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

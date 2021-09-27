@@ -1,0 +1,4 @@
+CMIP6.CMIP.NCC.NorESM2-LM.1pctCO2.r1i1p1f1.Omon.chlos.gn#20190815
+CMIP6.CMIP.NCC.NorESM2-LM.historical.r1i1p1f1.Omon.chlos.gn#20190815
+CMIP6.CMIP.NCC.NorESM2-LM.historical.r2i1p1f1.Omon.chlos.gn#20190920
+CMIP6.CMIP.NCC.NorESM2-LM.historical.r3i1p1f1.Omon.chlos.gn#20190920

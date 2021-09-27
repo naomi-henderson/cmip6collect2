@@ -1,0 +1,8 @@
+{
+    "uid": "0e8cd1f0-34d5-4b8c-b404-0d728872fe9b",
+    "title": "agessc_Omon has not been reset after branch from piControl",
+    "description": "The tracer variable agessc_Omon (sea_water_age_since_surface_contact) has not been reset to zero after branching from piControl.  For the affected simulations a correction is not possible as a rerun of the simulation would be required. It has been decided, however, that for these simulations the faulty data will not be retracted.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

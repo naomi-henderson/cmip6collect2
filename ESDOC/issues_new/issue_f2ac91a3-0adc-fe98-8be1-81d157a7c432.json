@@ -1,0 +1,8 @@
+{
+    "uid": "f2ac91a3-0adc-fe98-8be1-81d157a7c432",
+    "title": "Negative values in surface radiation fluxes rlds and rsus",
+    "description": "A problem in the radiation scheme, affecting all CMIP6 simulations from the EC-Earth Consortium (institute_id=EC-Earth-Consortium), results in unphysical negative downwelling longwave (rlds) and negative upwelling shortwave (rsus) radiation flux values in some grid points. The rlds problem is limited to high latitudes. The rsus problem is more widespread, especially over the ocean/sea ice. Most land points are not affected. The negative values are small but not negligible (larger than numerical noise). This data issue will not be fixed since that would require repeating all affected experiments. The data will remain published since the problem is limited in terms of areas affected and of magnitude (particularly for daily and monthly averages). Also other CMIP6 datasets for all EC-Earth3 configurations published in the future will be affected.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

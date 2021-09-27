@@ -1,0 +1,8 @@
+{
+    "uid": "5fda6ba1-3b14-38a1-94b9-22a09ad7e92e",
+    "title": "ACCESS-CM2 AMIP ensemble SST ancillary issue",
+    "description": "Due to an error in the creation of the SST ancillary files used for the AMIP simulations, the SST is undefined at some (not all) coastal points, for which the model used a default SST of 273.1 K. The worst affected points have an ocean fraction of about 0.5 and appear as anomalously cold in maps of the mean surface temperature. We will repeat this ensemble with corrected SSTs (r1i1p1f2, r2i1p1f2,... etc.), but will not retract the original ensemble due to its use in publications.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

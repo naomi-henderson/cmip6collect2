@@ -1,0 +1,8 @@
+{
+    "uid": "8aba929a-d899-409e-b4cf-6cbc20ffed23",
+    "title": "Incorrect land-sea-mask used during generation of CMORized output",
+    "description": "An incorrect land-sea-mask and other fx-fields have been used during the post processing of the model output, causing several published variables (mainly of the land model JSBACH) to be incorrect. For the affected PMIP simulations, not all affected variables can be corrected.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

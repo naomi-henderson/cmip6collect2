@@ -1,0 +1,8 @@
+{
+    "uid": "780ffab8-ce57-e486-8994-32c5be093bff",
+    "title": "Incorrect (natural only) data saved in fgco2",
+    "description": "Data meant for variable fgco2nat (natural CO2 flux) was inadvertently used instead of fgco2, therefore fgco2 in affected datasets does not see anthropogenic CO2 increases. Data to be reprocessed and republished.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

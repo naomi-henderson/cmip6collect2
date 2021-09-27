@@ -1,0 +1,8 @@
+{
+    "uid": "c532bcaf-59bd-19fc-9f98-f4230fbe141a",
+    "title": "Extension of HadGEM3-GC31-LL piControl",
+    "description": "A limited set of datasets for the HadGEM3-GC31-LL piControl simulation have been extended by 1,400 years.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

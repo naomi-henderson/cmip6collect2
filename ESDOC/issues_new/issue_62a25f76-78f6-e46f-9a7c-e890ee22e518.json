@@ -1,0 +1,8 @@
+{
+    "uid": "62a25f76-78f6-e46f-9a7c-e890ee22e518",
+    "title": "correction for wo data on gr grid",
+    "description": "There should be minor corrections with wo before comparison on gr grid. wo should be set to NaN when it is larger than 1.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

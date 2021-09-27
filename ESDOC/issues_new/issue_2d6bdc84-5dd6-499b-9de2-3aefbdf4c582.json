@@ -1,0 +1,8 @@
+{
+    "uid": "2d6bdc84-5dd6-499b-9de2-3aefbdf4c582",
+    "title": "Variables from dynamic vegetation component corrupt for EC-Earth LR (T159) data",
+    "description": "All variables provided by the EC-Earth component for dynamic vegetation (LPJ-GUESS) have been affected, in the low-resolution configuration, by a cmorisation problem. This implies that these variables can not be used at all in analyses. Note again, that this applies only to the low-resolution, T159 configurations, i.e. EC-EARTH3-LR and EC-EARTH3-Veg-LR.\nThe data will be retracted and new versions will be published.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

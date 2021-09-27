@@ -1,0 +1,8 @@
+{
+    "uid": "5e8f38ab-9e5a-5d5c-9c70-32396d77f039",
+    "title": "Incorrect soil moisture data (mrso) in SSP126",
+    "description": "There is an issue with the soil moisture data (mrso) in SSP126 (mrso_Lmon_CIESM_ssp126_r1i1p1f1_gr_201501-206412.nc). Data in  December 2035 consists of zeros.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

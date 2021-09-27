@@ -1,0 +1,8 @@
+{
+    "uid": "ccbe6066-d504-c71a-ad4a-1265484ae8b1",
+    "title": "Multiple Emon/hus datasets for UKESM1-0-LL esm-piControl with different pressure level sets",
+    "description": "The UKESM1-0-LL esm-piControl datasets were originally published for the first 250 years and have now been extended to 500 years (see https://errata.es-doc.org/static/view.html?uid=548af574-fd6c-f391-a128-3bf342f7a521), but for the variable Emon/hus an extra version was published due to a confusion between the two different spatial shapes of the variables listed in the CMIP6 data request as Emon/hus (7 pressure levels) and Emon/hus27 (27 pressure levels). The latest version (v20210524) contains data for the 27 pressure level variable for the full 500 years and is an extension of version v20190916. There is data published under version v20191112 for the 7 pressure level version, but as this contains one pressure level not included in the 27 pressure level set (50 hPa) we do not plan to retract this data.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

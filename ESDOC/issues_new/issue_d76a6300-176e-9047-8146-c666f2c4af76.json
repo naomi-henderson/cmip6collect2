@@ -1,0 +1,8 @@
+{
+    "uid": "d76a6300-176e-9047-8146-c666f2c4af76",
+    "title": "Issues with some Amon/day variables in year 1983 of EC-Earth Aerchem historical",
+    "description": "The following radiations (Amon and day tables) are affected by a bug in one year (1983) causing the values to be too low. The rest of the timeseries, variables and frequencies are fine. The problematic chunk will be fixed and republished in the coming days.\n\nrlds, rlut, rlus, rsds, rsdscs, rsus, rsuscs.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

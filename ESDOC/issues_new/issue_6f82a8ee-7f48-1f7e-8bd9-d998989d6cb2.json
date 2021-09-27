@@ -1,0 +1,8 @@
+{
+    "uid": "6f82a8ee-7f48-1f7e-8bd9-d998989d6cb2",
+    "title": "daily NorESM-LM data for ssp126",
+    "description": "For NorESM2-LM in daily  datasets for ssp126 in ScenarioMIP, a single day data are missing for date 20401231. We feel this missing day should not make for any science mistakes at least. Therefore, we are not planning to publish data for this missing day.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

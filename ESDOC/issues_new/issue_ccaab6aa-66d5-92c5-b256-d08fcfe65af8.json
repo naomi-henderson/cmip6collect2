@@ -1,0 +1,8 @@
+{
+    "uid": "ccaab6aa-66d5-92c5-b256-d08fcfe65af8",
+    "title": "Time accumulation error with daily values of 'es' and 'sbl'",
+    "description": "Daily variables es and sbl had been completely wrong, as the\ncorresponding Jsbach variables had been accumulated for a month at\nruntime, while they were written to the output every day. Thus the\nvalues of the first days of each month had been correct, the values of\nthe second day had been the sum of day 1 and day 2, and so on. For the simulations MPI-ESM1-2-LR.land-hist-cruNcep.r1i1p1f1 and MPI-ESM1-2-LR.land-hist.r2i1p1f1 the simulations have been repeated with correct output stream settings, for the other simulations the data has been corrected.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

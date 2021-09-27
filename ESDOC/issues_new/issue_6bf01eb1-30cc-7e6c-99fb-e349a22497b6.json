@@ -1,0 +1,8 @@
+{
+    "uid": "6bf01eb1-30cc-7e6c-99fb-e349a22497b6",
+    "title": "Publication of different versions of the same variables due to crossproduction",
+    "description": "The affected datasets have to be retracted as the connected variables have been published under a newer version-id due to cross production of standardized output.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

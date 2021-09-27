@@ -1,0 +1,8 @@
+{
+    "uid": "87e49438-567c-7389-8d17-145bbee96b21",
+    "title": "Incorrect source data used for UKESM1-0-LL ssp245 r16i1p1f2 simulation",
+    "description": "An error was made in the processing of these datasets; incorrect source data was used to produce all datasets for the ssp245 r16i1p1f2 simulation with version number v20201022. These datasets contain data produced for the ssp370 r6i1p1f2 simulation. This data is being retracted and replacements will be published in due course",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

@@ -1,0 +1,4 @@
+CMIP6.DCPP.CMCC.CMCC-CM2-SR5.dcppA-hindcast.s1960-r1i1p1f1.Amon.pr.gn#20201211
+CMIP6.DCPP.CMCC.CMCC-CM2-SR5.dcppA-hindcast.s1960-r1i1p1f1.Amon.psl.gn#20201211
+CMIP6.DCPP.CMCC.CMCC-CM2-SR5.dcppA-hindcast.s1960-r1i1p1f1.Amon.tas.gn#20201211
+CMIP6.DCPP.CMCC.CMCC-CM2-SR5.dcppA-hindcast.s1960-r1i1p1f1.Omon.tos.gn#20201211

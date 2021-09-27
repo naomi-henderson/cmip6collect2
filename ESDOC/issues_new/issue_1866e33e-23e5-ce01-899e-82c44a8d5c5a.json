@@ -1,0 +1,8 @@
+{
+    "uid": "1866e33e-23e5-ce01-899e-82c44a8d5c5a",
+    "title": "Extension of a small set of UKESM1-0-LL abrupt-4xCO2 datasets",
+    "description": "A small number of datasets for this experiment have been extended from the minimum 150 years by another 150 years to support offline regional modelling work.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

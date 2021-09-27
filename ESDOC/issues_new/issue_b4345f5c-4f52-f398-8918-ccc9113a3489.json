@@ -1,0 +1,8 @@
+{
+    "uid": "b4345f5c-4f52-f398-8918-ccc9113a3489",
+    "title": "Incorrect latitude and longitude coordinate variables (part 2)",
+    "description": "Due to errors in post-processing, some native ocean model grid (gn) variables have incorrect lat/lon auxiliary coordinate variables. The datasets will not be retracted, and should be fixed using these instructions.\n\n1. Start with a native grid ocean file with incorrect lat/lon variables.\n\n2. Locate the corrected lat/lon coordinate variable on https://data1.gfdl.noaa.gov in the table \"Auxiliary coordinate variables (geolat/geolon) for native ocean model output\".\n\na. Determine the resolution to use by the model source id (CM4, 0.25 degree; ESM4/OM4p5B 0.5 degree).\n\nb. Determine which velocity grid to use (uo,tauuo: \"u-velocity grid file\". vo,tauvo: \"v-velocity grid file\")\n\n3. Replace the flawed lat/lon coordinate variables with the corrected ones. Download both the variable file and the auxiliary coordinate file. Then run the NCO tool ncks: e.g. \"ncks -A -C -v lat,lon ocean_static_0p25_vgrid.nc tauvo_Omon_GFDL-CM4_historical_r1i1p1f1_gn_185001-186912.nc\"",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

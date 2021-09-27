@@ -1,0 +1,8 @@
+{
+    "uid": "a1cee5e8-0f13-0715-adbe-27031cb3233d",
+    "title": "tos Omon dcppB EC-Earth in K instead of Celsius",
+    "description": "The files from EC-Earth tos Omon were in K instead of Celsius as indicated in the metadata. Files are being reconverted to Celsius",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "09b33977-b6a7-6447-b5f4-05457eb4f9da",
+    "title": "Erroneous Chlorophyll-a units",
+    "description": "All CNRM-ESM2-1 chlorophyll-a data are 3 orders of magnitude (1e3) too high because related variables are in g/m3 instead of kg/m3 as expected in CMIP6 data request. Users are invited to apply a factor of 10^-3",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

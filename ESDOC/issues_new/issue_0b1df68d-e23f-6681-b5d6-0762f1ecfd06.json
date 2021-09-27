@@ -1,0 +1,8 @@
+{
+    "uid": "0b1df68d-e23f-6681-b5d6-0762f1ecfd06",
+    "title": "HadGEM3-GC31-HH sea ice grid errors and polar row masking.",
+    "description": "There are small errors in some latitude points and the polar row may not have been masked correctly. The incorrect v20200514 files will be withdrawn and a corrected version uploaded.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

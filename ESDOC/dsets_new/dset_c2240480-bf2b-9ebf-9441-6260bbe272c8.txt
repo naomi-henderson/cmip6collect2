@@ -1,0 +1,4 @@
+CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.fx.areacella.gn#20190920
+CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.fx.orog.gn#20190920
+CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.fx.sftgif.gn#20190920
+CMIP6.CMIP.NCC.NorESM2-LM.piControl.r1i1p1f1.fx.sftlf.gn#20190920

@@ -1,0 +1,8 @@
+{
+    "uid": "2972aa2c-db51-c913-9334-d622ba1d81c2",
+    "title": "Incorrect land-sea-mask applied during the post processing of the model output",
+    "description": "An incorrect land-sea-mask has been applied during the post processing (aggregation and diagnostic calculations) of the model output. The affected variables (mainly of the JSBACH land model) will be corrected if possible and else retracted.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

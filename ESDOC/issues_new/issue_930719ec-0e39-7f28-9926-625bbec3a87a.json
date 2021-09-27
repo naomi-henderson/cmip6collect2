@@ -1,0 +1,8 @@
+{
+    "uid": "930719ec-0e39-7f28-9926-625bbec3a87a",
+    "title": "Extension of UKESM1-0-LL ssp534-over-bgc r4i1p1f2 simulation datasets",
+    "description": "These datasets have been extended to include data until 2300. Note that there are a few datasets for this simulation with version 20210210 that have been published which do not have the 2040-2100 section. These will be published shortly and added to this errata.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

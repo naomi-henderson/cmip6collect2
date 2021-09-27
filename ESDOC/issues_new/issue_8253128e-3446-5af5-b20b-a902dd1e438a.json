@@ -1,0 +1,8 @@
+{
+    "uid": "8253128e-3446-5af5-b20b-a902dd1e438a",
+    "title": "Mix of 1D and 2D dimension coordinates in additional files",
+    "description": "Some files, but not all, have had their dimension coordinates converted from 2D i-j to 1D latitude and longitude. These datasets have been withdrawn and then republished with the correct latitude and longitude coordinates. The replacement files have a version of v20200929.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

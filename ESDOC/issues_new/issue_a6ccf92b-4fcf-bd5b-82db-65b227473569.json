@@ -1,0 +1,8 @@
+{
+    "uid": "a6ccf92b-4fcf-bd5b-82db-65b227473569",
+    "title": "Isolated grid points with excessive ice thickness/mass in HadGEM3-GC31-MM",
+    "description": "Due to a minor mismatch in some of the configuration files for HadGEM3-GC31-MM there are three points, on the coastline, where the sea ice mass and thickness can grow to excessive values above 100,000 kg/m2, while neighbouring grid cells remain around 1-2,000 kg/m2 in the piControl and historical simulations. The three locations are (i=1136, j=1168, 80.64N 47.95E), (i=1136, j=1180, 81.12N 56.04E) and (i=914, j=348, 63.89S 58.5W). DCPP simulations using HadGEM3-GC31-MM appear to be unaffected by this issue.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "wontfix"
+}

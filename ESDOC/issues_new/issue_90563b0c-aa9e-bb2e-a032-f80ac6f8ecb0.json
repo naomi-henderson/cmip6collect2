@@ -1,0 +1,8 @@
+{
+    "uid": "90563b0c-aa9e-bb2e-a032-f80ac6f8ecb0",
+    "title": "Missing values are set to NaN for ocean native grid variables",
+    "description": "Missing values (i.e., corresponding to land areas) are set to NaN, instead of 1.0e+20 (defined in the metadata), for ocean 2-D/3-D native grid variables and several basin zonal mean variables.\nUpdate: New versions of all these variables have been published with the issue resolved.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

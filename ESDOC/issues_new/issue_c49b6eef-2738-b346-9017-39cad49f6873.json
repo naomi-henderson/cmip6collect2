@@ -1,0 +1,8 @@
+{
+    "uid": "c49b6eef-2738-b346-9017-39cad49f6873",
+    "title": "Corrupt soil temperature for some GFDL-CM4 datasets",
+    "description": "Some CM4 simulations have a problem with the 4D (lat, lon, soil depth, time) field soil temperature (tsl), where the output from soil layers other than the top one is corrupt. In corrupt datasets, layers below the top level would show that most of the land is filled with missing data. The flaw cannot be fixed for simulations already run, so these corrupt datasets are retracted and will not be republished.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "01080ac5-01b4-48d3-9fd5-65c51f16e85e",
+    "title": "'od550bc', 'od550so4', 'od550oa', 'od550ss', 'od550dust', 'wetbc', 'wetso4', 'wetoa', 'wetss', 'wetdust' only partially published due to faulty diagnostics/setup",
+    "description": "'od550bc', 'od550so4', 'od550oa', 'od550ss', 'od550dust' is the aerosol optical thickness of the aerosol species at ambient conditions i.e. it includes the aerosol optical thickness increase due to water uptake of the aerosol particles at ambient conditions. In the first implementation of the diagnostics the dry aerosol optical thickness was diagnosed. This was later fixed. For the aerosol wet deposition tracers there was a problem of the experiment setup and the wet deposition output was not by aerosol species but by aerosol size mode. This was fixed later. Several experiments have therefore incorrect 'od550bc', 'od550so4', 'od550oa', 'od550ss', 'od550dust' and missing 'wetbc', 'wetso4', 'wetoa', 'wetss', 'wetdust' values.  Note that piControl is only partly affected, i.e. piControl_r1i1p1f1(years 2830+) is not affected. All affected data were removed. Due to a lack of resources the affected experiments cannot be repeated.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

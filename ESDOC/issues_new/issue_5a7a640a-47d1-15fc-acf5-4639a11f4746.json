@@ -1,0 +1,11 @@
+{
+    "uid": "5a7a640a-47d1-15fc-acf5-4639a11f4746",
+    "title": "Information regarding the remapping / regridding of MPI-ESM ocean data",
+    "description": "This issue does not describe any problem but rather provides information on how to regrid / remap model data of the MPI-ESM1-2 ocean model MPIOM.\nInstructions are given under the link below for both grids / grid resolutions used for CMIP6 simulations (GR15 for MPI-ESM1-2-LR and MPI-ESM-1-2-HAM, TP04 for MPI-ESM1-2-HR). The instructions mainly show how to remove the grid halo (duplicated grid cells) from the model output, and also how to remap ocean vector quantities using the Climate Data Operators (cdo). The listed datasets are not flawed in any way (to our best knowledge) and have been selected since it is a requirement to publish this issue.\nLink: https://wiki.mpimet.mpg.de/doku.php?id=analysis:postprocessing_mpiesm:regridding",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved",
+    "urls": [
+        "https://wiki.mpimet.mpg.de/doku.php?id=analysis:postprocessing_mpiesm:regridding"
+    ]
+}

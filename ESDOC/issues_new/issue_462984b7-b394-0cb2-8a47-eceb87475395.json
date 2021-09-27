@@ -1,0 +1,8 @@
+{
+    "uid": "462984b7-b394-0cb2-8a47-eceb87475395",
+    "title": "Incorrect dissolved oxygen values",
+    "description": "Due to a bug in the computation of oxygen solubility at 1 atm total pressure (stored as o2sat variable) detected in HAMOCC code, o2sat was calculated incorrectly. Instead of the in situ temperature, sea surface temperature was used to calculate the oxygen solubility. This lead to an underestimation of o2sat by up to 28%. Since o2sat is a diagnostic variable, it does not affect other variables in the simulation. The oxygen solubility can be calculated from the variables Omon_so and Omon_thetao by using equation 8 in Garcia and Gordon 1992, Oxygen solubility in seawater: Better fitting equations, Limnology and oceanography, 37(6), https://doi.org/10.4319/lo.1992.37.6.1307. Please note, that the model diagnostic uses instantaneous data for the calculation and then performs a monthly average, whereas the correction can only be performed using monthly mean data. All MPI-ESM1-2 simulations published until February 2021 were affected.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

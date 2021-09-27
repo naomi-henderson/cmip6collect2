@@ -1,0 +1,8 @@
+{
+    "uid": "1852e557-3ba4-8333-b222-6c42b6a944ce",
+    "title": "Wrong  parent_activity_id",
+    "description": "The \"parent_activity_id\" set to \"CMIP\" has to be replaced by \"ScenarioMIP\" in all G6solar files.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "dcb657b8-f102-16f9-9d06-3d4e3274be1f",
+    "title": "20 year extentions for DAMIP ssp245-covid r[2-5]i1p1f1",
+    "description": "The r[2-5]i1p1f1 runs of the DAMIP ssp245-covid experiment have been extended adding 20 simulated years (2031-2050).",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

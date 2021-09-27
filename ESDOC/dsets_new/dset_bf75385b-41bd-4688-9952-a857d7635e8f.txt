@@ -1,0 +1,3 @@
+CMIP6.AerChemMIP.HAMMOZ-Consortium.MPI-ESM-1-2-HAM.ssp370.r1i1p1f1.Amon.tas.gn#20190628
+CMIP6.AerChemMIP.HAMMOZ-Consortium.MPI-ESM-1-2-HAM.ssp370.r2i1p1f1.Amon.tas.gn#20190628
+CMIP6.AerChemMIP.HAMMOZ-Consortium.MPI-ESM-1-2-HAM.ssp370.r3i1p1f1.Amon.tas.gn#20191218

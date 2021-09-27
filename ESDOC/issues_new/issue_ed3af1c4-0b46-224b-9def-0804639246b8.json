@@ -1,0 +1,8 @@
+{
+    "uid": "ed3af1c4-0b46-224b-9def-0804639246b8",
+    "title": "Corrupted coordinates for several ocean variables of the DCPP simulations",
+    "description": "The ocean variables Omon_so, Omon_thetao, Omon_uo, Omon_vo and Omon_wo of the HR DCPP simulations have been published with corrupted coordinate variables.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

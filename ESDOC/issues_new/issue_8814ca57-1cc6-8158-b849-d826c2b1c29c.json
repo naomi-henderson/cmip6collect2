@@ -1,0 +1,8 @@
+{
+    "uid": "8814ca57-1cc6-8158-b849-d826c2b1c29c",
+    "title": "E3SM msftmz incorrectly computed",
+    "description": "The msftmz variable supplied by the E3SM project does not currently correctly incorporate water density as it should. The issue has been corrected, but the datasets in question need to be updated.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

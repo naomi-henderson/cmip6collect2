@@ -1,0 +1,8 @@
+{
+    "uid": "f862b568-8b62-8f4f-8f7a-5ebe3f371848",
+    "title": "Data has wrong units in HighResMIP epfz",
+    "description": "The data in the HighResMIP epfz variables was incorrectly produced with units of  kg s-2, but the metadata gave the units as m3 s-2 (other errors could also exist). These files have been withdrawn and are being produced again with the correct units. epfy will also be produced. The new data has version v20201210. Only the first ensemble member will initially be produced.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

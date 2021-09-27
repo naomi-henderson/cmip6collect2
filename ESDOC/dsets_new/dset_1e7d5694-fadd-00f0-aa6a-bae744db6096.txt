@@ -1,0 +1,4 @@
+CMIP6.HighResMIP.MRI.MRI-AGCM3-2-H.highresSST-future.r1i1p1f1.Amon.cl.gn#20190820
+CMIP6.HighResMIP.MRI.MRI-AGCM3-2-H.highresSST-present.r1i1p1f1.Amon.cl.gn#20190711
+CMIP6.HighResMIP.MRI.MRI-AGCM3-2-S.highresSST-future.r1i1p1f1.Amon.cl.gn#20190820
+CMIP6.HighResMIP.MRI.MRI-AGCM3-2-S.highresSST-present.r1i1p1f1.Amon.cl.gn#20190711

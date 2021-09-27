@@ -1,0 +1,8 @@
+{
+    "uid": "35266c94-6ab2-7f98-b496-4a1976b968df",
+    "title": "Wrong prescribed soil moisture forcing in the EC-Earth3 amip-lfmip-rmLC LS3MIP experiments r1i1p1f1 & r1i1p1f2",
+    "description": "The protocol requires to force the experiments with 30-year running mean\nsoil moisture from the corresponding ScenarioMIP experiment. Due to a bug in\nforcing pre-processing, the constant 2070-2100 climatology of soil moisture\nwas prescribed instead. The forcing issue has been fixed and the LS3MIP\nexperiment amip-lfmip-rmLC has been re-run with EC-Earth3 for both forcings\nr1i1p1f1 & r1i1p1f2. The datasets will be unpublished and replaced with the\nnew correct results shortly from now",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

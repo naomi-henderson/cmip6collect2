@@ -1,0 +1,8 @@
+{
+    "uid": "9b46d6b2-7ffe-48f8-8a10-502206b020b7",
+    "title": "Incorrect calculation of convective massflux variables mc, mcu, mcd, smc, dmc",
+    "description": "For all referenced simulations, the variables mc_CFday, mc_Amon, mcu_CFmon, mcd_CFmon, smc_CFmon and dmc_CFmon have been calculated incorrectly within the atmospheric submodel echam6. All affected datasets will be retracted. A correction is not possible without a rerun of the simulations.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

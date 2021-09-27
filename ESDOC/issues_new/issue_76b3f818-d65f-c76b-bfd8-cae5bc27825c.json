@@ -1,0 +1,8 @@
+{
+    "uid": "76b3f818-d65f-c76b-bfd8-cae5bc27825c",
+    "title": "Grid point single time step spikes leading to excessively large daily tasmax values in MOHC models",
+    "description": "An issue has been discovered where isolated and irregular events are leading to spikes (a single time step) in the value of surface air temperature lead to the value of daily tasmax datasets in all MOHC simulations that include the atmosphere. Initial investigations on a single simulation suggest that events over 340K occur once in every 250 days, with events above 350K occuring once in every 1,200 days.\n\nWe believe the spikes in tasmax are triggered by the model\u2019s surface energy balance, at isolated grid cells, being dominated by sensible heating. For very short periods the accumulated heat appears not to be efficiently mixed away from the surface by the model\u2019s sub-grid scale mixing scheme resulting in the spurious values. We are looking into the model cause of these failings, as these events are relatively rare we recommend that any tasmax values above 335K are considered suspect and masked out prior to analysis. At this time we do not plan to amend and replace the affected data sets.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "wontfix"
+}

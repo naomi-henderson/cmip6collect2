@@ -1,0 +1,8 @@
+{
+    "uid": "a2ec4782-08e5-86a4-862e-167def168f90",
+    "title": "Largely blank files",
+    "description": "Due to an error in production, apart from a few points along the coast, the affected files were largely blank. These datasets have now been replaced with version v20200731.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

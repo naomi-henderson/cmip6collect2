@@ -1,0 +1,8 @@
+{
+    "uid": "5942a93c-a219-f0be-bcfa-6af4cbbaa92d",
+    "title": "Retracting all datasets for NorESM2-LM  1pctCO2-cdr experiment",
+    "description": "We are retracting all datasets for activity CDRMIP with 1pctCO2-cdr experiment. There is nothing wrong with datasets only those were divided over different versions and we republished same datasets with a single version.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

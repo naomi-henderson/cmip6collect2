@@ -1,0 +1,8 @@
+{
+    "uid": "5d13271f-caee-ec35-a5b0-6b3de3866e67",
+    "title": "meanage was incorrectly calculated",
+    "description": "The meanage calculation was incorrect for all CMIP6-WACCM simulations",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "39a62671-cfcf-55f9-bc43-c770c8f058df",
+    "title": "Soil layer depth boundaries",
+    "description": "In GFDL's ESM4, CM4, and CM4C192 files reporting depth-dependent soil variables, attribute \u201cbounds\u201d of the depth axis points to a variable that is not present in the NetCDF files. That means that the software relying on CF-compliance of the data to determine the thickness of the soil layers will not be able to do so. As a consequence, while variable data are correct, vertical integrals or vertical averages may not be calculated precisely by such software. A solution is to use variable \u201czhalf_soil\u201d (provided in all affected files) as the boundaries of the soil layers when vertically integrating or averaging.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

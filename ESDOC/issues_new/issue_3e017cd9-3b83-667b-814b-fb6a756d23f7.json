@@ -1,0 +1,8 @@
+{
+    "uid": "3e017cd9-3b83-667b-814b-fb6a756d23f7",
+    "title": "Wrong horizontal interpolation in remapping for soil type related variables (r1i1p1f1 republish)",
+    "description": "The soil type related variables in EC-Earth3 which have been cmorised with an ece2cmor3 version earlier than v1.7 have been produced without a nearest neighbor interpolation which is required because of different soil types in the horizontal direction. The r1i1p1f1 files will be unpublished, fixed, and a new v20210324 version will be published.\nAffected variables: mrfso,mrso,mrsol,mrsos,mrsow,clayfrac,sandfrac,siltfrac",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

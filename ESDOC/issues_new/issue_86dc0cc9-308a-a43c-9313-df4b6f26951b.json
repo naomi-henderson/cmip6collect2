@@ -1,0 +1,8 @@
+{
+    "uid": "86dc0cc9-308a-a43c-9313-df4b6f26951b",
+    "title": "Scaling errors of Amon.clt in THU.CIESM",
+    "description": "The affected data have Amon.clt in range 0-1: the variables is defined as a percentage and should be in range 0-100%.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

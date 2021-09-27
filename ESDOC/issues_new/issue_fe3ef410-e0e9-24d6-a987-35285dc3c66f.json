@@ -1,0 +1,8 @@
+{
+    "uid": "fe3ef410-e0e9-24d6-a987-35285dc3c66f",
+    "title": "information related to variable areacello, thkcello and volcello",
+    "description": "For all areacello, thkcello and volcello variables it would be nice to ignored the last column.  j=385 can be dropped when using these variables (areacello, thkcello and volcello) as masks/weights for sea-ice variables.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "new"
+}

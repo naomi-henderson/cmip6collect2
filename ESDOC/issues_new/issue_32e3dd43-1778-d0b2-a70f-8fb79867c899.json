@@ -1,0 +1,8 @@
+{
+    "uid": "32e3dd43-1778-d0b2-a70f-8fb79867c899",
+    "title": "Incorrect data in Omon agessc: hist-GHG/aer/nat r[135]i1p1f1 (2015-2020) and ssp370-lowNTCF r1i1p1f1 (2056-2100)",
+    "description": "The data in Omon agessc were incorrectly produced for DAMIP hist-GHG/aer/nat r[135]i1p1f1 (2015-2020) and AerChemMIP ssp370-lowNTCF r1i1p1f1 (2056-2100). There is no problem for the periods prior to these.\nUpdate: All affected data have been withdrawn. We do not plan to replace these datasets as this requires repeating simulations.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "wontfix"
+}

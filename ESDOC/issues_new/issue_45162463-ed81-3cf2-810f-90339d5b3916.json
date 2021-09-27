@@ -1,0 +1,8 @@
+{
+    "uid": "45162463-ed81-3cf2-810f-90339d5b3916",
+    "title": "redundant file within dataset CMIP6.ScenarioMIP.NCC.NorESM2-LM.ssp585.r1i1p1f1.Amon.pr.gn#20191108",
+    "description": "There is an overlapping netcdf file for variable pr within dataset. It would advice to ignore file pr_Amon_NorESM2-LM_ssp585_r1i1p1f1_gn_204001-205012.nc from dataset.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

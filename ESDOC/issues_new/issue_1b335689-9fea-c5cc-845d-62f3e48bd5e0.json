@@ -1,0 +1,8 @@
+{
+    "uid": "1b335689-9fea-c5cc-845d-62f3e48bd5e0",
+    "title": "Invalid time units in 1005 datasets",
+    "description": "Since a mistake in the production of CMOR-rized netcdf made some files including invalid time units, the files including invalid time units will be withdrawn. Correct data files will be republished soon.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

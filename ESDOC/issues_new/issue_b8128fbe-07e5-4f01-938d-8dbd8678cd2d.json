@@ -1,0 +1,8 @@
+{
+    "uid": "b8128fbe-07e5-4f01-938d-8dbd8678cd2d",
+    "title": "Erroneous CNRM-CM6-1_amip-lfmip-pObs_r1i1p1f2 simulation (v20200218)",
+    "description": "Soil moisture was relaxed more loosely than intended (24h relaxation time).This simulation has been rerun and republished on ESGF (v20210512).",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

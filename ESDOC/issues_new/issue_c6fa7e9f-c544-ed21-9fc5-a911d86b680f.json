@@ -1,0 +1,8 @@
+{
+    "uid": "c6fa7e9f-c544-ed21-9fc5-a911d86b680f",
+    "title": "Wrong unit for siconca (fraction instead of percent)",
+    "description": "The sea-ice area on the atmospheric grid (siconca) is saved as fraction in the interval [0,1] instead of percent [0,100]. Note that the sea-ice fraction on the ocean grid (siconc) is *not* affected.\nThe datasets will be unpublished, corrected and republished.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "d61498c5-5e79-18e1-8448-8bbace333f98",
+    "title": "Negative salinity values in MPI-ESM1-2-HR",
+    "description": "There are some undershoots in the salinity fields. These occur at some occasions in small bays of the Baltic. Apparently, they occur, when there are strong changes in sea-ice distribution. In the model, there is no explicit cut-off for salinity at 0. While these single values are surely unrealistic, the salinity fields are OK in the global view.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

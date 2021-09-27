@@ -1,0 +1,8 @@
+{
+    "uid": "0321bea2-589e-1d6e-bf58-eb7b46c41751",
+    "title": "Double publication of two datasets due to double production by sub-models",
+    "description": "FESOM and ECHAM both create two CMOR-variables where the files cover different simulation times. Since the ECHAM subset was published first, quality control was O.K. for the FESOM subset resulting in a publication of new files into the same already published datasets.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "new"
+}

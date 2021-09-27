@@ -1,0 +1,8 @@
+{
+    "uid": "aa06862d-f0da-f2d1-a377-8762782b2fbe",
+    "title": "Wrong data: 3 variables (Amon.tas, fx.sftlf and Eday.mrtws) in land-hist",
+    "description": "We found that tas of Amon, sftlf of fx and mrtws of Eday provided by the MIROC6 were wrong. Sea area in the tas variable was not masked. Lake area in the sftlf variable was wrongly masked as non-land area. The mrtws variable was calculated by a wrong way in the process of CMOR conversion\n\nThe wrong data files will be withdrawn. And, the correct ones will be re-published soon.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

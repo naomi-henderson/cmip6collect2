@@ -1,0 +1,8 @@
+{
+    "uid": "bcecc8b4-ad3d-c7d4-8b69-50b5f46c5de9",
+    "title": "withdraw and replacement of Omon/intpp",
+    "description": "Omon/intpp data published in 2020 before November 20, 2020 had incorrectly made in the unit conversion process, in which multiplying by the factor (6.625) was missing. The wrong data will be withdrawn and the corrected one will be published as soon as possible. The data published in 2019 are not affected by this error.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "e73a1d98-e86b-ad68-accb-aa84af6c09fc",
+    "title": "retracting and republishing of datasets for dryss, dryoa and wetoa",
+    "description": "We have retracted and republished following datasets  dryss, dryoa and wetoa for few experiments with Table ID AERmon. Previously, those have been computed wrongly.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

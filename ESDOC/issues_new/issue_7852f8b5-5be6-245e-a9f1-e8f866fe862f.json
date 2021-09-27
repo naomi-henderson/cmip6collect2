@@ -1,0 +1,8 @@
+{
+    "uid": "7852f8b5-5be6-245e-a9f1-e8f866fe862f",
+    "title": "Incorrect branch_date_in_child in extension of some UKESM1 abrupt-4xCO2 data",
+    "description": "A minor issue in the branch_date_in_child field has been discovered in these datasets; it is set to 1960-01-01 (39600.) rather than 1850-01-01 (0.).",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

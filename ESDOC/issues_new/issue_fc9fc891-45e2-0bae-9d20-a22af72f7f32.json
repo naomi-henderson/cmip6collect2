@@ -1,0 +1,8 @@
+{
+    "uid": "fc9fc891-45e2-0bae-9d20-a22af72f7f32",
+    "title": "Some 3-D ESM4 ocean-bgc fields are incorrect",
+    "description": "The bottom layer of these 3-D fields is unusable due to numerical issues and can't be fixed. These datasets are retracted and will not be republished.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

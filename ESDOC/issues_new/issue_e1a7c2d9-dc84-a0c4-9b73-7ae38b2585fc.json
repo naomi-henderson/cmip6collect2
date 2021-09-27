@@ -1,0 +1,8 @@
+{
+    "uid": "e1a7c2d9-dc84-a0c4-9b73-7ae38b2585fc",
+    "title": "QBO not prescribed for all members of pdSST-piArcSIC ensemble.",
+    "description": "Members 101 to 300 of the CESM1-WACCM-SC simulation pdSST-piArcSIC include a different treatment of the Quasi-Biennial Oscillation (QBO). It is not prescribed, unlike in members 1-100. This results in a different model mean climatology in these members, which makes interpretation of this experiment difficult. The corrected members 101-300 include a prescription of the QBO, similar to members 1-100.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "new"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "1096babe-49b2-c701-9af0-8017b14bc0e8",
+    "title": "Incorrect emission data of \u2018OH\u2019 and wrong sign of meridional wind stress",
+    "description": "There are two issues. One is the missing of \u2018OH\u2019 in the emission forcing data, which caused excessive sulfate aerosols. The other issue is that the southward meridional wind stress should be northward in the coupler. All the DECK experiments have been redone with correct emission data as well as correct sign of meridional wind stress. All the corresponding files have been updated with the new version.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

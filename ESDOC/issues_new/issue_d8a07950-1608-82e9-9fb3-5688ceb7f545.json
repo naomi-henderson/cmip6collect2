@@ -1,0 +1,8 @@
+{
+    "uid": "d8a07950-1608-82e9-9fb3-5688ceb7f545",
+    "title": "Several datasets only partially published",
+    "description": "Problems with the filesystem caused various files of several datasets to not be readable during the publication process and thus to be excluded in the resulting published datasets. The incomplete datasets have been retracted and then published again as a new version, now containing all files.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

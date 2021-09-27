@@ -1,0 +1,8 @@
+{
+    "uid": "34e69702-663f-44b8-9458-94145a5d2a5f",
+    "title": "'Further Info' url does not resolve for some datasets",
+    "description": "The 'Further Info' url does not resolve for some datasets since the institution in the url is wrong. The affected experiments are: historical.r1i1p1f1, historical.r2i1p1f1, piControl.r1i1p1f1, ssp370-lowNTCF.r1i1p1f1, ssp370.r1i1p1f1, hist-piAer.r1i1p1f1. Note that the listed datasets are only exemplary, almost 4000 datasets are affected. As a workaround the wrong institution name 'MPI-M' in the url needs to be replaced by the right institution name 'HAMMOZ-Consortium'. E.g. https://furtherinfo.es-doc.org/CMIP6.MPI-M.MPI-ESM-1-2-HAM.historical.none.r1i1p1f1 will not resolve, while https://furtherinfo.es-doc.org/CMIP6.HAMMOZ-Consortium.MPI-ESM-1-2-HAM.historical.none.r1i1p1f1 resolves. Since there exists an easy workaround this error will not be fixed.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

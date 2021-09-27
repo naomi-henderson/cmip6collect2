@@ -1,0 +1,12 @@
+{
+    "uid": "bf75385b-41bd-4688-9952-a857d7635e8f",
+    "title": "No citation for 'ssp370' AerChemMIP experiment",
+    "description": "No citation exists for the three ensemble members of the AerChemMIP experiment 'ssp370'. The WIP decided that this experiment will remain uncitable (see discussion in github ticket 951; url below). As a workaround the AerChemMIP contribution of MPI-ESM1.2-HAM can be cited instead (see DOI below). The listed datasets are only exemplary. All datasets of the three ensemble members of 'ssp370' are affected.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix",
+    "urls": [
+        "https://doi.org/10.22033/ESGF/CMIP6.1621",
+        "https://github.com/WCRP-CMIP/CMIP6_CVs/issues/951"
+    ]
+}

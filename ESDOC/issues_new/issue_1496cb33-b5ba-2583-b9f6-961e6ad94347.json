@@ -1,0 +1,8 @@
+{
+    "uid": "1496cb33-b5ba-2583-b9f6-961e6ad94347",
+    "title": "Chlorophyll-a 3 orders of magnitude too high",
+    "description": "All IPSL Chlorophyll-a data are 3 orders of magnitude (1e3) too high because related variables are in g/m3 instead of kg/m3 as expected in CMIP6 data request.\nUsers are invited to apply a factor of 10^-3 while a new version of the affected dataset is published.\nOld dataset version will be unpublished from the ESGF.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

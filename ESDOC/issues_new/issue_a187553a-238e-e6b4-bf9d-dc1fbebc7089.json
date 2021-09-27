@@ -1,0 +1,8 @@
+{
+    "uid": "a187553a-238e-e6b4-bf9d-dc1fbebc7089",
+    "title": "Land masked EC-Earth3 atmospheric variables require masked regridding (r1i1p1f1)",
+    "description": "The EC-Earth3 atmospheric land masked variables in EC-Earth3 which have been cmorised with an ece2cmor3 version earlier than v1.7 have wrong values at certain nearby coast points due to a regridding issue. The r1i1p1f1 files will be unpublished, fixed, and a new v20210324 version will be published.\nAffected variables:  mrros,mrrob,snm,snmIs,snw,lwsnl,mrro,mrroIs,tslsi,tsland,tr,mrso,mrsow,clayfrac,siltfrac,sandfrac,mrfso,mrsos,tsl,tsl4sl,mrsol,hfdsl,hfmlt,hfsbl,esn,slthick",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

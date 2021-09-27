@@ -1,0 +1,8 @@
+{
+    "uid": "53b4ab55-5a11-a4a7-a662-4a85816e566d",
+    "title": "Update the  latitude-longitude informations of the historical hist-aer hist-nat and hist-GHG SImon datasets",
+    "description": "The latitude-longitude informations of the version  were set as the default values in the land region (missing values), and the new version  has reset them the real values.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

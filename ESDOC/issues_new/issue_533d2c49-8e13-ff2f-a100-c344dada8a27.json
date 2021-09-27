@@ -1,0 +1,8 @@
+{
+    "uid": "533d2c49-8e13-ff2f-a100-c344dada8a27",
+    "title": "Temporally incomplete datasets",
+    "description": "Due to errors in post-processing, some datasets are shorter than intended. These temporally incomplete datasets will be retracted and replaced with a new version.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "new"
+}

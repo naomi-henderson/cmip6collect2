@@ -1,0 +1,8 @@
+{
+    "uid": "99ffcdca-17dd-6843-9c42-511e28dce445",
+    "title": "Sign error in tauu and tauv data over land",
+    "description": "There is  a sign error with tauu and tauv over land area  for piControl, historical 4xCO2, 1pctCO2, AMIP, ScenarioMIP, GMMIP, and HighResMIP experiments. These files will be replaced.",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "new"
+}

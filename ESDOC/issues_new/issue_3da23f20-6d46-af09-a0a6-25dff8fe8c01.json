@@ -1,0 +1,8 @@
+{
+    "uid": "3da23f20-6d46-af09-a0a6-25dff8fe8c01",
+    "title": "Incorrect parent_variant_label in some UKESM1 AerChemMIP ssp370SST datasets",
+    "description": "The datasets listed here correspond to simulations that were initialised from the r2i1p1f2 historical simulation rather than the r1i1p1f2 simulation as reported in the file metadata.",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "wontfix"
+}

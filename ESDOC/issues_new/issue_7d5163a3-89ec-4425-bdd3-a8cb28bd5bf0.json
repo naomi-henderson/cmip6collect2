@@ -1,0 +1,8 @@
+{
+    "uid": "7d5163a3-89ec-4425-bdd3-a8cb28bd5bf0",
+    "title": "45 year extentions for ssp370-lowNTCF, ssp370SST, and ssp370SST-lowNTCF",
+    "description": "The ssp370-lowNTCF, ssp370SST, and ssp370SST-lowNTCF experiments have been extended adding 45 simulated years (2056-2100).",
+    "project": "cmip6",
+    "severity": "low",
+    "status": "resolved"
+}

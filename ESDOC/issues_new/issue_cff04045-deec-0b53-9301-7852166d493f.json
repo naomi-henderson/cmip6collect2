@@ -1,0 +1,8 @@
+{
+    "uid": "cff04045-deec-0b53-9301-7852166d493f",
+    "title": "correction for siarean and siareas",
+    "description": "All datasets related to variable siarean and siareas in NorESM1-F should be divided by 100 before comparison. Those are represented as a percentage (%) instead of fraction.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "new"
+}

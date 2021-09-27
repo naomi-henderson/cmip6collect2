@@ -1,0 +1,8 @@
+{
+    "uid": "2d185b61-e5a4-bb1f-a352-4bcf03df655c",
+    "title": "Error found in IITM-ESM ssp126 datasets",
+    "description": "There is an error in IITm-ESM SSP126 datasets",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

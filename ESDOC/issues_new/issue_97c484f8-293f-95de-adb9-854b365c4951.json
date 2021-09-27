@@ -1,0 +1,8 @@
+{
+    "uid": "97c484f8-293f-95de-adb9-854b365c4951",
+    "title": "Incorrect processing of some UKESM1-0-LL ssp126 datasets",
+    "description": "Due to an error in the processing configuration for a few members of the UKESM1-0-LL ssp126 ensemble, certain data sets were produced and published with values that are 3 times too small (the processing of these variables uses the atmosphere model time step which was mistakenly set to 3600 rather than 1200s). Only the data sets listed here for these simulations are affected. Data will be retracted shortly and replacements published in due course.\n\nAll affected datasets have been withdrawn, and replacements will be published shortly.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

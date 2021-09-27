@@ -1,0 +1,8 @@
+{
+    "uid": "d8653d6a-bd76-392f-8878-5b896dcda993",
+    "title": "fix variable prw in CMCC-CM2-SR5 and CMCC-ESM2 experiments",
+    "description": "Variable prw (Water Vapor Path) was cmorized from the wrong raw model variable, so it will be replaced with the correct field. \nUnfortunately, the daily values for Eday table cannot be recovered.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "resolved"
+}

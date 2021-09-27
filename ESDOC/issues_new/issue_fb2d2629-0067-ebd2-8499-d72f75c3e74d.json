@@ -1,0 +1,8 @@
+{
+    "uid": "fb2d2629-0067-ebd2-8499-d72f75c3e74d",
+    "title": "Withdraw all variables of esm-ssp534-over",
+    "description": "Withdraw all variables of esm-ssp534-over, because a wrong CO2 emission (of SSP460) data was applied to the simulation.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}

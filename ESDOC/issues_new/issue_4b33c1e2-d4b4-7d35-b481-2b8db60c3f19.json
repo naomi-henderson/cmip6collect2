@@ -1,0 +1,8 @@
+{
+    "uid": "4b33c1e2-d4b4-7d35-b481-2b8db60c3f19",
+    "title": "Update of dcppA-hindcast dataset for CMCC-CM2-SR5",
+    "description": "An error was discovered (wrong external forcings used) in some members and start-dates of the CMCC-CM2-SR5 decadal hindcast data set, namely dcppA-hindcast. After a thorough check, all the affected simulations were repeated with correct forcings and the new data will be uploaded by superseding the version 20201211 of dcppA-hindcast.\nHere only four example data file identifiers are provided, one per variable (pr, psl, tas, tos). However, all data files have been updated (all 60 start-dates and 6 members).",
+    "project": "cmip6",
+    "severity": "high",
+    "status": "resolved"
+}

@@ -1,0 +1,8 @@
+{
+    "uid": "9b40a054-21a7-5ae7-a3eb-8c373c5adddc",
+    "title": "Retracted tasmin and tasmax for CMCC-CM2-HR4 and VHR4 r1i1p1f1",
+    "description": "Data for tasmin and tasmax at both monthly and daily frequencies were retracted due to the occurrence of a technical issue in the original raw data. Users who accessed those data in that time window should discard them.",
+    "project": "cmip6",
+    "severity": "medium",
+    "status": "wontfix"
+}

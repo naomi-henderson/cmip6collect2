@@ -1,0 +1,8 @@
+{
+    "uid": "30368d0d-8c55-2d9e-bbb3-83395e2596df",
+    "title": "Isolated grid points with excessive ice thickness/mass in NERC HadGEM3-GC31-HH",
+    "description": "Due to a minor mismatch in some of the configuration files for HadGEM3-GC31-HH there are around 50 points, on the coastline, where the sea ice mass and thickness can grow to excessive values above 100,000 kg/m2, while neighbouring grid cells remain around 1-2,000 kg/m2. Instructions will be made available on how to mask these points.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "onhold"
+}

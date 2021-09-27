@@ -1,0 +1,8 @@
+{
+    "uid": "83c2db03-831b-af8a-a7d2-4aa562f53f28",
+    "title": "Withdraw and replacement of Amon, CFmon, EdayZ, Emon, EmonZ, LImon, Lmon and fx/ CFMIP amip-p4K",
+    "description": "amip-p4K data published in 5 July 2019 and 15 October 2019 had incorrect ensemble number r2i1p1f1, and they should be contained in r1i1p1f1. The data with r2i1p1f1 will be withdrawn and the dataset with r1i1p1f1 will be published.",
+    "project": "cmip6",
+    "severity": "critical",
+    "status": "resolved"
+}
