@@ -1,0 +1,11 @@
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/evspsbl/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/hfls/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/pr/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/prc/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/ps/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/psl/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/sfcWind/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/tas/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/ts/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/uas/gr/v20190711/.zmetadata
+cmip6/CMIP6/GMMIP/CNRM-CERFACS/CNRM-ESM2-1/amip-hist/r1i1p1f2/Amon/vas/gr/v20190711/.zmetadata

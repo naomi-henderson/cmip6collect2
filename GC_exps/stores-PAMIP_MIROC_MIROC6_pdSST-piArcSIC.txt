@@ -1,0 +1,2 @@
+cmip6/CMIP6/PAMIP/MIROC/MIROC6/pdSST-piArcSIC/r1i1p1f1/Amon/huss/gn/v20191114/.zmetadata
+cmip6/CMIP6/PAMIP/MIROC/MIROC6/pdSST-piArcSIC/r1i1p1f1/Amon/uas/gn/v20191114/.zmetadata

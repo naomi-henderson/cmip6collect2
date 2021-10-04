@@ -1,0 +1,2 @@
+cmip6/CMIP6/CDRMIP/MIROC/MIROC-ES2L/1pctCO2-cdr/r1i1p1f2/Omon/tos/gn/v20200622/.zmetadata
+cmip6/CMIP6/CDRMIP/MIROC/MIROC-ES2L/1pctCO2-cdr/r1i1p1f2/Omon/tos/gr1/v20200731/.zmetadata

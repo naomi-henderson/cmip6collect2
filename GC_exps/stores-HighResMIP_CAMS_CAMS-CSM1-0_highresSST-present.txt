@@ -1,0 +1,2 @@
+cmip6/CMIP6/HighResMIP/CAMS/CAMS-CSM1-0/highresSST-present/r1i1p1f1/Amon/evspsbl/gn/v20200119/.zmetadata
+cmip6/CMIP6/HighResMIP/CAMS/CAMS-CSM1-0/highresSST-present/r1i1p1f1/Amon/pr/gn/v20200119/.zmetadata

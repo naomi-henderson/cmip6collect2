@@ -1,0 +1,9 @@
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Ofx/areacello/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Ofx/basin/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Ofx/sftof/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/so/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/thetao/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/tos/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/uo/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/vo/gn/v20190821/.zmetadata
+cmip6/CMIP6/OMIP/MIROC/MIROC6/omip1/r1i1p1f1/Omon/wo/gn/v20190821/.zmetadata

@@ -1,0 +1,2 @@
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/ssp370-lowNTCF/r1i1p1f2/AERmon/ps/gn/v20201020/.zmetadata
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/ssp370-lowNTCF/r2i1p1f2/AERmon/ps/gn/v20201023/.zmetadata

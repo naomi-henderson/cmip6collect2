@@ -1,0 +1,5 @@
+cmip6/CMIP6/LUMIP/NCAR/CESM2/land-noLu/r1i1p1f1/Amon/hurs/gn/v20190401/.zmetadata
+cmip6/CMIP6/LUMIP/NCAR/CESM2/land-noLu/r1i1p1f1/Amon/huss/gn/v20190401/.zmetadata
+cmip6/CMIP6/LUMIP/NCAR/CESM2/land-noLu/r1i1p1f1/Amon/pr/gn/v20190401/.zmetadata
+cmip6/CMIP6/LUMIP/NCAR/CESM2/land-noLu/r1i1p1f1/Amon/tas/gn/v20190401/.zmetadata
+cmip6/CMIP6/LUMIP/NCAR/CESM2/land-noLu/r1i1p1f1/Amon/ts/gn/v20190401/.zmetadata

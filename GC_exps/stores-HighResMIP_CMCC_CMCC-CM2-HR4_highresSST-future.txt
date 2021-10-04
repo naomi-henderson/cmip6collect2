@@ -1,0 +1,1 @@
+cmip6/CMIP6/HighResMIP/CMCC/CMCC-CM2-HR4/highresSST-future/r1i1p1f1/Amon/pr/gn/v20190705/.zmetadata

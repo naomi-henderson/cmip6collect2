@@ -1,0 +1,4 @@
+cmip6/CMIP6/RFMIP/MOHC/UKESM1-0-LL/piClim-4xCO2/r1i1p1f4/Amon/rlut/gn/v20200410/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/UKESM1-0-LL/piClim-4xCO2/r1i1p1f4/Amon/rsdt/gn/v20200410/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/UKESM1-0-LL/piClim-4xCO2/r1i1p1f4/Amon/rsut/gn/v20200410/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/UKESM1-0-LL/piClim-4xCO2/r1i1p1f4/Amon/tas/gn/v20200410/.zmetadata

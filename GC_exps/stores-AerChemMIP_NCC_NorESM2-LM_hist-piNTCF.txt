@@ -1,0 +1,2 @@
+cmip6/CMIP6/AerChemMIP/NCC/NorESM2-LM/hist-piNTCF/r2i1p1f1/AERmon/ps/gn/v20190920/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCC/NorESM2-LM/hist-piNTCF/r3i1p1f1/AERmon/ps/gn/v20190920/.zmetadata

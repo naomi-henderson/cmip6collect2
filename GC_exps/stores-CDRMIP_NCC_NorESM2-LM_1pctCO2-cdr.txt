@@ -1,0 +1,1 @@
+cmip6/CMIP6/CDRMIP/NCC/NorESM2-LM/1pctCO2-cdr/r1i1p1f1/Omon/tos/gn/v20210118/.zmetadata

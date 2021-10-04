@@ -1,0 +1,1 @@
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3P-VHR/historical/r1i1p2f1/Amon/clt/gr/v20201007/.zmetadata

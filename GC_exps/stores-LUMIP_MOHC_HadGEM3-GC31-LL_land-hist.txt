@@ -1,0 +1,12 @@
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Amon/evspsbl/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Amon/pr/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Amon/tas/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Emon/mrsol/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/evspsblsoi/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/evspsblveg/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/lai/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/mrro/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/mrros/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/mrso/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/mrsos/gn/v20200807/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/HadGEM3-GC31-LL/land-hist/r1i1p1f3/Lmon/tran/gn/v20200807/.zmetadata

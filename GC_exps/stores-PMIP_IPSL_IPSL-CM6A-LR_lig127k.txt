@@ -1,0 +1,5 @@
+cmip6/CMIP6/PMIP/IPSL/IPSL-CM6A-LR/lig127k/r1i1p1f1/Amon/pr/gr/v20180926/.zmetadata
+cmip6/CMIP6/PMIP/IPSL/IPSL-CM6A-LR/lig127k/r1i1p1f1/Amon/ts/gr/v20180926/.zmetadata
+cmip6/CMIP6/PMIP/IPSL/IPSL-CM6A-LR/lig127k/r1i1p1f1/Ofx/areacello/gn/v20180926/.zmetadata
+cmip6/CMIP6/PMIP/IPSL/IPSL-CM6A-LR/lig127k/r1i1p1f1/Ofx/basin/gn/v20180926/.zmetadata
+cmip6/CMIP6/PMIP/IPSL/IPSL-CM6A-LR/lig127k/r1i1p1f1/fx/areacella/gr/v20180926/.zmetadata

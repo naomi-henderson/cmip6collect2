@@ -1,0 +1,3 @@
+cmip6/CMIP6/GMMIP/MRI/MRI-ESM2-0/hist-resIPO/r1i1p1f1/fx/sftlf/gn/v20200107/.zmetadata
+cmip6/CMIP6/GMMIP/MRI/MRI-ESM2-0/hist-resIPO/r2i1p1f1/fx/sftlf/gn/v20200107/.zmetadata
+cmip6/CMIP6/GMMIP/MRI/MRI-ESM2-0/hist-resIPO/r3i1p1f1/fx/sftlf/gn/v20200107/.zmetadata

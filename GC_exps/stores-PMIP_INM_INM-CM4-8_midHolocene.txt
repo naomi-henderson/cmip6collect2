@@ -1,0 +1,6 @@
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/epfy/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/epfz/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/ta/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/ua/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/utendnogw/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/midHolocene/r1i1p1f1/EdayZ/utendogw/gr1/v20190802/.zmetadata

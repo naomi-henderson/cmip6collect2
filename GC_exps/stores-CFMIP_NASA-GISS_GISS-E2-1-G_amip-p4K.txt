@@ -1,0 +1,4 @@
+cmip6/CMIP6/CFMIP/NASA-GISS/GISS-E2-1-G/amip-p4K/r1i1p1f1/Amon/wap/gn/v20200102/.zmetadata
+cmip6/CMIP6/CFMIP/NASA-GISS/GISS-E2-1-G/amip-p4K/r1i1p1f1/EmonZ/epfy/gn/v20200102/.zmetadata
+cmip6/CMIP6/CFMIP/NASA-GISS/GISS-E2-1-G/amip-p4K/r1i1p1f1/EmonZ/epfz/gn/v20200102/.zmetadata
+cmip6/CMIP6/CFMIP/NASA-GISS/GISS-E2-1-G/amip-p4K/r1i1p1f1/EmonZ/vtem/gn/v20200102/.zmetadata

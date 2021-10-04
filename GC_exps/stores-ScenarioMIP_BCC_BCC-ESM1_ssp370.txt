@@ -1,0 +1,12 @@
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Amon/pr/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Amon/ts/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Amon/ua/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r1i1p1f1/Amon/va/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r2i1p1f1/Amon/pr/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r2i1p1f1/Amon/ts/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r2i1p1f1/Amon/ua/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r2i1p1f1/Amon/va/gn/v20190624/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r3i1p1f1/Amon/pr/gn/v20190702/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r3i1p1f1/Amon/ts/gn/v20190702/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r3i1p1f1/Amon/ua/gn/v20190702/.zmetadata
+cmip6/CMIP6/ScenarioMIP/BCC/BCC-ESM1/ssp370/r3i1p1f1/Amon/va/gn/v20190702/.zmetadata

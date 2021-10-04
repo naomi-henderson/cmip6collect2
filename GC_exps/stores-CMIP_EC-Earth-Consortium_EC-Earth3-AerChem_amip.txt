@@ -1,0 +1,16 @@
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/evspsbl/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/hfls/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/pr/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/prc/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/ps/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/psl/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/rlut/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/rsdt/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/rsut/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/sfcWind/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/tas/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/ts/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/uas/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/Amon/vas/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/fx/areacella/gr/v20200910/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-AerChem/amip/r1i1p1f1/fx/sftlf/gr/v20200910/.zmetadata

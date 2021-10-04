@@ -1,0 +1,11 @@
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/epfy/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/epfz/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/psitem/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/ua/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/utendepfd/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/utendnogw/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/utendogw/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/utendvtem/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/utendwtem/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/vtem/gn/v20190531/.zmetadata
+cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/histSST-1950HC/r1i1p1f1/EdayZ/wtem/gn/v20190531/.zmetadata

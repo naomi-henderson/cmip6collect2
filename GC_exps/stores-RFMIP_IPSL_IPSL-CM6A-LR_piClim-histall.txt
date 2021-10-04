@@ -1,0 +1,12 @@
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r1i1p1f1/Amon/rlut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r1i1p1f1/Amon/rsdt/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r1i1p1f1/Amon/rsut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r1i1p1f1/Amon/tas/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r2i1p1f1/Amon/rlut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r2i1p1f1/Amon/rsdt/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r2i1p1f1/Amon/rsut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r2i1p1f1/Amon/tas/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r3i1p1f1/Amon/rlut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r3i1p1f1/Amon/rsdt/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r3i1p1f1/Amon/rsut/gr/v20191022/.zmetadata
+cmip6/CMIP6/RFMIP/IPSL/IPSL-CM6A-LR/piClim-histall/r3i1p1f1/Amon/tas/gr/v20191022/.zmetadata

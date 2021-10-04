@@ -1,0 +1,6 @@
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r1i1p1f1/Amon/psl/gn/v20200206/.zmetadata
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r1i1p1f1/Amon/tas/gn/v20200206/.zmetadata
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r2i1p1f1/Amon/psl/gn/v20200305/.zmetadata
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r2i1p1f1/Amon/tas/gn/v20200305/.zmetadata
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r3i1p1f1/Amon/psl/gn/v20200206/.zmetadata
+cmip6/CMIP6/DAMIP/NCAR/CESM2/ssp245-nat/r3i1p1f1/Amon/tas/gn/v20200206/.zmetadata

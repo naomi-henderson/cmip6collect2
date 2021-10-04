@@ -1,0 +1,7 @@
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EdayZ/ta/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EdayZ/ua/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EmonZ/tntc/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EmonZ/tntmp/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EmonZ/tntrl/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EmonZ/tntrs/gn/v20190628/.zmetadata
+cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/ssp370SST/r1i1p1f1/EmonZ/tntscp/gn/v20190628/.zmetadata

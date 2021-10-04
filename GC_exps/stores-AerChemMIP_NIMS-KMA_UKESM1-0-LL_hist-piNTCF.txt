@@ -1,0 +1,4 @@
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/hist-piNTCF/r1i1p1f2/Amon/evspsbl/gn/v20200513/.zmetadata
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/hist-piNTCF/r2i1p1f2/AERmon/ps/gn/v20200214/.zmetadata
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/hist-piNTCF/r2i1p1f2/Amon/evspsbl/gn/v20200214/.zmetadata
+cmip6/CMIP6/AerChemMIP/NIMS-KMA/UKESM1-0-LL/hist-piNTCF/r3i1p1f2/Amon/evspsbl/gn/v20200224/.zmetadata

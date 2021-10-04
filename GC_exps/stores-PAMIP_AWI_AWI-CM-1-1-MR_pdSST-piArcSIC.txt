@@ -1,0 +1,6 @@
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/evspsbl/gn/v20190909/.zmetadata
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/huss/gn/v20190909/.zmetadata
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/pr/gn/v20190909/.zmetadata
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/prc/gn/v20190909/.zmetadata
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/ps/gn/v20190909/.zmetadata
+cmip6/CMIP6/PAMIP/AWI/AWI-CM-1-1-MR/pdSST-piArcSIC/r1i1p1f1/Amon/sfcWind/gn/v20190909/.zmetadata

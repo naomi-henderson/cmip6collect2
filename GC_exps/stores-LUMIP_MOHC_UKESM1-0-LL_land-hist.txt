@@ -1,0 +1,16 @@
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Amon/evspsbl/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Amon/pr/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Amon/tas/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Emon/cSoil/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Emon/mrsol/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/cProduct/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/cVeg/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/evspsblsoi/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/evspsblveg/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/gpp/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/lai/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/mrro/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/mrros/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/mrso/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/mrsos/gn/v20200806/.zmetadata
+cmip6/CMIP6/LUMIP/MOHC/UKESM1-0-LL/land-hist/r1i1p1f2/Lmon/tran/gn/v20200806/.zmetadata

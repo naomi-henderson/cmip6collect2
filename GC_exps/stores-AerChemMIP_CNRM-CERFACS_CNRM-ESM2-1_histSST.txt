@@ -1,0 +1,13 @@
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/mmrbc/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/mmrdust/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/mmroa/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/mmrso4/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/mmrss/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/od550aer/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/rlutaf/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/rlutcsaf/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/rsutaf/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/AERmon/rsutcsaf/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/Amon/rlut/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/Amon/rsdt/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/histSST/r1i1p1f2/Amon/rsut/gr/v20190621/.zmetadata

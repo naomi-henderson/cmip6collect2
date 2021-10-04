@@ -1,0 +1,12 @@
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/chl/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/detoc/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/dissic/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/dissicnat/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/no3/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/o2/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/phyc/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/pp/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/talk/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/Oyr/zooc/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/fx/areacella/gn/v20190429/.zmetadata
+cmip6/CMIP6/CMIP/CCCma/CanESM5/piControl-cmip5/r1i1p1f1/fx/orog/gn/v20190429/.zmetadata

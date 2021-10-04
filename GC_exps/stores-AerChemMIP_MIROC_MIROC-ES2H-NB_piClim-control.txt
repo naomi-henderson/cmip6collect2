@@ -1,0 +1,4 @@
+cmip6/CMIP6/AerChemMIP/MIROC/MIROC-ES2H-NB/piClim-control/r1i1p1f2/Amon/rlut/gn/v20200525/.zmetadata
+cmip6/CMIP6/AerChemMIP/MIROC/MIROC-ES2H-NB/piClim-control/r1i1p1f2/Amon/rsdt/gn/v20200525/.zmetadata
+cmip6/CMIP6/AerChemMIP/MIROC/MIROC-ES2H-NB/piClim-control/r1i1p1f2/Amon/rsut/gn/v20200525/.zmetadata
+cmip6/CMIP6/AerChemMIP/MIROC/MIROC-ES2H-NB/piClim-control/r1i1p1f2/Amon/tas/gn/v20200525/.zmetadata

@@ -1,0 +1,13 @@
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Emon/cSoil/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Emon/mrsol/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/cLitter/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/cVeg/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/evspsblsoi/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/evspsblveg/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/gpp/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/lai/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/mrro/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/mrros/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/mrso/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/mrsos/gn/v20190731/.zmetadata
+cmip6/CMIP6/LUMIP/BCC/BCC-CSM2-MR/land-hist/r1i1p1f1/Lmon/tran/gn/v20190731/.zmetadata

@@ -1,0 +1,4 @@
+cmip6/CMIP6/CFMIP/NCAR/CESM2/abrupt-2xCO2/r1i1p1f1/Amon/rlut/gn/v20200408/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/abrupt-2xCO2/r1i1p1f1/Amon/rsdt/gn/v20200408/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/abrupt-2xCO2/r1i1p1f1/Amon/rsut/gn/v20200408/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/abrupt-2xCO2/r1i1p1f1/Amon/tas/gn/v20200408/.zmetadata

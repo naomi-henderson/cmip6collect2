@@ -1,0 +1,11 @@
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/chl/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/chlos/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/dfe/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/dfeos/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/epc100/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/fgco2/gn/v20201016/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/hfds/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/intpp/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/phycos/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/rsntds/gn/v20200730/.zmetadata
+cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/ssp585-bgc/r1i1p1f1/Omon/spco2/gn/v20200730/.zmetadata

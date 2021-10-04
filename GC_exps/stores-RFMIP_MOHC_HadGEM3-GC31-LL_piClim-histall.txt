@@ -1,0 +1,12 @@
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r1i1p1f3/Amon/rlut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r1i1p1f3/Amon/rsdt/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r1i1p1f3/Amon/rsut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r1i1p1f3/Amon/tas/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r2i1p1f3/Amon/rlut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r2i1p1f3/Amon/rsdt/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r2i1p1f3/Amon/rsut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r2i1p1f3/Amon/tas/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r3i1p1f3/Amon/rlut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r3i1p1f3/Amon/rsdt/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r3i1p1f3/Amon/rsut/gn/v20200923/.zmetadata
+cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-histall/r3i1p1f3/Amon/tas/gn/v20200923/.zmetadata

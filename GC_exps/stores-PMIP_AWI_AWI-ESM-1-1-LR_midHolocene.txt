@@ -1,0 +1,2 @@
+cmip6/CMIP6/PMIP/AWI/AWI-ESM-1-1-LR/midHolocene/r1i1p1f1/EdayZ/ta/gn/v20200212/.zmetadata
+cmip6/CMIP6/PMIP/AWI/AWI-ESM-1-1-LR/midHolocene/r1i1p1f1/EdayZ/ua/gn/v20200212/.zmetadata

@@ -1,0 +1,5 @@
+cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-HR/ssp585/r1i1p1f1/6hrLev/hus/gn/v20190710/.zmetadata
+cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-HR/ssp585/r1i1p1f1/6hrLev/ps/gn/v20190710/.zmetadata
+cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-HR/ssp585/r1i1p1f1/6hrLev/ta/gn/v20190710/.zmetadata
+cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-HR/ssp585/r1i1p1f1/6hrLev/ua/gn/v20190710/.zmetadata
+cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-HR/ssp585/r1i1p1f1/6hrLev/va/gn/v20190710/.zmetadata

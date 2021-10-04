@@ -1,0 +1,4 @@
+cmip6/CMIP6/OMIP/NCC/NorESM2-LM/omip1/r1i1p1f1/Ofx/areacello/gn/v20190920/.zmetadata
+cmip6/CMIP6/OMIP/NCC/NorESM2-LM/omip1/r1i1p1f1/Ofx/basin/gn/v20190920/.zmetadata
+cmip6/CMIP6/OMIP/NCC/NorESM2-LM/omip1/r1i1p1f1/Ofx/sftof/gn/v20190920/.zmetadata
+cmip6/CMIP6/OMIP/NCC/NorESM2-LM/omip1/r1i1p1f1/Ofx/volcello/gr/v20190920/.zmetadata

@@ -1,0 +1,5 @@
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/lgm/r1i1p1f1/Amon/pr/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/lgm/r1i1p1f1/Amon/tas/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/lgm/r1i1p1f1/Lmon/evspsblveg/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/lgm/r1i1p1f1/Lmon/lai/gr1/v20190802/.zmetadata
+cmip6/CMIP6/PMIP/INM/INM-CM4-8/lgm/r1i1p1f1/Lmon/mrso/gr1/v20190802/.zmetadata

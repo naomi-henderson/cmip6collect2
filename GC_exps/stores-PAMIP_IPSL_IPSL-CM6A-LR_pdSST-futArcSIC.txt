@@ -1,0 +1,9 @@
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/clt/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/evspsbl/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/huss/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/pr/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/prc/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/psl/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/sfcWind/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/ts/gr/v20201222/.zmetadata
+cmip6/CMIP6/PAMIP/IPSL/IPSL-CM6A-LR/pdSST-futArcSIC/r1i1p1f1/Amon/vas/gr/v20201222/.zmetadata

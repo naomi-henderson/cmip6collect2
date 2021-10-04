@@ -1,0 +1,6 @@
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/clt/gn/v20200908/.zmetadata
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/evspsbl/gn/v20200908/.zmetadata
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/huss/gn/v20200908/.zmetadata
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/ps/gn/v20200908/.zmetadata
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/psl/gn/v20200908/.zmetadata
+cmip6/CMIP6/PAMIP/MOHC/HadGEM3-GC31-MM/pdSST-piArcSIC/r1i1p1f2/Amon/tas/gn/v20200908/.zmetadata

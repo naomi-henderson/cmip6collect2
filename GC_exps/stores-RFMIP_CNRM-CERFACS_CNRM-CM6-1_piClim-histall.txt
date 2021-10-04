@@ -1,0 +1,4 @@
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-CM6-1/piClim-histall/r1i1p1f2/Amon/rlut/gr/v20201217/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-CM6-1/piClim-histall/r1i1p1f2/Amon/rsdt/gr/v20201217/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-CM6-1/piClim-histall/r1i1p1f2/Amon/rsut/gr/v20201217/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-CM6-1/piClim-histall/r1i1p1f2/Amon/tas/gr/v20201217/.zmetadata

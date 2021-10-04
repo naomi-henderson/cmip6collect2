@@ -1,0 +1,3 @@
+cmip6/CMIP6/C4MIP/MIROC/MIROC-ES2L/hist-bgc/r1i1p1f2/Omon/fgco2/gn/v20200124/.zmetadata
+cmip6/CMIP6/C4MIP/MIROC/MIROC-ES2L/hist-bgc/r1i1p1f2/Omon/fgo2/gn/v20191129/.zmetadata
+cmip6/CMIP6/C4MIP/MIROC/MIROC-ES2L/hist-bgc/r1i1p1f2/Omon/sos/gn/v20191129/.zmetadata

@@ -1,0 +1,10 @@
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/hfds/gn/v20190723/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/mlotst/gn/v20190723/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/msftmz/gn/v20190729/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/obvfsq/gn/v20190730/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/so/gn/v20190729/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/thetao/gn/v20190729/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/tos/gn/v20190730/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/uo/gn/v20190729/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/vo/gn/v20190729/.zmetadata
+cmip6/CMIP6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/wo/gn/v20190727/.zmetadata

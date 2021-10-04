@@ -1,0 +1,11 @@
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/evspsbl/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/hfls/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/pr/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/prc/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/ps/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/psl/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/sfcWind/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/tas/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/ts/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/uas/gn/v20190606/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/amip-hist/r1i1p1f1/Amon/vas/gn/v20190606/.zmetadata

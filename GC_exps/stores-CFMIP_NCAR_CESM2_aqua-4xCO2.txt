@@ -1,0 +1,9 @@
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/co2mass/gn/v20190816/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/evspsbl/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/hurs/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/huss/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/pr/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/prw/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/ps/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/Amon/wap/gn/v20190507/.zmetadata
+cmip6/CMIP6/CFMIP/NCAR/CESM2/aqua-4xCO2/r1i1p1f1/fx/areacella/gn/v20190507/.zmetadata

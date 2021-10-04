@@ -1,0 +1,12 @@
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Amon/ts/gr/v20210330/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Amon/uas/gr/v20210330/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Amon/vas/gr/v20210330/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Ofx/areacello/gn/v20210423/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Omon/hfbasin/gn/v20210416/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/Omon/mlotst/gn/v20210416/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/hfss/gr/v20210331/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/prsn/gr/v20210331/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/rlus/gr/v20210331/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/rlut/gr/v20210331/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/rsus/gr/v20210331/.zmetadata
+cmip6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3-CC/piControl/r1i1p1f1/day/snw/gr/v20210331/.zmetadata

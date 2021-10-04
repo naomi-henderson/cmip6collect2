@@ -1,0 +1,6 @@
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/Amon/hus/gn/v20190429/.zmetadata
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/Amon/rsdscs/gn/v20190429/.zmetadata
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/Amon/rsdt/gn/v20190429/.zmetadata
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/Amon/ta/gn/v20190429/.zmetadata
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/Amon/ts/gn/v20190429/.zmetadata
+cmip6/CMIP6/RFMIP/CCCma/CanESM5/piClim-anthro/r1i1p2f1/fx/areacella/gn/v20190429/.zmetadata

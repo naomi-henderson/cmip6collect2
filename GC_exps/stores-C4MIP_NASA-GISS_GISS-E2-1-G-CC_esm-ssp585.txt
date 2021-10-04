@@ -1,0 +1,10 @@
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Amon/clt/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Amon/tas/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Amon/uas/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Amon/vas/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Omon/chl/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Omon/intpp/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Omon/talk/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Omon/thetao/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/Omon/tos/gn/v20190815/.zmetadata
+cmip6/CMIP6/C4MIP/NASA-GISS/GISS-E2-1-G-CC/esm-ssp585/r1i1p1f1/SImon/sithick/gn/v20190815/.zmetadata

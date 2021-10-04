@@ -1,0 +1,5 @@
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-4xCO2/r1i1p1f2/Amon/rlut/gr/v20190621/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-4xCO2/r1i1p1f2/Amon/rsdt/gr/v20190621/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-4xCO2/r1i1p1f2/Amon/rsut/gr/v20190621/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-4xCO2/r1i1p1f2/Amon/tas/gr/v20190621/.zmetadata
+cmip6/CMIP6/RFMIP/CNRM-CERFACS/CNRM-ESM2-1/piClim-4xCO2/r1i1p1f2/CFmon/clisccp/gr/v20190621/.zmetadata

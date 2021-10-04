@@ -1,0 +1,2 @@
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/hist-resIPO/r1i1p1f1/Ofx/sftof/gn/v20190613/.zmetadata
+cmip6/CMIP6/GMMIP/BCC/BCC-CSM2-MR/hist-resIPO/r1i1p1f1/fx/sftlf/gn/v20190613/.zmetadata

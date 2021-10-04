@@ -1,0 +1,3 @@
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/hist-piNTCF/r1i1p1f2/AERmon/ps/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/hist-piNTCF/r2i1p1f2/AERmon/ps/gr/v20190621/.zmetadata
+cmip6/CMIP6/AerChemMIP/CNRM-CERFACS/CNRM-ESM2-1/hist-piNTCF/r3i1p1f2/AERmon/ps/gr/v20190621/.zmetadata
