@@ -1,2 +1,0 @@
-cmip6/CMIP6/HighResMIP/INM/INM-CM5-H/highresSST-present/r1i1p1f1/Amon/evspsbl/gr1/v20190812/.zmetadata
-cmip6/CMIP6/HighResMIP/INM/INM-CM5-H/highresSST-present/r1i1p1f1/Amon/pr/gr1/v20190812/.zmetadata

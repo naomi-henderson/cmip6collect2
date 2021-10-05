@@ -1,8 +1,0 @@
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p1f1/Amon/rlut/gn/v20190815/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20190815/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p1f1/Amon/rsut/gn/v20190815/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p1f1/Amon/tas/gn/v20190815/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p2f1/Amon/rlut/gn/v20200218/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p2f1/Amon/rsdt/gn/v20200218/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p2f1/Amon/rsut/gn/v20200218/.zmetadata
-cmip6/CMIP6/RFMIP/NCC/NorESM2-LM/piClim-4xCO2/r1i1p2f1/Amon/tas/gn/v20200218/.zmetadata

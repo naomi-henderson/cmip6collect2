@@ -1,2 +1,0 @@
-cmip6/CMIP6/AerChemMIP/AS-RCEC/TaiESM1/histSST-piNTCF/r1i1p1f1/AERmon/ps/gn/v20200318/.zmetadata
-cmip6/CMIP6/AerChemMIP/AS-RCEC/TaiESM1/histSST-piNTCF/r1i1p1f1/CFmon/ta/gn/v20200318/.zmetadata

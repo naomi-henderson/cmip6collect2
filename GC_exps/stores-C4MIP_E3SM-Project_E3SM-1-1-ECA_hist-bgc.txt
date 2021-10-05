@@ -1,3 +1,0 @@
-cmip6/CMIP6/C4MIP/E3SM-Project/E3SM-1-1-ECA/hist-bgc/r1i1p1f1/Omon/hfds/gr/v20200124/.zmetadata
-cmip6/CMIP6/C4MIP/E3SM-Project/E3SM-1-1-ECA/hist-bgc/r1i1p1f1/Omon/sos/gr/v20200124/.zmetadata
-cmip6/CMIP6/C4MIP/E3SM-Project/E3SM-1-1-ECA/hist-bgc/r1i1p1f1/Omon/tos/gr/v20200124/.zmetadata

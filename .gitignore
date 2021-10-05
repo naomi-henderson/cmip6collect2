@@ -6,9 +6,6 @@ __pycache__
 MigrateCodes.ipynb
 ncsv/*
 GC/*
-GC_exps/*
-csv1/*
-csv2/*
 logs_abbey
 logs_carney
 dsets/*

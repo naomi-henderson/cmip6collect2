@@ -1,3 +1,0 @@
-cmip6/CMIP6/DAMIP/MRI/MRI-ESM2-0/hist-volc/r1i1p1f1/fx/areacella/gn/v20210113/.zmetadata
-cmip6/CMIP6/DAMIP/MRI/MRI-ESM2-0/hist-volc/r4i1p1f1/fx/areacella/gn/v20210113/.zmetadata
-cmip6/CMIP6/DAMIP/MRI/MRI-ESM2-0/hist-volc/r4i1p1f1/fx/orog/gn/v20210113/.zmetadata

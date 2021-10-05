@@ -1,8 +1,0 @@
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f1/Amon/rlut/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f1/Amon/rsdt/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f1/Amon/rsut/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f1/Amon/tas/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f2/Amon/rlut/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f2/Amon/rsdt/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f2/Amon/rsut/gn/v20191003/.zmetadata
-cmip6/CMIP6/RFMIP/NASA-GISS/GISS-E2-1-G/piClim-4xCO2/r1i1p1f2/Amon/tas/gn/v20191003/.zmetadata

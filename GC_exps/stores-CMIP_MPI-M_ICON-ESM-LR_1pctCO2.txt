@@ -1,1 +1,0 @@
-cmip6/CMIP6/CMIP/MPI-M/ICON-ESM-LR/1pctCO2/r1i1p1f1/Omon/tos/gn/v20210215/.zmetadata

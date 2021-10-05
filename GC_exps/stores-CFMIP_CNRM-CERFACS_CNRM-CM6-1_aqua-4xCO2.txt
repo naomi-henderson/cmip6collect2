@@ -1,2 +1,0 @@
-cmip6/CMIP6/CFMIP/CNRM-CERFACS/CNRM-CM6-1/aqua-4xCO2/r1i1p1f2/Amon/co2mass/gr/v20190820/.zmetadata
-cmip6/CMIP6/CFMIP/CNRM-CERFACS/CNRM-CM6-1/aqua-4xCO2/r1i1p1f2/Amon/wap/gr/v20190820/.zmetadata

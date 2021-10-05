@@ -1,2 +1,0 @@
-cmip6/CMIP6/AerChemMIP/EC-Earth-Consortium/EC-Earth3-AerChem/ssp370-lowNTCF/r1i1p1f1/AERmon/ps/gn/v20200827/.zmetadata
-cmip6/CMIP6/AerChemMIP/EC-Earth-Consortium/EC-Earth3-AerChem/ssp370-lowNTCF/r4i1p1f1/AERmon/ps/gn/v20210120/.zmetadata

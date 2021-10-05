@@ -1,9 +1,0 @@
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/mmrbc/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/mmrdust/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/mmroa/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/mmrso4/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/mmrss/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/AERmon/od550aer/gn/v20190828/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/Amon/rlut/gn/v20190807/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/Amon/rsdt/gn/v20190807/.zmetadata
-cmip6/CMIP6/AerChemMIP/MIROC/MIROC6/histSST/r1i1p1f1/Amon/rsut/gn/v20190807/.zmetadata

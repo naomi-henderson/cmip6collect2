@@ -1,1 +1,0 @@
-cmip6/CMIP6/AerChemMIP/HAMMOZ-Consortium/MPI-ESM-1-2-HAM/hist-piAer/r1i1p1f1/Amon/evspsbl/gn/v20190627/.zmetadata

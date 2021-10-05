@@ -1,1 +1,0 @@
-cmip6/CMIP6/AerChemMIP/NCAR/CESM2-WACCM/hist-piNTCF/r1i2p1f1/AERmon/ps/gn/v20190531/.zmetadata

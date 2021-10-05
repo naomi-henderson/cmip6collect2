@@ -1,1 +1,0 @@
-cmip6/CMIP6/CDRMIP/CSIRO/ACCESS-ESM1-5/1pctCO2-cdr/r1i1p1f1/Omon/tos/gn/v20191214/.zmetadata

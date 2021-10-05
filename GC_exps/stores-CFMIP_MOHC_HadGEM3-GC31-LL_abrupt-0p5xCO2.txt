@@ -1,4 +1,0 @@
-cmip6/CMIP6/CFMIP/MOHC/HadGEM3-GC31-LL/abrupt-0p5xCO2/r1i1p1f3/Amon/rlut/gn/v20200829/.zmetadata
-cmip6/CMIP6/CFMIP/MOHC/HadGEM3-GC31-LL/abrupt-0p5xCO2/r1i1p1f3/Amon/rsdt/gn/v20200829/.zmetadata
-cmip6/CMIP6/CFMIP/MOHC/HadGEM3-GC31-LL/abrupt-0p5xCO2/r1i1p1f3/Amon/rsut/gn/v20200829/.zmetadata
-cmip6/CMIP6/CFMIP/MOHC/HadGEM3-GC31-LL/abrupt-0p5xCO2/r1i1p1f3/Amon/tas/gn/v20200829/.zmetadata

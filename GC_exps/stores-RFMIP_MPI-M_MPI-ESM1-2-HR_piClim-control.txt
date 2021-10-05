@@ -1,5 +1,0 @@
-cmip6/CMIP6/RFMIP/MPI-M/MPI-ESM1-2-HR/piClim-control/r1i1p1f1/AERmon/od550aer/gn/v20190710/.zmetadata
-cmip6/CMIP6/RFMIP/MPI-M/MPI-ESM1-2-HR/piClim-control/r1i1p1f1/Amon/rlut/gn/v20190710/.zmetadata
-cmip6/CMIP6/RFMIP/MPI-M/MPI-ESM1-2-HR/piClim-control/r1i1p1f1/Amon/rsdt/gn/v20190710/.zmetadata
-cmip6/CMIP6/RFMIP/MPI-M/MPI-ESM1-2-HR/piClim-control/r1i1p1f1/Amon/rsut/gn/v20190710/.zmetadata
-cmip6/CMIP6/RFMIP/MPI-M/MPI-ESM1-2-HR/piClim-control/r1i1p1f1/Amon/tauu/gn/v20190710/.zmetadata

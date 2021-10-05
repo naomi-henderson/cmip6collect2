@@ -1,2 +1,0 @@
-cmip6/CMIP6/CMIP/AWI/AWI-ESM-1-1-LR/1pctCO2/r1i1p1f1/Amon/psl/gn/v20200212/.zmetadata
-cmip6/CMIP6/CMIP/AWI/AWI-ESM-1-1-LR/1pctCO2/r1i1p1f1/Omon/tos/gn/v20200212/.zmetadata

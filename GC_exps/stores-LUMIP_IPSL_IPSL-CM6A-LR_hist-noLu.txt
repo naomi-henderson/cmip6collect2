@@ -1,6 +1,0 @@
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r1i1p1f1/Ofx/areacello/gn/v20190704/.zmetadata
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r1i1p1f1/Ofx/basin/gn/v20190704/.zmetadata
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r1i1p1f1/fx/areacella/gr/v20190704/.zmetadata
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r2i1p1f1/Ofx/areacello/gn/v20190704/.zmetadata
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r3i1p1f1/Ofx/areacello/gn/v20190704/.zmetadata
-cmip6/CMIP6/LUMIP/IPSL/IPSL-CM6A-LR/hist-noLu/r4i1p1f1/Ofx/areacello/gn/v20190704/.zmetadata

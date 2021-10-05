@@ -1,1 +1,0 @@
-cmip6/CMIP6/HighResMIP/MRI/MRI-AGCM3-2-S/highresSST-future/r1i1p1f1/Amon/pr/gn/v20190820/.zmetadata

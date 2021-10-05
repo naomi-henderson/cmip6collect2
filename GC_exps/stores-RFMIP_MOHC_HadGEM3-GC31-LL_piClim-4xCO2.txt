@@ -1,4 +1,0 @@
-cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-4xCO2/r1i1p1f3/Amon/rlut/gn/v20191113/.zmetadata
-cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-4xCO2/r1i1p1f3/Amon/rsdt/gn/v20191113/.zmetadata
-cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-4xCO2/r1i1p1f3/Amon/rsut/gn/v20191113/.zmetadata
-cmip6/CMIP6/RFMIP/MOHC/HadGEM3-GC31-LL/piClim-4xCO2/r1i1p1f3/Amon/tas/gn/v20191113/.zmetadata

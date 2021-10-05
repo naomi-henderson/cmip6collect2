@@ -1,5 +1,0 @@
-cmip6/CMIP6/FAFMIP/CCCma/CanESM5/faf-heat/r1i1p2f1/Amon/ts/gn/v20190429/.zmetadata
-cmip6/CMIP6/FAFMIP/CCCma/CanESM5/faf-heat/r1i1p2f1/Ofx/areacello/gn/v20190429/.zmetadata
-cmip6/CMIP6/FAFMIP/CCCma/CanESM5/faf-heat/r1i1p2f1/Ofx/deptho/gn/v20190429/.zmetadata
-cmip6/CMIP6/FAFMIP/CCCma/CanESM5/faf-heat/r1i1p2f1/Ofx/sftof/gn/v20190429/.zmetadata
-cmip6/CMIP6/FAFMIP/CCCma/CanESM5/faf-heat/r1i1p2f1/fx/areacella/gn/v20190429/.zmetadata

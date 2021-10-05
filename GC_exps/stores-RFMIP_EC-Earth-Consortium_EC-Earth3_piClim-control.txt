@@ -1,4 +1,0 @@
-cmip6/CMIP6/RFMIP/EC-Earth-Consortium/EC-Earth3/piClim-control/r1i1p1f1/Amon/rlut/gr/v20200324/.zmetadata
-cmip6/CMIP6/RFMIP/EC-Earth-Consortium/EC-Earth3/piClim-control/r1i1p1f1/Amon/rsdt/gr/v20200324/.zmetadata
-cmip6/CMIP6/RFMIP/EC-Earth-Consortium/EC-Earth3/piClim-control/r1i1p1f1/Amon/rsut/gr/v20200324/.zmetadata
-cmip6/CMIP6/RFMIP/EC-Earth-Consortium/EC-Earth3/piClim-control/r1i1p1f1/Amon/tas/gr/v20200324/.zmetadata

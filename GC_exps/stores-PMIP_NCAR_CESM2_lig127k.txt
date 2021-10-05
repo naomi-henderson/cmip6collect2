@@ -1,3 +1,0 @@
-cmip6/CMIP6/PMIP/NCAR/CESM2/lig127k/r1i1p1f1/IfxGre/hfgeoubed/gn/v20190923/.zmetadata
-cmip6/CMIP6/PMIP/NCAR/CESM2/lig127k/r1i1p1f1/IfxGre/lithk/gn/v20190923/.zmetadata
-cmip6/CMIP6/PMIP/NCAR/CESM2/lig127k/r1i1p1f1/IfxGre/topg/gn/v20190923/.zmetadata

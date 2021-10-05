@@ -1,7 +1,0 @@
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/evspsbl/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/hurs/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/huss/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/pr/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/prw/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/Amon/ps/gr/v20180928/.zmetadata
-cmip6/CMIP6/CFMIP/IPSL/IPSL-CM6A-LR/aqua-p4K-lwoff/r1i1p1f1/fx/areacella/gr/v20180928/.zmetadata

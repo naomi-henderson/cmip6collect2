@@ -1,1 +1,0 @@
-cmip6/CMIP6/PAMIP/MIROC/MIROC6/pdSST-futArcSIC/r1i1p1f1/Amon/evspsbl/gn/v20191114/.zmetadata

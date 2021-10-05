@@ -1,1 +1,0 @@
-cmip6/CMIP6/HighResMIP/MOHC/HadGEM3-GC31-HM/highresSST-future/r1i1p1f1/Amon/pr/gn/v20190315/.zmetadata

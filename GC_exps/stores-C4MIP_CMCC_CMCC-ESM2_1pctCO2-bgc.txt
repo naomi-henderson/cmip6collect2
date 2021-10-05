@@ -1,1 +1,0 @@
-cmip6/CMIP6/C4MIP/CMCC/CMCC-ESM2/1pctCO2-bgc/r1i1p1f1/Omon/tos/gn/v20210301/.zmetadata

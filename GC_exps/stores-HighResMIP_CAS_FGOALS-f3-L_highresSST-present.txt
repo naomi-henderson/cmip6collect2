@@ -1,1 +1,0 @@
-cmip6/CMIP6/HighResMIP/CAS/FGOALS-f3-L/highresSST-present/r1i1p1f1/Amon/pr/gr/v20191031/.zmetadata

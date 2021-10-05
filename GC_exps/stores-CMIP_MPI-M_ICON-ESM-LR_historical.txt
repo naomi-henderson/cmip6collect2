@@ -1,4 +1,0 @@
-cmip6/CMIP6/CMIP/MPI-M/ICON-ESM-LR/historical/r1i1p1f1/day/uas/gn/v20210215/.zmetadata
-cmip6/CMIP6/CMIP/MPI-M/ICON-ESM-LR/historical/r1i1p1f1/day/vas/gn/v20210215/.zmetadata
-cmip6/CMIP6/CMIP/MPI-M/ICON-ESM-LR/historical/r3i1p1f1/day/uas/gn/v20210215/.zmetadata
-cmip6/CMIP6/CMIP/MPI-M/ICON-ESM-LR/historical/r3i1p1f1/day/vas/gn/v20210215/.zmetadata

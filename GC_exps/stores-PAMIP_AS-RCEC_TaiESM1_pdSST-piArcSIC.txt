@@ -1,4 +1,0 @@
-cmip6/CMIP6/PAMIP/AS-RCEC/TaiESM1/pdSST-piArcSIC/r1i1p1f1/Amon/pr/gn/v20201229/.zmetadata
-cmip6/CMIP6/PAMIP/AS-RCEC/TaiESM1/pdSST-piArcSIC/r1i1p1f1/Amon/ps/gn/v20201229/.zmetadata
-cmip6/CMIP6/PAMIP/AS-RCEC/TaiESM1/pdSST-piArcSIC/r1i1p1f1/Amon/tas/gn/v20201229/.zmetadata
-cmip6/CMIP6/PAMIP/AS-RCEC/TaiESM1/pdSST-piArcSIC/r1i1p1f1/Amon/ts/gn/v20201229/.zmetadata

@@ -1,4 +1,0 @@
-cmip6/CMIP6/HighResMIP/EC-Earth-Consortium/EC-Earth3P/highresSST-present/r1i1p1f1/Amon/evspsbl/gr/v20171218/.zmetadata
-cmip6/CMIP6/HighResMIP/EC-Earth-Consortium/EC-Earth3P/highresSST-present/r1i1p1f1/Amon/pr/gr/v20170911/.zmetadata
-cmip6/CMIP6/HighResMIP/EC-Earth-Consortium/EC-Earth3P/highresSST-present/r2i1p1f1/Amon/evspsbl/gr/v20190930/.zmetadata
-cmip6/CMIP6/HighResMIP/EC-Earth-Consortium/EC-Earth3P/highresSST-present/r2i1p1f1/Amon/pr/gr/v20190930/.zmetadata

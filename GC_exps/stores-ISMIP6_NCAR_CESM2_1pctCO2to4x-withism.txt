@@ -1,2 +1,0 @@
-cmip6/CMIP6/ISMIP6/NCAR/CESM2/1pctCO2to4x-withism/r1i1p1f1/Omon/tos/gn/v20191120/.zmetadata
-cmip6/CMIP6/ISMIP6/NCAR/CESM2/1pctCO2to4x-withism/r1i1p1f1/Omon/tos/gr/v20191120/.zmetadata

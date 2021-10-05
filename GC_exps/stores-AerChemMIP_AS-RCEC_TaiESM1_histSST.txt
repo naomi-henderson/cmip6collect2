@@ -1,1 +1,0 @@
-cmip6/CMIP6/AerChemMIP/AS-RCEC/TaiESM1/histSST/r1i1p1f1/AERmon/od550aer/gn/v20200310/.zmetadata

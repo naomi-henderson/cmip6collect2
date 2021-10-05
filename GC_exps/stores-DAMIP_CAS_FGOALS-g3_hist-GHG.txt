@@ -1,6 +1,0 @@
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r1i1p1f1/Omon/tos/gn/v20200426/.zmetadata
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r1i1p1f1/fx/sftlf/gn/v20200305/.zmetadata
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r2i1p1f1/Omon/tos/gn/v20200426/.zmetadata
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r2i1p1f1/fx/sftlf/gn/v20200305/.zmetadata
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r3i1p1f1/Omon/tos/gn/v20200426/.zmetadata
-cmip6/CMIP6/DAMIP/CAS/FGOALS-g3/hist-GHG/r3i1p1f1/fx/sftlf/gn/v20200305/.zmetadata

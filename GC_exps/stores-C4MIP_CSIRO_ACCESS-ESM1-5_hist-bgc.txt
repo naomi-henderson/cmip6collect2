@@ -1,6 +1,0 @@
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/fgco2/gn/v20191119/.zmetadata
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/fgco2nat/gn/v20191119/.zmetadata
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/fgo2/gn/v20191119/.zmetadata
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/hfds/gn/v20191119/.zmetadata
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/sos/gn/v20191119/.zmetadata
-cmip6/CMIP6/C4MIP/CSIRO/ACCESS-ESM1-5/hist-bgc/r1i1p1f1/Omon/tos/gn/v20191119/.zmetadata
